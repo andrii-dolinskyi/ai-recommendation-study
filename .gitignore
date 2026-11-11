@@ -1,0 +1,11 @@
+# Secrets and local files
+.env
+*.key
+# Stored copies of other sites' pages are not released
+html/
+raw/
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/

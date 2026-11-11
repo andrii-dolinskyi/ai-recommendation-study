@@ -1,0 +1,201 @@
+subcategory_id,industry_id,industry_group,industry,subcategory
+01-1,1,Software and AI,CRM and sales software,CRM
+01-2,1,Software and AI,CRM and sales software,sales engagement
+01-3,1,Software and AI,CRM and sales software,B2B contact data
+01-4,1,Software and AI,CRM and sales software,proposal software
+01-5,1,Software and AI,CRM and sales software,sales call recording
+02-1,2,Software and AI,"Marketing, SEO and AI visibility tools",SEO tools
+02-2,2,Software and AI,"Marketing, SEO and AI visibility tools",AI search visibility tracking
+02-3,2,Software and AI,"Marketing, SEO and AI visibility tools",email marketing
+02-4,2,Software and AI,"Marketing, SEO and AI visibility tools",social media management
+02-5,2,Software and AI,"Marketing, SEO and AI visibility tools",marketing automation
+03-1,3,Software and AI,Project management and collaboration,Project management
+03-2,3,Software and AI,Project management and collaboration,team chat
+03-3,3,Software and AI,Project management and collaboration,video conferencing
+03-4,3,Software and AI,Project management and collaboration,online whiteboards
+03-5,3,Software and AI,Project management and collaboration,team wikis
+04-1,4,Software and AI,"HR, payroll and recruiting",Payroll
+04-2,4,Software and AI,"HR, payroll and recruiting",HR platforms
+04-3,4,Software and AI,"HR, payroll and recruiting",applicant tracking
+04-4,4,Software and AI,"HR, payroll and recruiting",employee scheduling
+04-5,4,Software and AI,"HR, payroll and recruiting",time tracking
+05-1,5,Software and AI,Accounting and invoicing,Small-business accounting
+05-2,5,Software and AI,Accounting and invoicing,invoicing
+05-3,5,Software and AI,Accounting and invoicing,expense management
+05-4,5,Software and AI,Accounting and invoicing,accounts payable automation
+05-5,5,Software and AI,Accounting and invoicing,online bookkeeping services
+06-1,6,Software and AI,Customer support,Help desks
+06-2,6,Software and AI,Customer support,live chat
+06-3,6,Software and AI,Customer support,AI customer service agents
+06-4,6,Software and AI,Customer support,contact center software
+06-5,6,Software and AI,Customer support,customer survey tools
+07-1,7,Software and AI,E-commerce platforms,Online store builders
+07-2,7,Software and AI,E-commerce platforms,B2B e-commerce
+07-3,7,Software and AI,E-commerce platforms,print on demand
+07-4,7,Software and AI,E-commerce platforms,dropshipping suppliers
+07-5,7,Software and AI,E-commerce platforms,shipping software
+08-1,8,Software and AI,Website builders and hosting,Website builders
+08-2,8,Software and AI,Website builders and hosting,shared web hosting
+08-3,8,Software and AI,Website builders and hosting,managed WordPress hosting
+08-4,8,Software and AI,Website builders and hosting,domain registrars
+08-5,8,Software and AI,Website builders and hosting,cloud hosting
+09-1,9,Software and AI,Business cybersecurity,Endpoint protection
+09-2,9,Software and AI,Business cybersecurity,email security
+09-3,9,Software and AI,Business cybersecurity,single sign-on
+09-4,9,Software and AI,Business cybersecurity,security awareness training
+09-5,9,Software and AI,Business cybersecurity,business VPN
+10-1,10,Software and AI,AI assistants and creative AI tools,AI chat assistants
+10-2,10,Software and AI,AI assistants and creative AI tools,AI writing tools
+10-3,10,Software and AI,AI assistants and creative AI tools,AI image generators
+10-4,10,Software and AI,AI assistants and creative AI tools,AI video generators
+10-5,10,Software and AI,AI assistants and creative AI tools,AI meeting note-takers
+11-1,11,Finance,Banks and neobanks,Checking accounts
+11-2,11,Finance,Banks and neobanks,high-yield savings
+11-3,11,Finance,Banks and neobanks,business bank accounts
+11-4,11,Finance,Banks and neobanks,kids' debit cards
+11-5,11,Finance,Banks and neobanks,CDs
+12-1,12,Finance,Payments,Online payment processing
+12-2,12,Finance,Payments,POS systems
+12-3,12,Finance,Payments,international money transfer
+12-4,12,Finance,Payments,"buy now, pay later"
+12-5,12,Finance,Payments,peer-to-peer payment apps
+13-1,13,Finance,Investing and trading apps,Brokerage apps
+13-2,13,Finance,Investing and trading apps,robo-advisors
+13-3,13,Finance,Investing and trading apps,IRA providers
+13-4,13,Finance,Investing and trading apps,crypto exchanges
+13-5,13,Finance,Investing and trading apps,stock research tools
+14-1,14,Finance,Credit cards and loans,Travel credit cards
+14-2,14,Finance,Credit cards and loans,cash-back cards
+14-3,14,Finance,Credit cards and loans,personal loans
+14-4,14,Finance,Credit cards and loans,student loan refinancing
+14-5,14,Finance,Credit cards and loans,mortgage lenders
+15-1,15,Finance,Insurance,Car insurance
+15-2,15,Finance,Insurance,home insurance
+15-3,15,Finance,Insurance,renters insurance
+15-4,15,Finance,Insurance,life insurance
+15-5,15,Finance,Insurance,pet insurance
+16-1,16,Finance,Tax and personal finance apps,Tax filing software
+16-2,16,Finance,Tax and personal finance apps,budgeting apps
+16-3,16,Finance,Tax and personal finance apps,credit monitoring
+16-4,16,Finance,Tax and personal finance apps,crypto tax software
+16-5,16,Finance,Tax and personal finance apps,tax tracking for freelancers
+17-1,17,Consumer tech,Smartphones,Flagship phones
+17-2,17,Consumer tech,Smartphones,budget phones
+17-3,17,Consumer tech,Smartphones,camera phones
+17-4,17,Consumer tech,Smartphones,foldable phones
+17-5,17,Consumer tech,Smartphones,phones for seniors
+18-1,18,Consumer tech,Laptops,Student laptops
+18-2,18,Consumer tech,Laptops,gaming laptops
+18-3,18,Consumer tech,Laptops,business laptops
+18-4,18,Consumer tech,Laptops,Chromebooks
+18-5,18,Consumer tech,Laptops,laptops for video editing
+19-1,19,Consumer tech,Headphones and speakers,Noise-cancelling headphones
+19-2,19,Consumer tech,Headphones and speakers,wireless earbuds
+19-3,19,Consumer tech,Headphones and speakers,Bluetooth speakers
+19-4,19,Consumer tech,Headphones and speakers,soundbars
+19-5,19,Consumer tech,Headphones and speakers,running headphones
+20-1,20,Consumer tech,Smart home and cameras,Home security cameras
+20-2,20,Consumer tech,Smart home and cameras,video doorbells
+20-3,20,Consumer tech,Smart home and cameras,smart thermostats
+20-4,20,Consumer tech,Smart home and cameras,smart locks
+20-5,20,Consumer tech,Smart home and cameras,mesh Wi-Fi
+21-1,21,Consumer tech,TVs and streaming devices,OLED TVs
+21-2,21,Consumer tech,TVs and streaming devices,budget 4K TVs
+21-3,21,Consumer tech,TVs and streaming devices,streaming devices
+21-4,21,Consumer tech,TVs and streaming devices,projectors
+21-5,21,Consumer tech,TVs and streaming devices,computer monitors
+22-1,22,Consumer tech,Gaming,Gaming consoles
+22-2,22,Consumer tech,Gaming,gaming headsets
+22-3,22,Consumer tech,Gaming,gaming chairs
+22-4,22,Consumer tech,Gaming,gaming monitors
+22-5,22,Consumer tech,Gaming,gaming mice and keyboards
+23-1,23,Apps and subscriptions,VPNs and password managers,VPNs
+23-2,23,Apps and subscriptions,VPNs and password managers,password managers
+23-3,23,Apps and subscriptions,VPNs and password managers,antivirus
+23-4,23,Apps and subscriptions,VPNs and password managers,identity theft protection
+23-5,23,Apps and subscriptions,VPNs and password managers,parental control apps
+24-1,24,Apps and subscriptions,Video and music streaming,Video streaming
+24-2,24,Apps and subscriptions,Video and music streaming,music streaming
+24-3,24,Apps and subscriptions,Video and music streaming,live TV streaming
+24-4,24,Apps and subscriptions,Video and music streaming,audiobook apps
+24-5,24,Apps and subscriptions,Video and music streaming,podcast apps
+25-1,25,Apps and subscriptions,Language learning and online courses,Language apps
+25-2,25,Apps and subscriptions,Language learning and online courses,online course platforms
+25-3,25,Apps and subscriptions,Language learning and online courses,coding bootcamps
+25-4,25,Apps and subscriptions,Language learning and online courses,test prep
+25-5,25,Apps and subscriptions,Language learning and online courses,online tutoring
+26-1,26,Apps and subscriptions,Fitness and health apps,Workout apps
+26-2,26,Apps and subscriptions,Fitness and health apps,meditation apps
+26-3,26,Apps and subscriptions,Fitness and health apps,fitness trackers
+26-4,26,Apps and subscriptions,Fitness and health apps,sleep tracking apps
+26-5,26,Apps and subscriptions,Fitness and health apps,online therapy
+27-1,27,Apps and subscriptions,Mobile and internet providers,Mobile carriers
+27-2,27,Apps and subscriptions,Mobile and internet providers,prepaid plans
+27-3,27,Apps and subscriptions,Mobile and internet providers,home internet
+27-4,27,Apps and subscriptions,Mobile and internet providers,5G home internet
+27-5,27,Apps and subscriptions,Mobile and internet providers,satellite internet
+28-1,28,Shopping,Online stores and marketplaces,Marketplaces for used goods
+28-2,28,Shopping,Online stores and marketplaces,refurbished electronics
+28-3,28,Shopping,Online stores and marketplaces,secondhand fashion
+28-4,28,Shopping,Online stores and marketplaces,deal and cashback sites
+28-5,28,Shopping,Online stores and marketplaces,photo printing services
+29-1,29,Shopping,Fashion,Men's clothing
+29-2,29,Shopping,Fashion,women's workwear
+29-3,29,Shopping,Fashion,sustainable clothing
+29-4,29,Shopping,Fashion,jeans
+29-5,29,Shopping,Fashion,clothing subscriptions
+30-1,30,Shopping,Running shoes and sportswear,Road running shoes
+30-2,30,Shopping,Running shoes and sportswear,trail running shoes
+30-3,30,Shopping,Running shoes and sportswear,walking shoes
+30-4,30,Shopping,Running shoes and sportswear,sports bras
+30-5,30,Shopping,Running shoes and sportswear,gym clothes
+31-1,31,Shopping,Beauty and skincare,Acne skincare
+31-2,31,Shopping,Beauty and skincare,sunscreen
+31-3,31,Shopping,Beauty and skincare,anti-aging serums
+31-4,31,Shopping,Beauty and skincare,hair care
+31-5,31,Shopping,Beauty and skincare,men's razors
+32-1,32,Shopping,Home appliances,Robot vacuums
+32-2,32,Shopping,Home appliances,espresso machines
+32-3,32,Shopping,Home appliances,air purifiers
+32-4,32,Shopping,Home appliances,air fryers
+32-5,32,Shopping,Home appliances,washing machines
+33-1,33,Shopping,Furniture and mattresses,Mattresses
+33-2,33,Shopping,Furniture and mattresses,office chairs
+33-3,33,Shopping,Furniture and mattresses,standing desks
+33-4,33,Shopping,Furniture and mattresses,sofas
+33-5,33,Shopping,Furniture and mattresses,bed sheets
+34-1,34,Shopping,Baby and kids,Strollers
+34-2,34,Shopping,Baby and kids,car seats
+34-3,34,Shopping,Baby and kids,baby monitors
+34-4,34,Shopping,Baby and kids,diapers
+34-5,34,Shopping,Baby and kids,kids' tablets
+35-1,35,Shopping,Pet products,Dog food
+35-2,35,Shopping,Pet products,cat food
+35-3,35,Shopping,Pet products,cat litter
+35-4,35,Shopping,Pet products,GPS pet trackers
+35-5,35,Shopping,Pet products,online pet stores
+36-1,36,"Travel, mobility and food",Hotels and travel booking,Hotel booking sites
+36-2,36,"Travel, mobility and food",Hotels and travel booking,flight search sites
+36-3,36,"Travel, mobility and food",Hotels and travel booking,vacation rentals
+36-4,36,"Travel, mobility and food",Hotels and travel booking,cruise lines
+36-5,36,"Travel, mobility and food",Hotels and travel booking,tour booking
+37-1,37,"Travel, mobility and food",Airlines,Domestic airlines
+37-2,37,"Travel, mobility and food",Airlines,budget airlines
+37-3,37,"Travel, mobility and food",Airlines,transatlantic business class
+37-4,37,"Travel, mobility and food",Airlines,airline loyalty programs
+37-5,37,"Travel, mobility and food",Airlines,flying with pets
+38-1,38,"Travel, mobility and food",Cars and EVs,Electric cars
+38-2,38,"Travel, mobility and food",Cars and EVs,family SUVs
+38-3,38,"Travel, mobility and food",Cars and EVs,hybrid cars
+38-4,38,"Travel, mobility and food",Cars and EVs,pickup trucks
+38-5,38,"Travel, mobility and food",Cars and EVs,car rental
+39-1,39,"Travel, mobility and food",Food delivery and meal kits,Meal kits
+39-2,39,"Travel, mobility and food",Food delivery and meal kits,food delivery apps
+39-3,39,"Travel, mobility and food",Food delivery and meal kits,prepared meal delivery
+39-4,39,"Travel, mobility and food",Food delivery and meal kits,grocery delivery
+39-5,39,"Travel, mobility and food",Food delivery and meal kits,coffee subscriptions
+40-1,40,"Travel, mobility and food",Outdoor and travel gear,Camping tents
+40-2,40,"Travel, mobility and food",Outdoor and travel gear,hiking backpacks
+40-3,40,"Travel, mobility and food",Outdoor and travel gear,carry-on luggage
+40-4,40,"Travel, mobility and food",Outdoor and travel gear,hiking boots
+40-5,40,"Travel, mobility and food",Outdoor and travel gear,rain jackets

@@ -1,0 +1,35 @@
+You write test questions for a research study on how AI assistants recommend brands.
+
+Industry: {industry}
+Subcategory: {subcategory}
+Market: United States. Language: US English.
+
+Write 40 questions, 8 for each of the 5 templates below. Each question is one a real
+US buyer would type into ChatGPT, Gemini, Perplexity or Google AI Mode while choosing
+a product or service in this subcategory.
+
+Templates
+1. Best overall: asks for the best option in the subcategory.
+2. Best for a buyer: names who is buying or their situation (team size, role,
+   skill level, life stage, use case).
+3. Must-have feature: names one specific feature, integration, spec or requirement.
+4. Budget: names a price limit, a free option or a low-cost tier.
+5. Problem: describes a problem or goal in the buyer's own words, then asks what to use.
+
+Rules for every question
+- A good answer must name specific brands or products. If "it depends" with no brand
+  is a fair answer, do not write the question.
+- Do not name any brand, product or company.
+- No years, dates, cities, states or "near me".
+- No how-to, definition or comparison questions.
+- Stay inside {subcategory}.
+- Every question differs from the others in buyer, feature, budget or problem.
+  Vary the opening words.
+
+Examples (from another subcategory; do not copy their wording)
+Good: "Which CRM is best for a 10-person real estate agency?"
+Bad: "What is a CRM?" (a good answer names no brand)
+Bad: "Is HubSpot better than Salesforce?" (names brands)
+Bad: "Best CRM 2026" (not a question; has a year)
+
+Return only JSON: [{"template": 1, "question": "..."}, ...]
