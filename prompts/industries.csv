@@ -87,7 +87,7 @@ subcategory_id,industry_id,industry_group,industry,subcategory
 18-1,18,Consumer tech,Laptops,Student laptops
 18-2,18,Consumer tech,Laptops,gaming laptops
 18-3,18,Consumer tech,Laptops,business laptops
-18-4,18,Consumer tech,Laptops,Chromebooks
+18-4,18,Consumer tech,Laptops,2-in-1 laptops
 18-5,18,Consumer tech,Laptops,laptops for video editing
 19-1,19,Consumer tech,Headphones and speakers,Noise-cancelling headphones
 19-2,19,Consumer tech,Headphones and speakers,wireless earbuds
@@ -99,21 +99,21 @@ subcategory_id,industry_id,industry_group,industry,subcategory
 20-3,20,Consumer tech,Smart home and cameras,smart thermostats
 20-4,20,Consumer tech,Smart home and cameras,smart locks
 20-5,20,Consumer tech,Smart home and cameras,mesh Wi-Fi
-21-1,21,Consumer tech,TVs and streaming devices,OLED TVs
-21-2,21,Consumer tech,TVs and streaming devices,budget 4K TVs
-21-3,21,Consumer tech,TVs and streaming devices,streaming devices
-21-4,21,Consumer tech,TVs and streaming devices,projectors
-21-5,21,Consumer tech,TVs and streaming devices,computer monitors
+21-1,21,Consumer tech,"TVs, monitors and streaming devices",OLED TVs
+21-2,21,Consumer tech,"TVs, monitors and streaming devices",budget 4K TVs
+21-3,21,Consumer tech,"TVs, monitors and streaming devices",streaming devices
+21-4,21,Consumer tech,"TVs, monitors and streaming devices",projectors
+21-5,21,Consumer tech,"TVs, monitors and streaming devices",computer monitors
 22-1,22,Consumer tech,Gaming,Gaming consoles
 22-2,22,Consumer tech,Gaming,gaming headsets
 22-3,22,Consumer tech,Gaming,gaming chairs
 22-4,22,Consumer tech,Gaming,gaming monitors
 22-5,22,Consumer tech,Gaming,gaming mice and keyboards
-23-1,23,Apps and subscriptions,VPNs and password managers,VPNs
-23-2,23,Apps and subscriptions,VPNs and password managers,password managers
-23-3,23,Apps and subscriptions,VPNs and password managers,antivirus
-23-4,23,Apps and subscriptions,VPNs and password managers,identity theft protection
-23-5,23,Apps and subscriptions,VPNs and password managers,parental control apps
+23-1,23,Apps and subscriptions,Online security and privacy apps,VPNs
+23-2,23,Apps and subscriptions,Online security and privacy apps,password managers
+23-3,23,Apps and subscriptions,Online security and privacy apps,antivirus
+23-4,23,Apps and subscriptions,Online security and privacy apps,identity theft protection
+23-5,23,Apps and subscriptions,Online security and privacy apps,parental control apps
 24-1,24,Apps and subscriptions,Video and music streaming,Video streaming
 24-2,24,Apps and subscriptions,Video and music streaming,music streaming
 24-3,24,Apps and subscriptions,Video and music streaming,live TV streaming
@@ -189,11 +189,11 @@ subcategory_id,industry_id,industry_group,industry,subcategory
 38-3,38,"Travel, mobility and food",Cars and EVs,hybrid cars
 38-4,38,"Travel, mobility and food",Cars and EVs,pickup trucks
 38-5,38,"Travel, mobility and food",Cars and EVs,car rental
-39-1,39,"Travel, mobility and food",Food delivery and meal kits,Meal kits
-39-2,39,"Travel, mobility and food",Food delivery and meal kits,food delivery apps
-39-3,39,"Travel, mobility and food",Food delivery and meal kits,prepared meal delivery
-39-4,39,"Travel, mobility and food",Food delivery and meal kits,grocery delivery
-39-5,39,"Travel, mobility and food",Food delivery and meal kits,coffee subscriptions
+39-1,39,"Travel, mobility and food",Food and drink delivery,Meal kits
+39-2,39,"Travel, mobility and food",Food and drink delivery,food delivery apps
+39-3,39,"Travel, mobility and food",Food and drink delivery,prepared meal delivery
+39-4,39,"Travel, mobility and food",Food and drink delivery,grocery delivery
+39-5,39,"Travel, mobility and food",Food and drink delivery,coffee subscriptions
 40-1,40,"Travel, mobility and food",Outdoor and travel gear,Camping tents
 40-2,40,"Travel, mobility and food",Outdoor and travel gear,hiking backpacks
 40-3,40,"Travel, mobility and food",Outdoor and travel gear,carry-on luggage

@@ -58,7 +58,7 @@ Every prompt is a question whose only useful answer is one or more brands. The s
 
 **Rules every prompt must pass**
 
-- A good answer names brands. If “it depends” with no brand is a fair answer, the prompt is dropped.
+- A good answer names brands. If “it depends” with no brand is a fair answer, the prompt is dropped. The prompt must ask which brand, company, product, platform, app, service, provider or store to choose; if a type of product could answer it, it is dropped.
 - No brand, product or company names in the prompt, so no “alternatives to X” or “X vs Y”.
 - No years, dates, cities, states or “near me”.
 - No how-to or definition questions.
@@ -66,9 +66,9 @@ Every prompt is a question whose only useful answer is one or more brands. The s
 
 **Seeding:** Claude Sonnet 5.5 writes 40 candidates per subcategory (8 per template) with the prompt in Appendix B: 200 per industry, 8,000 in all.
 
-**Filtering:** code checks the rules it can (years, place names), then removes near-duplicates (word overlap above 60% within a subcategory). Jev answers four questions per candidate (Appendix C). A candidate stays only if all four score 0.5 or higher; the 4 highest-scoring candidates per template and subcategory make the final set.
+**Filtering:** code checks the rules it can (years, place names), then removes near-duplicates (word overlap above 60% within a subcategory). Jev answers five questions per candidate (Appendix C). A candidate stays only if all five score 0.5 or higher; the 4 highest-scoring candidates per template and subcategory make the final set. A cell left with fewer than 4 prompts is topped up from a second seeding round of the same subcategory.
 
-**Hand-check:** a person checks 200 random prompts against the rules. Any industry where more than 10% fail is reseeded and filtered again.
+**Hand-check:** a person checks 200 random prompts against the rules. Any industry where more than 10% fail is reseeded and filtered again. In the first round, the hand-check found prompts that asked for “the best [product]” without asking for a brand, so an answer could name only a type of product; Jev confirmed this for 577 of 3,998 prompts (14.4%). The brand rule was added to the seeding prompt and to the filter, and the whole set was seeded and filtered again. The first-round prompts and their outcomes are kept in the repository under prompts/round1.
 
 ## 4. Procedure
 
@@ -257,12 +257,12 @@ Forty industries in six groups, each with five subcategories; every subcategory 
 | 15 | Finance | Insurance | Car insurance; home insurance; renters insurance; life insurance; pet insurance |
 | 16 | Finance | Tax and personal finance apps | Tax filing software; budgeting apps; credit monitoring; crypto tax software; tax tracking for freelancers |
 | 17 | Consumer tech | Smartphones | Flagship phones; budget phones; camera phones; foldable phones; phones for seniors |
-| 18 | Consumer tech | Laptops | Student laptops; gaming laptops; business laptops; Chromebooks; laptops for video editing |
+| 18 | Consumer tech | Laptops | Student laptops; gaming laptops; business laptops; 2-in-1 laptops; laptops for video editing |
 | 19 | Consumer tech | Headphones and speakers | Noise-cancelling headphones; wireless earbuds; Bluetooth speakers; soundbars; running headphones |
 | 20 | Consumer tech | Smart home and cameras | Home security cameras; video doorbells; smart thermostats; smart locks; mesh Wi-Fi |
-| 21 | Consumer tech | TVs and streaming devices | OLED TVs; budget 4K TVs; streaming devices; projectors; computer monitors |
+| 21 | Consumer tech | TVs, monitors and streaming devices | OLED TVs; budget 4K TVs; streaming devices; projectors; computer monitors |
 | 22 | Consumer tech | Gaming | Gaming consoles; gaming headsets; gaming chairs; gaming monitors; gaming mice and keyboards |
-| 23 | Apps and subscriptions | VPNs and password managers | VPNs; password managers; antivirus; identity theft protection; parental control apps |
+| 23 | Apps and subscriptions | Online security and privacy apps | VPNs; password managers; antivirus; identity theft protection; parental control apps |
 | 24 | Apps and subscriptions | Video and music streaming | Video streaming; music streaming; live TV streaming; audiobook apps; podcast apps |
 | 25 | Apps and subscriptions | Language learning and online courses | Language apps; online course platforms; coding bootcamps; test prep; online tutoring |
 | 26 | Apps and subscriptions | Fitness and health apps | Workout apps; meditation apps; fitness trackers; sleep tracking apps; online therapy |
@@ -278,7 +278,7 @@ Forty industries in six groups, each with five subcategories; every subcategory 
 | 36 | Travel, mobility and food | Hotels and travel booking | Hotel booking sites; flight search sites; vacation rentals; cruise lines; tour booking |
 | 37 | Travel, mobility and food | Airlines | Domestic airlines; budget airlines; transatlantic business class; airline loyalty programs; flying with pets |
 | 38 | Travel, mobility and food | Cars and EVs | Electric cars; family SUVs; hybrid cars; pickup trucks; car rental |
-| 39 | Travel, mobility and food | Food delivery and meal kits | Meal kits; food delivery apps; prepared meal delivery; grocery delivery; coffee subscriptions |
+| 39 | Travel, mobility and food | Food and drink delivery | Meal kits; food delivery apps; prepared meal delivery; grocery delivery; coffee subscriptions |
 | 40 | Travel, mobility and food | Outdoor and travel gear | Camping tents; hiking backpacks; carry-on luggage; hiking boots; rain jackets |
 
 ## Appendix B: Seeding prompt
@@ -307,6 +307,9 @@ Templates
 Rules for every question
 - A good answer must name specific brands or products. If "it depends" with no brand
   is a fair answer, do not write the question.
+- Ask which brand, company, product, platform, app, service, provider or store to
+  choose. If naming only a type or style of product could answer the question,
+  rewrite it to ask for the brand, for example "Which brand makes the best ...".
 - Do not name any brand, product or company.
 - No years, dates, cities, states or "near me".
 - No how-to, definition or comparison questions.
@@ -316,6 +319,8 @@ Rules for every question
 
 Examples (from another subcategory; do not copy their wording)
 Good: "Which CRM is best for a 10-person real estate agency?"
+Good: "Which brand makes the best hiking backpack for a week-long trip?"
+Bad: "What is the best backpack for hiking?" (a type of backpack could answer it)
 Bad: "What is a CRM?" (a good answer names no brand)
 Bad: "Is HubSpot better than Salesforce?" (names brands)
 Bad: "Best CRM 2026" (not a question; has a year)
@@ -333,6 +338,7 @@ Jev (jev-1.14.0) answers each question against one state: the prompt, the answer
 | Prompt filter | Yes or no | Does `prompt` read like a question a real US buyer would ask an AI assistant before choosing a product or service? | Candidate prompt |
 | Prompt filter | Yes or no | Is `prompt` about {subcategory} in the {industry} industry? | Candidate prompt |
 | Prompt filter | Yes or no | Is `prompt` free of any brand, product or company name? | Candidate prompt |
+| Prompt filter | Yes or no | Does prompt explicitly ask which brand, company, product, platform, app, service, provider or store to choose, so that naming only a type or style of product would not answer it? | Candidate prompt |
 | Recommendations | Yes or no | Does `answer` recommend {brand} to the reader as an option to choose, rather than only mentioning it? | Answer text |
 | Page type | Choice | What kind of page is `page`: a list of several options, a review of one product, a comparison of two or three options, the brand's own page, a forum or Q&A thread, a news article, a video page, or other? | Page main content |
 | Criticism | Yes or no | Does `page` say anything negative about {brand}, such as a drawback, a limitation, a missing feature or who it does not suit? | Page main content |
