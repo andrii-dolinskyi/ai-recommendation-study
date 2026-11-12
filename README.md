@@ -9,9 +9,12 @@ The study sends 4,000 US buyer questions from 40 industries to four AI engines (
 | Folder | Contents |
 | --- | --- |
 | `protocol/` | The study protocol: research questions, design, prompt set, procedure, measures and analysis plan |
-| `prompts/` | The 40 industries and 200 subcategories, and the exact prompt used to seed candidate questions |
+| `prompts/` | The 40 industries and 200 subcategories, the exact prompt used to seed candidate questions, and the final 4,000 prompts with their filter log |
+| `workflows/` | The collection and measurement steps (n8n) and the JavaScript that runs inside them |
+| `analysis/` | The Python analysis script (models, corrections and the thesis rule from the protocol) |
+| `pilot/` | The 100 pilot prompts and the pilot quality checks |
 
-The final prompt set, the collection workflows, the analysis script and the dataset are added as the study progresses.
+The dataset is added after collection.
 
 ## Pre-registration
 

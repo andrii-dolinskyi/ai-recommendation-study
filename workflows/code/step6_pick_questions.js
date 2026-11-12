@@ -1,0 +1,6 @@
+// recommendation questions (rule agreed in the pilot): does the answer single out its own pick or picks, is this brand one of them,
+// and does the answer offer this brand as an option to choose (used when the answer singles out none)
+const HAS = 'Does `answer` say which brand or brands it recommends, such as a top pick, "I recommend", "I would shortlist" or "the best choices are", rather than only listing options or saying it depends?';
+const PICK = b => 'Is ' + b + ' one of the brands that `answer` names as its own choice: its top pick, the brand or brands it says it recommends, or the short list it says to choose from (for example "I would shortlist X, Y and Z", "the top choices are X and Y", "Top recommended")? Answer no if ' + b + ' is only a further option, an alternative, or named best only for a particular situation or type of buyer.';
+const OPTION = b => 'Does `answer` recommend ' + b + ' to the reader as an option to choose, rather than only mentioning it?';
+return $input.all().map(i => { const j = Object.assign({}, i.json); const q = { hp: { type: 'noul', instructions: HAS } }; j.mentions.forEach((m, k) => { q['t' + k] = { type: 'noul', instructions: PICK(m.brand) }; q['b' + k] = { type: 'noul', instructions: OPTION(m.brand) }; }); j.jev = Object.assign({}, j.jev, { questions: q }); return { json: j }; });

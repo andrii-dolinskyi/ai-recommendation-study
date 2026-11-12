@@ -1,0 +1,101 @@
+prompt_id,industry,subcategory,template,prompt
+P01-1-1-1,CRM and sales software,CRM,1,"Which CRM company offers the best mix of features, ease of use, and value?"
+P01-1-3-2,CRM and sales software,CRM,3,Which CRM platform offers the strongest native phone dialer with call recording?
+P01-1-5-3,CRM and sales software,CRM,5,My leads keep slipping through the cracks because we track them in spreadsheets. What CRM should I use?
+P02-1-2-2,"Marketing, SEO and AI visibility tools",SEO tools,2,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?
+P02-1-4-3,"Marketing, SEO and AI visibility tools",SEO tools,4,What is the best low-cost SEO tool for tracking rankings for under $30 a month?
+P03-1-3-3,Project management and collaboration,Project management,3,Which project management software has the best resource management and workload balancing tools?
+P03-1-5-4,Project management and collaboration,Project management,5,I'm tired of manually sending status updates to executives every week. Which project management software can automate reporting?
+P03-2-2-1,Project management and collaboration,team chat,2,"As a freelancer juggling several clients, which team chat app should I use?"
+P04-1-4-4,"HR, payroll and recruiting",Payroll,4,Which free payroll software is best for a business with two employees?
+P04-2-1-1,"HR, payroll and recruiting",HR platforms,1,Which HR platform has the best reputation for ease of use and customer support?
+P05-2-5-1,Accounting and invoicing,invoicing,5,I need to send professional-looking invoices from my phone right after finishing a job. Which invoicing app should I get?
+P05-2-2-2,Accounting and invoicing,invoicing,2,Which invoicing software is best for a freelance graphic designer who bills a handful of clients each month?
+P05-2-4-3,Accounting and invoicing,invoicing,4,Which invoicing app has the best free plan for a freelancer just starting out?
+P06-2-1-2,Customer support,live chat,1,Which live chat software is the best overall for customer support teams?
+P06-2-3-3,Customer support,live chat,3,Which live chat vendor offers the most customizable chat widget branding?
+P07-2-2-3,E-commerce platforms,B2B e-commerce,2,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?
+P07-2-4-4,E-commerce platforms,B2B e-commerce,4,Which open-source B2B e-commerce platform is best for a team that can't afford a big software license?
+P07-3-1-1,E-commerce platforms,print on demand,1,What is the best print on demand platform for starting an online merch business?
+P08-2-3-4,Website builders and hosting,shared web hosting,3,Which shared hosting brand has the best built-in daily automatic backups?
+P08-3-5-1,Website builders and hosting,managed WordPress hosting,5,I want to stop worrying about backups after a bad update broke my site. Which managed WordPress hosting company should I choose?
+P09-3-4-1,Business cybersecurity,single sign-on,4,Which affordable single sign-on provider works for a 50-employee company without enterprise pricing?
+P09-3-1-2,Business cybersecurity,single sign-on,1,Which brand has the best all-around identity and single sign-on solution for companies?
+P09-3-3-3,Business cybersecurity,single sign-on,3,Which brand makes the best SSO product with SCIM user provisioning and deprovisioning?
+P10-3-5-2,AI assistants and creative AI tools,AI image generators,5,I want to turn my rough sketches into polished artwork. Which AI image generator should I use?
+P10-3-2-3,AI assistants and creative AI tools,AI image generators,2,Which AI image generator works best for a tabletop RPG game master creating character portraits and maps?
+P11-3-1-3,Banks and neobanks,business bank accounts,1,What is the best business bank account provider for a small company in the US?
+P11-3-3-4,Banks and neobanks,business bank accounts,3,Which bank pays the highest interest on a business checking or savings account balance?
+P11-4-5-1,Banks and neobanks,kids' debit cards,5,I'd like my teen to see her balance and track spending without me checking every day. Which brand offers a kids' debit card for that?
+P12-3-2-4,Payments,international money transfer,2,Which remittance service works best for a nurse sending money to parents in the Philippines?
+P12-4-4-1,Payments,"buy now, pay later",4,"Which buy now, pay later company offers 0% interest plans without any hidden costs?"
+P13-4-3-1,Investing and trading apps,crypto exchanges,3,Which crypto exchange offers staking rewards on the widest range of coins for US users?
+P13-4-5-2,Investing and trading apps,crypto exchanges,5,"I'm tired of high fees eating into my small crypto trades, which exchange should I switch to?"
+P13-4-2-3,Investing and trading apps,crypto exchanges,2,Which exchange is best for a college student with a small amount to invest in crypto?
+P14-4-4-2,Credit cards and loans,student loan refinancing,4,Which student loan refinancing company charges no fees at all?
+P14-4-1-3,Credit cards and loans,student loan refinancing,1,Name the best student loan refinancing lender for overall value.
+P15-4-5-3,Insurance,life insurance,5,"My parents have no savings for funeral costs, so which company should I buy final expense insurance from for them?"
+P15-4-2-4,Insurance,life insurance,2,Which life insurance company is best for a small business owner who needs buy-sell coverage with a partner?
+P15-5-4-1,Insurance,pet insurance,4,Which affordable pet insurance company still has good coverage for a mid-sized dog on a tight budget?
+P16-4-1-4,Tax and personal finance apps,crypto tax software,1,Which company makes the best crypto tax software right now?
+P16-5-3-1,Tax and personal finance apps,tax tracking for freelancers,3,Which freelancer tax app gives you access to a live CPA for questions?
+P17-5-2-1,Smartphones,phones for seniors,2,Which brand should I pick for a senior who travels a lot and needs a dependable phone?
+P17-5-4-2,Smartphones,phones for seniors,4,Which brand makes the best senior phone under $100?
+P17-5-1-3,Smartphones,phones for seniors,1,Which phone brand do experts recommend most for elderly users?
+P18-5-3-2,Laptops,laptops for video editing,3,Which brand offers video editing laptops with 64GB of RAM or more?
+P18-5-5-3,Laptops,laptops for video editing,5,I want to edit video and also play games on one machine without buying two computers. Which laptop brand is the best fit?
+P19-5-4-3,Headphones and speakers,running headphones,4,What is the best budget brand for running earbuds under $100 that can survive heavy sweat?
+P19-5-1-4,Headphones and speakers,running headphones,1,Which brand is the top choice for sport earbuds that stay in place during runs?
+P19-1-3-1,Headphones and speakers,Noise-cancelling headphones,3,Which brand makes the best noise-cancelling headphones that fold flat for a small carry-on bag?
+P20-5-5-4,Smart home and cameras,mesh Wi-Fi,5,My Wi-Fi drops in the back bedrooms and garage of my house; which mesh Wi-Fi brand should I buy to fix it?
+P20-1-2-1,Smart home and cameras,Home security cameras,2,Which security camera brand is best for a first-time buyer who isn't tech savvy?
+P21-1-1-1,"TVs, monitors and streaming devices",OLED TVs,1,What's the top OLED TV brand for picture quality?
+P21-1-3-2,"TVs, monitors and streaming devices",OLED TVs,3,Which company makes an OLED TV with the best built-in speakers so I can skip a soundbar?
+P21-1-5-3,"TVs, monitors and streaming devices",OLED TVs,5,I want a TV that looks like a picture frame on my wall and doesn't stick out. Which brand makes the best slim OLED for wall mounting?
+P22-1-2-2,Gaming,Gaming consoles,2,Which brand makes the best console for a competitive shooter player who wants fast response and smooth frame rates?
+P22-1-4-3,Gaming,Gaming consoles,4,Which console should I buy for my kid if I can only spend $200?
+P23-1-3-3,Online security and privacy apps,VPNs,3,Which VPN brand offers multi-hop or double VPN routing for extra privacy?
+P23-1-5-4,Online security and privacy apps,VPNs,5,My VPN keeps slowing down my downloads when I torrent. Which VPN brand is best for fast P2P?
+P23-2-2-1,Online security and privacy apps,password managers,2,Which password manager is best for a family of five with teenagers?
+P24-1-4-4,Video and music streaming,Video streaming,4,Which streaming service gives the most content for a budget of $15 a month total?
+P24-2-1-1,Video and music streaming,music streaming,1,What's the best app for streaming music on both my phone and my computer?
+P25-2-5-1,Language learning and online courses,online course platforms,5,"I've bought online courses that turned out outdated and low quality, so which platform has vetted instructors and reliably good content?"
+P25-2-2-2,Language learning and online courses,online course platforms,2,What online course platform is best for a small business owner training a team of 15 employees?
+P25-2-4-3,Language learning and online courses,online course platforms,4,"I can spend about $30 a month on learning, so which online course platform gives me the most value?"
+P26-2-1-2,Fitness and health apps,meditation apps,1,Which meditation app should I download if I want the most well-rounded experience?
+P26-2-3-3,Fitness and health apps,meditation apps,3,Which meditation app has a family plan that can be shared with several people?
+P27-2-2-3,Mobile and internet providers,prepaid plans,2,Which prepaid carrier is best for a college student who streams a lot on campus?
+P27-2-4-4,Mobile and internet providers,prepaid plans,4,Which prepaid provider offers the cheapest plan with at least 10GB of data?
+P27-3-1-1,Mobile and internet providers,home internet,1,Which home internet company is the best pick if I just want something dependable and fast?
+P28-2-3-4,Online stores and marketplaces,refurbished electronics,3,Which marketplace has the best buyer protection and easy free returns on refurbished electronics?
+P28-3-5-1,Online stores and marketplaces,secondhand fashion,5,"I don't have time to photograph and list my clothes myself, which consignment service should I use to sell them?"
+P29-3-4-1,Fashion,sustainable clothing,4,Which ethical fashion brand is the most affordable for someone on a tight budget?
+P29-3-1-2,Fashion,sustainable clothing,1,Which sustainable clothing brand has the best reputation for both transparency and quality?
+P29-3-3-3,Fashion,sustainable clothing,3,"Which sustainable brand makes clothing entirely from natural, plastic-free fibers?"
+P30-3-5-2,Running shoes and sportswear,walking shoes,5,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?"
+P30-3-2-3,Running shoes and sportswear,walking shoes,2,Which brand should I buy walking shoes from for a two-week trip with lots of sightseeing on foot?
+P31-3-1-3,Beauty and skincare,anti-aging serums,1,Which brand makes the best anti-aging serum overall?
+P31-3-3-4,Beauty and skincare,anti-aging serums,3,Which brand has the best peptide serum for firming skin?
+P31-4-5-1,Beauty and skincare,hair care,5,My hair is frizzy and puffs up in humidity. Which brand makes the best product to tame it?
+P32-3-2-4,Home appliances,air purifiers,2,What air purifier brand works best for a small college dorm room?
+P32-4-4-1,Home appliances,air fryers,4,Which brand has the best budget dual-basket air fryer under $120?
+P33-4-3-1,Furniture and mattresses,sofas,3,Which company makes the best performance-fabric sofa that resists stains?
+P33-4-5-2,Furniture and mattresses,sofas,5,"My old sofa is too big to get up the stairs, so which company sells sofas that are easy to deliver and assemble?"
+P33-4-2-3,Furniture and mattresses,sofas,2,Which brand makes the best sofa for a tall person who needs deep seats?
+P34-4-4-2,Baby and kids,diapers,4,Which brand makes the best cloth diaper starter set for under $100?
+P34-4-1-3,Baby and kids,diapers,1,Which diaper brand would you recommend as the top choice for everyday use?
+P35-4-5-3,Pet products,GPS pet trackers,5,"I lose signal with my hunting dog in the woods all the time, which GPS tracker brand works best there?"
+P35-4-2-4,Pet products,GPS pet trackers,2,Which GPS tracker brand works best for a family with an escape-artist husky?
+P35-5-4-1,Pet products,online pet stores,4,Which online pet store offers a monthly dog treat and toy box for under $25?
+P36-4-1-4,Hotels and travel booking,cruise lines,1,Which cruise line has the best reputation for consistent quality across its fleet?
+P36-5-3-1,Hotels and travel booking,tour booking,3,Which app lets me book tours with instant confirmation and mobile tickets?
+P37-5-2-1,Airlines,flying with pets,2,Which airline is best for a college student flying home for break with a small dog?
+P37-5-4-2,Airlines,flying with pets,4,Which budget airline is best for flying with a cat when money is tight?
+P37-5-1-3,Airlines,flying with pets,1,Who offers the best pet travel program among US airlines?
+P38-5-3-2,Cars and EVs,car rental,3,Which rental car company has the best contactless app-based pickup with no counter visit?
+P38-5-5-3,Cars and EVs,car rental,5,"I'm flying into a small town and need a rental that's reliable on long rural highways, which company should I choose?"
+P39-5-4-3,Food and drink delivery,coffee subscriptions,4,Which brand has the best coffee subscription for a budget of $30 a month?
+P39-5-1-4,Food and drink delivery,coffee subscriptions,1,Which coffee subscription service is the best overall right now?
+P39-1-3-1,Food and drink delivery,Meal kits,3,Which meal kit service has the best gluten-free options with safe handling for allergies?
+P40-5-5-4,Outdoor and travel gear,rain jackets,5,"My old rain jacket soaks through after twenty minutes and I get cold on hikes, so which brand should I buy to stay dry?"
+P40-1-2-1,Outdoor and travel gear,Camping tents,2,Which tent brand is best for winter camping and mountaineering trips?

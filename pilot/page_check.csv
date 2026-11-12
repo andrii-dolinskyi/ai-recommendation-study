@@ -1,0 +1,201 @@
+page,sample,url,check,brand,person,study,jev_p
+1,first_30,https://play.google.com/store/apps/details?id=com.getyourguide.android&hl=en_US,page_type,,other,product_page,0.99
+1,first_30,https://play.google.com/store/apps/details?id=com.getyourguide.android&hl=en_US,page_owner,GetYourGuide,retailer,retailer,
+1,first_30,https://play.google.com/store/apps/details?id=com.getyourguide.android&hl=en_US,criticism,GetYourGuide,no_criticism,False,0.03
+2,first_30,https://www.hostinger.com/compare/hostinger-vs-dreamhost,page_type,,comparison,comparison,0.99
+2,first_30,https://www.hostinger.com/compare/hostinger-vs-dreamhost,page_owner,Hostinger,own_site,own_site,
+2,first_30,https://www.hostinger.com/compare/hostinger-vs-dreamhost,criticism,Hostinger,no_criticism,False,0.06
+2,first_30,https://www.hostinger.com/compare/hostinger-vs-dreamhost,criticism,SiteGround,unsure,False,0.02
+2,first_30,https://www.hostinger.com/compare/hostinger-vs-dreamhost,criticism,DreamHost,no_criticism,False,0.4
+2,first_30,https://www.hostinger.com/compare/hostinger-vs-dreamhost,criticism,Bluehost,no_criticism,False,0.03
+3,first_30,https://mercury.com/,page_type,,homepage,homepage,1
+3,first_30,https://mercury.com/,page_owner,Mercury,own_site,own_site,
+3,first_30,https://mercury.com/,criticism,Greenlight,no_criticism,False,0.01
+3,first_30,https://mercury.com/,criticism,Mercury,no_criticism,False,0.06
+4,first_30,https://disprz.ai/blog/best-online-learning-platforms-for-employees,page_type,,listicle,listicle,1
+4,first_30,https://disprz.ai/blog/best-online-learning-platforms-for-employees,page_owner,360Learning,competitor,publisher,
+4,first_30,https://disprz.ai/blog/best-online-learning-platforms-for-employees,criticism,TalentLMS,criticizes,True,0.97
+4,first_30,https://disprz.ai/blog/best-online-learning-platforms-for-employees,criticism,360Learning,criticizes,True,0.98
+4,first_30,https://disprz.ai/blog/best-online-learning-platforms-for-employees,criticism,Cornerstone,criticizes,True,0.98
+5,first_30,https://www.privacyjournal.net/private-internet-access-review/,page_type,,review,review,1
+5,first_30,https://www.privacyjournal.net/private-internet-access-review/,page_owner,Private Internet Access,publisher,publisher,
+5,first_30,https://www.privacyjournal.net/private-internet-access-review/,criticism,Mullvad,unsure,False,0.06
+5,first_30,https://www.privacyjournal.net/private-internet-access-review/,criticism,ExpressVPN,criticizes,True,0.94
+5,first_30,https://www.privacyjournal.net/private-internet-access-review/,criticism,Windscribe,unsure,False,0.05
+5,first_30,https://www.privacyjournal.net/private-internet-access-review/,criticism,Private Internet Access,criticizes,True,0.99
+6,first_30,https://www.lemonade.com/pet,page_type,,product_page,product_page,0.93
+6,first_30,https://www.lemonade.com/pet,page_owner,Lemonade,own_site,own_site,
+6,first_30,https://www.lemonade.com/pet,criticism,Lemonade,no_criticism,False,0.08
+7,first_30,https://zapier.com/blog/best-ai-image-generator/?msockid=13d2b20cfdb6687e089da4f9fc5969dc,page_type,,listicle,listicle,1
+7,first_30,https://zapier.com/blog/best-ai-image-generator/?msockid=13d2b20cfdb6687e089da4f9fc5969dc,page_owner,Midjourney,publisher,publisher,
+7,first_30,https://zapier.com/blog/best-ai-image-generator/?msockid=13d2b20cfdb6687e089da4f9fc5969dc,criticism,Canva,unsure,False,0.05
+7,first_30,https://zapier.com/blog/best-ai-image-generator/?msockid=13d2b20cfdb6687e089da4f9fc5969dc,criticism,Leonardo AI,unsure,True,0.84
+7,first_30,https://zapier.com/blog/best-ai-image-generator/?msockid=13d2b20cfdb6687e089da4f9fc5969dc,criticism,Midjourney,criticizes,True,0.98
+7,first_30,https://zapier.com/blog/best-ai-image-generator/?msockid=13d2b20cfdb6687e089da4f9fc5969dc,criticism,Recraft,criticizes,True,0.95
+8,first_30,https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch,page_type,,news,news,0.89
+8,first_30,https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch,page_owner,ChatGPT Images,publisher,publisher,
+8,first_30,https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch,page_owner,Leonardo AI,publisher,publisher,
+8,first_30,https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch,criticism,ChatGPT Images,no_criticism,False,0.04
+9,first_30,https://www.cnet.com/tech/mobile/best-prepaid-phone-plan/,page_type,,listicle,listicle,1
+9,first_30,https://www.cnet.com/tech/mobile/best-prepaid-phone-plan/,page_owner,Mint Mobile,publisher,publisher,
+9,first_30,https://www.cnet.com/tech/mobile/best-prepaid-phone-plan/,page_owner,US Mobile,publisher,publisher,
+9,first_30,https://www.cnet.com/tech/mobile/best-prepaid-phone-plan/,criticism,Spectrum,unsure,False,0.03
+9,first_30,https://www.cnet.com/tech/mobile/best-prepaid-phone-plan/,criticism,Visible,criticizes,True,0.85
+9,first_30,https://www.cnet.com/tech/mobile/best-prepaid-phone-plan/,criticism,AT&T Fiber,unsure,False,0.02
+9,first_30,https://www.cnet.com/tech/mobile/best-prepaid-phone-plan/,criticism,Cricket Wireless,unsure,False,0.05
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,page_type,,listicle,listicle,0.75
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,page_owner,Botpress,publisher,publisher,
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,page_owner,LiveChat,publisher,publisher,
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,page_owner,Twilio,publisher,publisher,
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,criticism,Crisp,no_criticism,False,0.25
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,criticism,HubSpot,no_criticism,True,0.74
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,criticism,Intercom,no_criticism,False,0.32
+10,first_30,https://www.engagelab.com/blog/live-chat-software-for-websites,criticism,LiveChat,unsure,False,0.4
+11,first_30,https://www.calm.com/family,page_type,,product_page,product_page,0.93
+11,first_30,https://www.calm.com/family,page_owner,Calm,own_site,own_site,
+11,first_30,https://www.calm.com/family,criticism,Calm,no_criticism,False,0.06
+12,first_30,https://www.bestbuy.com/product/garmin-handheld-and-alpha-300-tt-25-dog-tracking-and-training-collar/JXF9YF4P7Q/sku/12996805?fs=tobskm,page_type,,product_page,product_page,1
+12,first_30,https://www.bestbuy.com/product/garmin-handheld-and-alpha-300-tt-25-dog-tracking-and-training-collar/JXF9YF4P7Q/sku/12996805?fs=tobskm,page_owner,Garmin,retailer,retailer,
+12,first_30,https://www.bestbuy.com/product/garmin-handheld-and-alpha-300-tt-25-dog-tracking-and-training-collar/JXF9YF4P7Q/sku/12996805?fs=tobskm,criticism,Garmin,no_criticism,False,0.02
+13,first_30,https://rawganique.com/collections/plastic-free-pvc-free-natural-fiber-products,page_type,,category_page,category_page,1
+13,first_30,https://rawganique.com/collections/plastic-free-pvc-free-natural-fiber-products,page_owner,Rawganique,own_site,own_site,
+13,first_30,https://rawganique.com/collections/plastic-free-pvc-free-natural-fiber-products,criticism,Rawganique,no_criticism,False,0.03
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,page_type,,listicle,listicle,0.89
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,page_owner,Leonardo AI,competitor,competitor,
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,page_owner,Midjourney,competitor,competitor,
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,page_owner,Recraft,own_site,own_site,
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,criticism,Recraft,criticizes,True,0.91
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,criticism,ChatGPT Images,criticizes,True,0.97
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,criticism,Leonardo AI,criticizes,True,0.95
+14,first_30,https://www.recraft.ai/blog/best-ai-character-generators-2026,criticism,Midjourney,criticizes,True,0.97
+15,first_30,https://www.headspace.com/,page_type,,homepage,homepage,1
+15,first_30,https://www.headspace.com/,page_owner,Headspace,own_site,own_site,
+15,first_30,https://www.headspace.com/,criticism,Headspace,no_criticism,False,0.08
+16,first_30,https://www.crediful.com/best-online-consignment-shops/,page_type,,listicle,listicle,1
+16,first_30,https://www.crediful.com/best-online-consignment-shops/,page_owner,ThredUp,publisher,publisher,
+16,first_30,https://www.crediful.com/best-online-consignment-shops/,criticism,ThredUp,no_criticism,True,0.86
+16,first_30,https://www.crediful.com/best-online-consignment-shops/,criticism,eBay,no_criticism,False,0.07
+17,first_30,https://www.itechguides.com/23-best-places-to-buy-used-electronics/,page_type,,listicle,listicle,1
+17,first_30,https://www.itechguides.com/23-best-places-to-buy-used-electronics/,page_owner,eBay,publisher,publisher,
+17,first_30,https://www.itechguides.com/23-best-places-to-buy-used-electronics/,criticism,Amazon Renewed,criticizes,True,0.85
+17,first_30,https://www.itechguides.com/23-best-places-to-buy-used-electronics/,criticism,Back Market,no_criticism,False,0.39
+17,first_30,https://www.itechguides.com/23-best-places-to-buy-used-electronics/,criticism,Best Buy Outlet,no_criticism,True,0.58
+17,first_30,https://www.itechguides.com/23-best-places-to-buy-used-electronics/,criticism,Apple Certified Refurbished,criticizes,True,0.96
+18,first_30,https://www.mutualofomaha.com/,page_type,,homepage,homepage,1
+18,first_30,https://www.mutualofomaha.com/,page_owner,Mutual of Omaha,own_site,own_site,
+18,first_30,https://www.mutualofomaha.com/,criticism,Mutual of Omaha,no_criticism,False,0.02
+19,first_30,https://www.cnet.com/tech/services-and-software/best-web-hosting/,page_type,,listicle,listicle,1
+19,first_30,https://www.cnet.com/tech/services-and-software/best-web-hosting/,page_owner,Hostinger,publisher,publisher,
+19,first_30,https://www.cnet.com/tech/services-and-software/best-web-hosting/,criticism,Bluehost,criticizes,True,0.84
+19,first_30,https://www.cnet.com/tech/services-and-software/best-web-hosting/,criticism,SiteGround,criticizes,True,0.97
+19,first_30,https://www.cnet.com/tech/services-and-software/best-web-hosting/,criticism,WP Engine,no_criticism,False,0.05
+19,first_30,https://www.cnet.com/tech/services-and-software/best-web-hosting/,criticism,GreenGeeks,criticizes,True,0.95
+20,first_30,https://www.usnews.com/insurance/pet-insurance/best-cheap-pet-insurance,page_type,,listicle,listicle,0.99
+20,first_30,https://www.usnews.com/insurance/pet-insurance/best-cheap-pet-insurance,page_owner,Pets Best,publisher,publisher,
+20,first_30,https://www.usnews.com/insurance/pet-insurance/best-cheap-pet-insurance,criticism,Pets Best,criticizes,False,0.03
+21,first_30,https://www.hp.com/us-en/shop/dlp/best-laptop-with-64gb-ram,page_type,,category_page,category_page,0.66
+21,first_30,https://www.hp.com/us-en/shop/dlp/best-laptop-with-64gb-ram,page_owner,HP,own_site,own_site,
+21,first_30,https://www.hp.com/us-en/shop/dlp/best-laptop-with-64gb-ram,criticism,HP,no_criticism,False,0.03
+22,first_30,https://www.tawk.to/,page_type,,homepage,homepage,0.9
+22,first_30,https://www.tawk.to/,page_owner,Crisp,competitor,competitor,
+22,first_30,https://www.tawk.to/,criticism,tawk.to,no_criticism,False,0.02
+23,first_30,https://fitsmallbusiness.com/bluevine-vs-relay-business-checking-account/,page_type,,comparison,comparison,1
+23,first_30,https://fitsmallbusiness.com/bluevine-vs-relay-business-checking-account/,page_owner,Relay,publisher,publisher,
+23,first_30,https://fitsmallbusiness.com/bluevine-vs-relay-business-checking-account/,criticism,Bluevine,criticizes,True,0.94
+23,first_30,https://fitsmallbusiness.com/bluevine-vs-relay-business-checking-account/,criticism,Axos Bank,no_criticism,False,0.04
+23,first_30,https://fitsmallbusiness.com/bluevine-vs-relay-business-checking-account/,criticism,Square,no_criticism,False,0.02
+23,first_30,https://fitsmallbusiness.com/bluevine-vs-relay-business-checking-account/,criticism,Chase,no_criticism,False,0.04
+24,first_30,https://www.capitalone.com/bank/checking-accounts/teen-checking-account/,page_type,,product_page,product_page,1
+24,first_30,https://www.capitalone.com/bank/checking-accounts/teen-checking-account/,page_owner,Capital One,own_site,own_site,
+24,first_30,https://www.capitalone.com/bank/checking-accounts/teen-checking-account/,criticism,Capital One,no_criticism,False,0.04
+25,first_30,https://wise.com,page_type,,homepage,homepage,0.98
+25,first_30,https://wise.com,page_owner,Remitly,competitor,competitor,
+25,first_30,https://wise.com,page_owner,Wise,own_site,own_site,
+25,first_30,https://wise.com,criticism,Wise,no_criticism,False,0.04
+26,first_30,https://flyfin.tax/,page_type,,homepage,homepage,0.93
+26,first_30,https://flyfin.tax/,page_owner,FlyFin,own_site,own_site,
+26,first_30,https://flyfin.tax/,criticism,FlyFin,no_criticism,False,0.02
+27,first_30,https://www.celebritycruises.com/,page_type,,homepage,homepage,0.99
+27,first_30,https://www.celebritycruises.com/,page_owner,Celebrity Cruises,own_site,own_site,
+27,first_30,https://www.celebritycruises.com/,criticism,Celebrity Cruises,no_criticism,False,0.02
+28,first_30,https://blockexplorer.one/news/blockexplorer/2936763-best-crypto-exchanges-for-staking-in-2026-security-apy-flexibility-compared,page_type,,listicle,listicle,1
+28,first_30,https://blockexplorer.one/news/blockexplorer/2936763-best-crypto-exchanges-for-staking-in-2026-security-apy-flexibility-compared,page_owner,Coinbase,publisher,publisher,
+28,first_30,https://blockexplorer.one/news/blockexplorer/2936763-best-crypto-exchanges-for-staking-in-2026-security-apy-flexibility-compared,criticism,Lido,unsure,True,0.78
+28,first_30,https://blockexplorer.one/news/blockexplorer/2936763-best-crypto-exchanges-for-staking-in-2026-security-apy-flexibility-compared,criticism,Kraken,no_criticism,False,0.32
+28,first_30,https://blockexplorer.one/news/blockexplorer/2936763-best-crypto-exchanges-for-staking-in-2026-security-apy-flexibility-compared,criticism,Rocket Pool,unsure,True,0.6
+28,first_30,https://blockexplorer.one/news/blockexplorer/2936763-best-crypto-exchanges-for-staking-in-2026-security-apy-flexibility-compared,criticism,Binance,criticizes,True,0.85
+29,first_30,https://rankmath.com/,page_type,,product_page,homepage,0.59
+29,first_30,https://rankmath.com/,page_owner,Rank Math,own_site,own_site,
+29,first_30,https://rankmath.com/,criticism,Ahrefs,unsure,False,0.02
+29,first_30,https://rankmath.com/,criticism,Google Search Console,unsure,False,0.02
+29,first_30,https://rankmath.com/,criticism,Rank Math,unsure,False,0.03
+29,first_30,https://rankmath.com/,criticism,Yoast SEO,unsure,False,0.42
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,page_type,,comparison,comparison,1
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,page_owner,Remitly,competitor,competitor,
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,page_owner,Western Union,competitor,competitor,
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,page_owner,Wise,own_site,own_site,
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,criticism,MoneyGram,no_criticism,False,0.03
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,criticism,Xoom,unsure,False,0.03
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,criticism,Remitly,criticizes,True,0.94
+30,first_30,https://wise.com/us/blog/remitly-vs-western-union,criticism,Western Union,criticizes,True,0.95
+31,new_20,https://www.lenovo.com/buy/ca/en/qualcomm/laptops-for-video-editing-0aez00a,criticism,Lenovo,no_criticism,False,0.02
+32,new_20,https://chatgpt.com/,criticism,ChatGPT Images,no_criticism,False,0.02
+33,new_20,https://www.cnet.com/tech/mobile/best-cheap-phone-plan/,criticism,Verizon,no_criticism,True,0.63
+33,new_20,https://www.cnet.com/tech/mobile/best-cheap-phone-plan/,criticism,MobileX,no_criticism,False,0.03
+33,new_20,https://www.cnet.com/tech/mobile/best-cheap-phone-plan/,criticism,Spectrum,no_criticism,False,0.04
+33,new_20,https://www.cnet.com/tech/mobile/best-cheap-phone-plan/,criticism,T-Mobile 5G Home Internet,no_criticism,False,0.02
+34,new_20,https://www.pcmag.com/picks/best-online-learning-services,criticism,LinkedIn Learning,criticizes,True,0.98
+34,new_20,https://www.pcmag.com/picks/best-online-learning-services,criticism,MasterClass,criticizes,True,0.94
+34,new_20,https://www.pcmag.com/picks/best-online-learning-services,criticism,Coursera,criticizes,True,0.94
+34,new_20,https://www.pcmag.com/picks/best-online-learning-services,criticism,Udacity,criticizes,True,0.98
+35,new_20,https://www.wevideo.com/blog/best-online-learning-platforms,criticism,Udemy,no_criticism,False,0.03
+35,new_20,https://www.wevideo.com/blog/best-online-learning-platforms,criticism,edX,no_criticism,False,0.04
+35,new_20,https://www.wevideo.com/blog/best-online-learning-platforms,criticism,Coursera,no_criticism,False,0.03
+35,new_20,https://www.wevideo.com/blog/best-online-learning-platforms,criticism,Docebo,no_criticism,False,0.02
+36,new_20,https://gizmodo.com/best-web-hosting/shared,criticism,DreamHost,criticizes,True,0.97
+36,new_20,https://gizmodo.com/best-web-hosting/shared,criticism,Hostinger,criticizes,True,0.97
+36,new_20,https://gizmodo.com/best-web-hosting/shared,criticism,SiteGround,criticizes,True,0.97
+37,new_20,https://koinly.io/,criticism,Koinly,no_criticism,False,0.02
+37,new_20,https://koinly.io/,criticism,TurboTax,no_criticism,False,0.03
+37,new_20,https://koinly.io/,criticism,CoinTracking,no_criticism,False,0.31
+38,new_20,https://www.revechat.com/,criticism,REVE Chat,no_criticism,False,0.02
+38,new_20,https://www.revechat.com/,criticism,HubSpot,no_criticism,False,0.01
+38,new_20,https://www.revechat.com/,criticism,LiveChat,no_criticism,False,0.02
+39,new_20,https://rankite.com/blog/best-online-learning-platforms,criticism,edX,criticizes,True,0.9
+39,new_20,https://rankite.com/blog/best-online-learning-platforms,criticism,Coursera,criticizes,True,0.95
+39,new_20,https://rankite.com/blog/best-online-learning-platforms,criticism,Skillshare,criticizes,True,0.96
+39,new_20,https://rankite.com/blog/best-online-learning-platforms,criticism,LinkedIn Learning,criticizes,True,0.95
+40,new_20,https://rankite.com/blog/best-idp-software,criticism,Okta,criticizes,True,0.95
+40,new_20,https://rankite.com/blog/best-idp-software,criticism,OneLogin,criticizes,True,0.95
+40,new_20,https://rankite.com/blog/best-idp-software,criticism,Microsoft Entra ID,criticizes,True,0.97
+40,new_20,https://rankite.com/blog/best-idp-software,criticism,Cisco Duo,criticizes,True,0.88
+41,new_20,https://www.coursera.org/,criticism,Coursera,no_criticism,False,0.02
+42,new_20,https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-healthy-meal-delivery-services,criticism,HelloFresh,criticizes,True,0.97
+42,new_20,https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-healthy-meal-delivery-services,criticism,Sunbasket,criticizes,True,0.98
+42,new_20,https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-healthy-meal-delivery-services,criticism,Factor,criticizes,True,0.97
+42,new_20,https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-healthy-meal-delivery-services,criticism,Purple Carrot,criticizes,True,0.98
+44,new_20,https://www.parents.com/best-air-purifier-for-dorm-room-11768555,criticism,Winix,criticizes,True,0.98
+44,new_20,https://www.parents.com/best-air-purifier-for-dorm-room-11768555,criticism,Levoit,criticizes,True,0.97
+44,new_20,https://www.parents.com/best-air-purifier-for-dorm-room-11768555,criticism,Coway,criticizes,True,0.97
+45,new_20,https://monday.com/,criticism,monday.com,no_criticism,False,0.02
+46,new_20,https://fabriclore.com/blogs/the-best-ethical-clothing-brands-in-the-usa-2025,criticism,Outerknown,no_criticism,False,0.02
+46,new_20,https://fabriclore.com/blogs/the-best-ethical-clothing-brands-in-the-usa-2025,criticism,Reformation,no_criticism,False,0.02
+46,new_20,https://fabriclore.com/blogs/the-best-ethical-clothing-brands-in-the-usa-2025,criticism,Girlfriend Collective,no_criticism,False,0.02
+46,new_20,https://fabriclore.com/blogs/the-best-ethical-clothing-brands-in-the-usa-2025,criticism,Pact,no_criticism,False,0.03
+47,new_20,https://www.ravetree.com/blog/top-5-resource-management-software-for-workload-planning,criticism,Kantata,no_criticism,False,0.05
+47,new_20,https://www.ravetree.com/blog/top-5-resource-management-software-for-workload-planning,criticism,Float,no_criticism,False,0.47
+47,new_20,https://www.ravetree.com/blog/top-5-resource-management-software-for-workload-planning,criticism,Microsoft,no_criticism,False,0.02
+47,new_20,https://www.ravetree.com/blog/top-5-resource-management-software-for-workload-planning,criticism,Asana,no_criticism,False,0.1
+48,new_20,https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g16-2026/,criticism,ASUS,no_criticism,False,0.06
+49,new_20,https://finance.yahoo.com/personal-finance/banking/article/best-debit-cards-for-kids-and-teens-224825436.html,criticism,Axos Bank,no_criticism,False,0.03
+49,new_20,https://finance.yahoo.com/personal-finance/banking/article/best-debit-cards-for-kids-and-teens-224825436.html,criticism,Capital One,no_criticism,False,0.03
+49,new_20,https://finance.yahoo.com/personal-finance/banking/article/best-debit-cards-for-kids-and-teens-224825436.html,criticism,GoHenry,no_criticism,False,0.05
+49,new_20,https://finance.yahoo.com/personal-finance/banking/article/best-debit-cards-for-kids-and-teens-224825436.html,criticism,Chase,no_criticism,False,0.06
+50,new_20,https://www.outdoorgearlab.com/best-rain-jacket,criticism,Black Diamond,criticizes,True,0.97
+50,new_20,https://www.outdoorgearlab.com/best-rain-jacket,criticism,Outdoor Research,no_criticism,False,0.04
+50,new_20,https://www.outdoorgearlab.com/best-rain-jacket,criticism,Rab,criticizes,True,0.97
+50,new_20,https://www.outdoorgearlab.com/best-rain-jacket,criticism,Patagonia,criticizes,True,0.9
+51,new_20,https://www.getkisi.com/blog/best-single-sign-on-sso-providers,criticism,Microsoft Entra ID,no_criticism,False,0.03
+51,new_20,https://www.getkisi.com/blog/best-single-sign-on-sso-providers,criticism,OneLogin,no_criticism,False,0.03
+51,new_20,https://www.getkisi.com/blog/best-single-sign-on-sso-providers,criticism,Ping Identity,no_criticism,False,0.21
+51,new_20,https://www.getkisi.com/blog/best-single-sign-on-sso-providers,criticism,Okta,criticizes,True,0.91

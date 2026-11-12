@@ -14,7 +14,7 @@ The study answers three questions. The first two test the thesis; the third desc
 | --- | --- | --- | --- |
 | RQ1 | Which technical and content measures of a page go with it backing more brand recommendations? | Page | Reach: recommendations that link to the page |
 | RQ2 | Does the way a page presents a brand (position, section, words spent, price, criticism) go with AI engines recommending that brand? | Brand on a page | Recommended in the answer that cites the page: yes or no |
-| RQ3 | Where do the links behind AI recommendations point, and how often are recommended brands also cited? | Recommendation | Link type; own site cited |
+| RQ3 | Where do the links behind AI recommendations point, and how often are recommended brands also cited? | Recommendation | Page owner; own site cited |
 
 **Support for the thesis:** at least one page measure (RQ1) or brand-on-page measure (RQ2) keeps a link to its outcome after correction for many tests, in the same direction on at least three of the four engines. If no measure does, the thesis is not supported, and the report says so.
 
@@ -26,7 +26,7 @@ An observational, cross-sectional study: each prompt is sent once to each engine
 
 **Setting**
 
-- **Engines:** ChatGPT (with web search), Gemini, Perplexity and Google AI Mode, through the Oxylabs Web API.
+- **Engines:** ChatGPT (with web search), Gemini and Google AI Mode through the Oxylabs Web API; Perplexity through Perplexity's own Sonar API (model sonar, web search on, low search context, US location). Collection of Perplexity through Oxylabs failed on 99 of 100 pilot prompts, so its answers come from the API, not from the perplexity.ai website, and are labelled as such in the data.
 - **Location and language:** United States, US English. Answers are logged-out.
 - **Scope:** product and service categories where the answer is a brand. Local places (restaurants, clinics, shops) are left out because their answers depend on the city.
 
@@ -80,24 +80,24 @@ Sixteen steps in five phases, run in order. Pilot data are not used in the resul
 2. Seed 8,000 candidate prompts with Claude Sonnet (Appendix B).
 3. Filter to 4,000 prompts with code rules, duplicate removal and Jev (section 3).
 4. Hand-check 200 prompts; reseed any industry with more than 10% failures.
-5. Pre-register: commit this protocol, the prompt set, the settings file and the code to GitHub with a date.
 
 ### Pilot
 
-6. Send 100 prompts, spread across all industries and templates, to the 4 engines: 400 answers.
-7. Run steps 10 to 14 on the pilot answers.
-8. Go on only if: at least 95% of requests return a parsed answer on every engine; brands are found in at least 90% of answers; every measure computes on at least 95% of crawled pages; Jev agrees with a person on 50 answers and 50 pages (kappa 0.7 or higher). Otherwise fix the cause and repeat the pilot.
+5. Send 100 prompts, spread across all industries and templates, to the 4 engines: 400 answers.
+6. Run steps 10 to 14 on the pilot answers.
+7. Go on only if: at least 95% of requests return a parsed answer on every engine; brands are found in at least 90% of answers; every measure computes on at least 95% of fetched pages; Jev agrees with a person on 50 answers and 50 pages (kappa 0.7 or higher). Otherwise fix the cause and repeat the pilot.
 
 ### Collection
 
-9. Send all 4,000 prompts to the 4 engines through Oxylabs (US, English); retry failed requests up to two times.
-10. Build a brand list per industry: Claude drafts names and aliases from a sample of answers, products count for their maker (Pixel counts for Google), and a person reviews the list.
-11. Find recommendations: match brand names in each answer, Jev labels each brand recommended or only mentioned, then attach the link behind each recommendation and label its type.
-12. Crawl every page behind a recommendation with Screaming Frog in list mode, with JavaScript rendering, stored HTML and PageSpeed Insights (mobile). Oxylabs fetches pages that block the crawler.
+8. Pre-register: commit this protocol, the prompt set, the settings file and the code to GitHub with a date.
+9. Send all 4,000 prompts to ChatGPT, Gemini and Google AI Mode through Oxylabs and to Perplexity through the Sonar API (US, English); retry failed requests up to two times.
+10. Build a brand list per industry: Claude drafts names and aliases from a sample of answers, products count for their maker (Pixel counts for Google), fixed rules drop aliases of one or two characters and match aliases that are everyday words only with their capital letter, and a person reviews the list. The lists reviewed in the pilot are kept for the full run; brands in full-run answers that are not on them are drafted the same way, and a person reviews only those additions.
+11. Find recommendations: match brand names in each answer, Jev answers whether the answer names its own pick, whether each brand is one of its picks and whether each brand is offered as an option, and the rule in section 4 labels each brand recommended or only mentioned; then attach the link behind each recommendation and label who owns the page.
+12. Fetch every page behind a recommendation once, with a desktop Chrome user agent; pages that block the request, come back without text, or send the request to another language version are fetched again through Oxylabs from the United States, up to three tries: a plain request (with JavaScript rendering for pages that came back without text), the same request with a mobile browser identity, then the other of the two. Run PageSpeed Insights (mobile) on every measured page.
 
 ### Measurement
 
-13. Compute the page and brand-on-page measures from the stored HTML (section 5).
+13. Compute the page and brand-on-page measures from each page's HTML as it is fetched (section 5); pages are not stored.
 14. Collect the rest: Jev labels page type and criticism of each brand, code checks for markdown page versions, and domain and page ranks are fetched.
 15. Hand-check the measures (section 7).
 
@@ -107,15 +107,15 @@ Sixteen steps in five phases, run in order. Pilot data are not used in the resul
 
 ## 5. Measures
 
-Every measure is a raw value. Main content means the page without header, footer, navigation, sidebars and comments, extracted with trafilatura; rates are per 100 words of main content.
+Every measure is a raw value. Main content means the page without header, footer, navigation, sidebars and comments, extracted by the study's own code (published in the repository; on 112 pilot pages its word counts matched trafilatura's with a median ratio of 1.04); rates are per 100 words of main content.
 
 ### Answers
 
 | Measure | Recorded as | Source |
 | --- | --- | --- |
-| Recommended brands | Brands in order of first appearance, each labelled recommended or only mentioned | Answer text, brand list, Jev |
-| Link behind a recommendation | The URL in the same sentence or list item (inline link or citation marker); for engines without positions, a citation whose page names the brand | Answer and its citations |
-| Link type | Own site, competitor, third party, social or video, no link | Link domain vs brand list |
+| Recommended brands | Brands in order of first appearance, each labelled recommended or only mentioned. When the answer itself singles out brands, at the start, at the end or as its suggestion for a purpose ("the top choices are X and Y", "I recommend X", "I would look into X or Y first"), only those brands are recommended; alternatives next to them, such as "if your budget is lower, consider Z" after a stated top choice, count as mentioned. When it singles out none and only gives a list (a short list, or "best for ..." entries, even one labelled "best overall"), every brand it offers as an option is recommended. Brands named for comparison, background or a warning are always mentioned. The rule is applied to each answer by what it says, whatever engine wrote it | Answer text, brand list, Jev |
+| Link behind a recommendation | The URL cited in the same sentence, list item or paragraph as the recommended brand (inline link, citation marker or cited passage); if that part names no brand, the brand whose list item or section it sits in. Only links behind recommendations are analysed | Answer and its citations |
+| Page owner | Who owns the page behind the recommendation, relative to the recommended brand, one label each, checked in this order: own site (the brand's own domain), retailer (Amazon, Walmart, Best Buy, app stores), review platform (G2, Capterra, Trustpilot, Yelp, Clutch), social media (YouTube, Reddit, X, LinkedIn, Quora, TikTok), other (government, education, Wikipedia), competitor (another brand in the same industry list; a competitor missing from the list counts as publisher), publisher (every other site: media, magazines, blogs); or no link | Link domain vs brand list and fixed lists of retail, review and social sites |
 | Own site cited anywhere | Yes or no: the brand's domain appears anywhere among the answer's citations and links | Citations |
 | Citations | Every cited URL, for the share of recommended brands that are also cited | Citations |
 | Reach (RQ1 outcome) | Number of recommendations whose link is the page | Derived |
@@ -129,7 +129,7 @@ Every measure is a raw value. Main content means the page without header, footer
 | Title length | Characters | HTML |
 | Meta description length | Characters; 0 when missing | HTML |
 | Structured data | Each schema.org type present, yes or no (Article, Product, Review, FAQPage, ItemList, HowTo, Organization, Person, BreadcrumbList, other), plus the number of types | JSON-LD, microdata, RDFa |
-| Server response time | Seconds | Screaming Frog |
+| Server response time | Seconds | PageSpeed Insights API (lab test, mobile) |
 | Core Web Vitals, field | LCP (s), INP (ms), CLS, FCP (s), TTFB (s) from real Chrome users over 28 days; page level, or origin level (flagged) when the page has too little traffic | PageSpeed Insights API (CrUX), mobile |
 | Speed, lab | Performance score, LCP, CLS, Total Blocking Time, FCP, Speed Index | PageSpeed Insights API (Lighthouse), mobile |
 | Markdown for AI | A markdown version of the page (alternate link tag, .md URL, or a markdown reply to `Accept: text/markdown`) | HTTP requests |
@@ -138,11 +138,12 @@ Every measure is a raw value. Main content means the page without header, footer
 
 | Measure | Recorded as | Source |
 | --- | --- | --- |
-| Word count | Words of main content | trafilatura |
+| Word count | Words of main content | Main content |
 | H2 and H3 sections | Number of each | HTML |
 | Lists, list items, tables | Number of each in the main content | HTML |
 | External links | Links in the main content to other domains | HTML |
 | Internal links | Links in the main content to the same domain | HTML |
+| Broken links | Links in the main content, internal and external, whose address answers 404, 410 or a server error (5xx), or whose domain does not respond: the count, internal and external separately, and the share of links checked. Links that answer 401, 403 or 429, or time out, count as not checked | HTTP requests |
 | Statistics | Figures written in digits (percentages, prices, counts, ratings) per 100 words; years and list numbers not counted | Main content |
 | Author named | Yes or no: byline, author meta tag or schema author | HTML |
 | Reviewer named | Yes or no: schema reviewedBy, or a “Reviewed by” or “Fact-checked by” line | HTML |
@@ -163,7 +164,7 @@ Recorded for every brand a page names, recommended or not, so recommended brands
 | Words on the brand | Words in the brand's own section | Main content |
 | Share of words | Words on the brand divided by words on all brands on the page, and its ratio to the average of the other brands | Main content |
 | Price shown | Yes or no: a price or plan in the brand's section | Main content |
-| Criticism | Yes or no: the page says something negative about the brand, such as a drawback, a limitation or who it does not suit | Jev |
+| Criticism | Yes or no: the page criticizes the brand: a drawback, weakness, complaint or con, or who it does not suit; plain facts such as prices, fees, plan limits or fine print count only when the page presents them as a downside | Jev |
 
 ### Controls
 
@@ -171,7 +172,7 @@ Recorded for every brand a page names, recommended or not, so recommended brands
 | --- | --- | --- |
 | Domain rank | Backlink-based authority on a 0–1,000 scale | Backlink index |
 | Page rank | Backlink-based authority of the URL, 0–1,000 | Backlink index |
-| Page type | Listicle, single review, comparison, brand's own page, forum or Q&A, news, video, other | Jev |
+| Page type | The page's format, kept apart from who owns it, one label each: listicle (several options, ranked or not, such as "best X", "top 10 X" or "X alternatives"), comparison (two or three named options side by side, such as "X vs Y"), review (an assessment of one product), article (an informational article that does not list or rank options, such as a how-to, an explainer or a buying guide), news (recent events, including press releases), homepage, product page (one product, plan or service), pricing page (one company's plans and prices), category page (a store page listing many products of one kind), directory (many companies with a profile each, such as G2, Clutch or Yelp), forum (a discussion thread, such as Reddit, Quora or a community), video, documentation (a help center or product documentation), other | Jev |
 | Brand fame (RQ2) | The brand's own domain rank | Backlink index |
 | Industry, engine, template | Taken from the prompt and the request | Prompt set |
 
@@ -181,9 +182,9 @@ Each measure is tested on its own, with the same controls, so the report can say
 
 | Part | Method | Reported as |
 | --- | --- | --- |
-| Descriptive (RQ3 and all measures) | Shares of link types and of recommended brands also cited, by engine and industry; median and quartiles of every page measure | Shares with 95% bootstrap intervals (1,000 resamples, clustered by prompt); distribution charts |
+| Descriptive (RQ3 and all measures) | Shares of page owners and of recommended brands also cited, by engine and industry; median and quartiles of every page measure | Shares with 95% bootstrap intervals (1,000 resamples, clustered by prompt); distribution charts |
 | RQ1: page measures | Negative binomial regression of reach minus 1 on one measure plus log domain rank, log page rank, page type and industry; standard errors clustered by domain | Rate ratio per standard deviation (or yes vs no) with 95% interval |
-| RQ2: brand on a page | Conditional logistic regression, one group per answer and cited page, on one measure plus brand fame; pages naming at least 2 brands | Odds ratio per standard deviation (or yes vs no) with 95% interval |
+| RQ2: brand on a page | Conditional logistic regression, one group per answer and a page behind one of its recommendations, on one measure plus brand fame; pages naming at least 2 brands | Odds ratio per standard deviation (or yes vs no) with 95% interval |
 | Robustness | RQ1 with all page measures in one model, keeping one of any pair correlated above 0.8 | Rate ratios side by side |
 | Splits | RQ1 and RQ2 rerun per engine (reach counted on that engine only); per industry, descriptive only | Same as above |
 
@@ -194,9 +195,9 @@ Each measure is tested on its own, with the same controls, so the report can say
 **Exclusions**, each counted in a flow table in the report:
 
 - Answers still failing after two retries.
-- Pages with no HTML after the crawl and one Oxylabs retry, and non-English pages.
+- Pages with no HTML after the fetch and up to three Oxylabs tries, and non-English pages.
 - Pages with under 200 words of main content (blocked, image-only or app shells), from content measures only.
-- Video pages (YouTube, TikTok): kept in the link statistics, left out of the page measures.
+- Video pages (YouTube, TikTok) and Google search or shopping result links: kept in the link statistics, left out of the page measures.
 
 **Missing data:** nothing is imputed. A page missing a measure leaves only that measure's model. Core Web Vitals use origin-level data when page-level data is missing, flagged in the data; “no date” is its own category for last updated.
 
@@ -204,17 +205,21 @@ Each measure is tested on its own, with the same controls, so the report can say
 
 ## 7. Data quality
 
-A person checks random samples against the automated values before analysis. A yes-or-no measure with agreement below kappa 0.7, or a count off by more than 10% on average, is reported as exploratory only.
+A person checks random samples against the automated values before analysis; each sample shows suggested marks from a second reader, which the person confirms or changes. A yes-or-no measure with agreement below kappa 0.7, or a count off by more than 10% on average, is reported as exploratory only.
 
 | What is checked | Sample | Against |
 | --- | --- | --- |
 | Prompts follow the rules | 200 prompts | Section 3 rules |
-| Recommended or only mentioned (Jev) | 200 answers | A person's reading |
-| Link behind each recommendation and its type | 200 answers | A person's reading |
+| Recommended or only mentioned (Jev) | 30 answers | A person's reading |
+| Link behind each recommendation and its page owner | 30 answers | A person's reading |
 | Brand list: names and aliases | Every industry list | Brands found in a 20-answer sample |
-| Page measures: headings, words, links, dates, author, reviewer | 100 pages | The page in a browser |
-| Brand on a page: position, section, words, price | 100 pages | The page in a browser |
-| Page type and criticism (Jev) | 100 pages | A person's reading |
+| Page measures: headings, words, links, dates, author, reviewer | 30 pages | The page in a browser |
+| Brand on a page: position, section, words, price | 30 pages | The page in a browser |
+| Page type and criticism (Jev) | 30 pages | A person's reading |
+
+**Pilot check, recommended or only mentioned:** once the recommendation rule was fixed, suggested marks for 130 brands in 30 new pilot answers were read and marked by a person. Agreement with Jev: 91.5%, kappa 0.82 (Perplexity 0.92, Gemini 0.86, Google AI Mode 0.78, ChatGPT 0.56).
+
+**Pilot check, pages:** suggested marks for 30 pilot pages behind recommendations were read and marked by a person. Agreement with the study's values: page type 93%, kappa 0.92; page owner 97%, kappa 0.96. Criticism reached 74%, kappa 0.51, because the first question also counted plain facts such as prices, fees and plan limits as negative; the question was narrowed to real criticism (kappa 0.85 on the same pages) and then checked on 20 new pages, where suggested marks for 61 brands were read and marked by a person: agreement 98%, kappa 0.97. A person also reviewed all 668 brands in the 40 industry brand lists and flagged none.
 
 **Fixed settings:** Jev is pinned to jev-1.14.0 and the Claude model to claude-sonnet-5-5; every response records the model that answered. Prompts, settings and code are frozen at pre-registration.
 
@@ -222,8 +227,8 @@ A person checks random samples against the automated values before analysis. A y
 
 - **One****market.** Answers change over time and by place; this is one collection run, from the US, in English.
 - **Logged-out answers.** Logged-in and personalised answers can differ.
-- **Automated judgments.** Brand matching, recommended-or-mentioned and criticism are automated; the hand-checks in section 7 measure their error.
-- **Answer-level citations.** For engines that do not show which citation supports which sentence, a link is assigned only when the page names the brand, which is less precise.
+- **Automated judgments.** Brand matching, recommended-or-mentioned, page type and criticism are automated; the hand-checks in section 7 measure their error. Jev can also give a different label when the same question is asked again: two reruns of the recommended-or-mentioned step on the same pilot answers changed 36 and 45 of 1,852 labels (about 2%), and agreement with the person's reading stayed at kappa 0.82.
+- **Link attribu****tion****.** All four engines show where each citation sits; a citation in a part of the answer that names no brand is given to the brand whose list item or section it sits in, which can be wrong; the hand-check in section 7 measures how often.
 - **Field speed data.** Real-user Core Web Vitals exist only for pages and sites with enough Chrome traffic; the rest rely on origin-level or lab data.
 
 **Outputs**
@@ -231,7 +236,7 @@ A person checks random samples against the automated values before analysis. A y
 - **Pre-registration:** a dated GitHub commit of this protocol, the prompt set, the settings file and the code, made before collection.
 - **Report:** findings and charts on snoika.com Reports.
 - **Public dataset:** prompts, recommendations with their links, and the page and brand-on-page measures.
-- **Code:** the Python scripts and settings file, on GitHub.
+- **Code:** the n8n workflows with their JavaScript, and the Python analysis script, on GitHub.
 - **Not released:** API keys and stored copies of other sites' pages.
 
 ## Appendix A: Industries and subcategories
@@ -339,6 +344,8 @@ Jev (jev-1.14.0) answers each question against one state: the prompt, the answer
 | Prompt filter | Yes or no | Is `prompt` about {subcategory} in the {industry} industry? | Candidate prompt |
 | Prompt filter | Yes or no | Is `prompt` free of any brand, product or company name? | Candidate prompt |
 | Prompt filter | Yes or no | Does prompt explicitly ask which brand, company, product, platform, app, service, provider or store to choose, so that naming only a type or style of product would not answer it? | Candidate prompt |
-| Recommendations | Yes or no | Does `answer` recommend {brand} to the reader as an option to choose, rather than only mentioning it? | Answer text |
-| Page type | Choice | What kind of page is `page`: a list of several options, a review of one product, a comparison of two or three options, the brand's own page, a forum or Q&A thread, a news article, a video page, or other? | Page main content |
-| Criticism | Yes or no | Does `page` say anything negative about {brand}, such as a drawback, a limitation, a missing feature or who it does not suit? | Page main content |
+| Brand offered as an option | Yes or no | Does `answer` recommend {brand} to the reader as an option to choose, rather than only mentioning it? | Answer text |
+| Answer names its own pick | Yes or no | Does `answer` say which brand or brands it recommends, such as a top pick, "I recommend", "I would shortlist" or "the best choices are", rather than only listing options or saying it depends? | Answer text |
+| Brand is one of the picks | Yes or no | Is {brand} one of the brands that `answer` names as its own choice: its top pick, the brand or brands it says it recommends, or the short list it says to choose from (for example "I would shortlist X, Y and Z", "the top choices are X and Y", "Top recommended")? Answer no if {brand} is only a further option, an alternative, or named best only for a particular situation or type of buyer. | Answer text |
+| Page type | Choice | What kind of page is `page`, by its format (not by who owns it): listicle, comparison, review, article, news, homepage, product page, pricing page, category page, directory, forum, video, documentation or other? Each option carries its one-line definition from the Page type row in section 5. | Page main content |
+| Criticism | Yes or no | Does `page` criticize {brand}: does it state a drawback, weakness, complaint or con of {brand}, or say who {brand} does not suit? Answer no for plain facts such as prices, fees, plan limits, what a plan does not include, availability or fine print, unless the page presents them as a downside of {brand}. | Page main content |

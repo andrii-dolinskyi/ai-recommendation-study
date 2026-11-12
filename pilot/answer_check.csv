@@ -1,0 +1,131 @@
+answer_id,engine,prompt,brand,mention_order,person,jev_recommended,jev_p_recommended
+P18-5-5-3_google_ai_mode,google_ai_mode,I want to edit video and also play games on one machine without buying two computers. Which laptop brand is the best fit?,Apple,1,recommended,True,0.92
+P18-5-5-3_google_ai_mode,google_ai_mode,I want to edit video and also play games on one machine without buying two computers. Which laptop brand is the best fit?,ASUS,2,recommended,True,0.95
+P18-5-5-3_google_ai_mode,google_ai_mode,I want to edit video and also play games on one machine without buying two computers. Which laptop brand is the best fit?,Lenovo,3,recommended,True,0.92
+P15-4-5-3_google_ai_mode,google_ai_mode,"My parents have no savings for funeral costs, so which company should I buy final expense insurance from for them?",Mutual of Omaha,1,recommended,True,0.97
+P15-4-5-3_google_ai_mode,google_ai_mode,"My parents have no savings for funeral costs, so which company should I buy final expense insurance from for them?",Transamerica,2,recommended,True,0.94
+P15-4-5-3_google_ai_mode,google_ai_mode,"My parents have no savings for funeral costs, so which company should I buy final expense insurance from for them?",Aetna,3,recommended,True,0.95
+P15-4-5-3_google_ai_mode,google_ai_mode,"My parents have no savings for funeral costs, so which company should I buy final expense insurance from for them?",Colonial Penn,4,recommended,True,0.79
+P15-4-5-3_google_ai_mode,google_ai_mode,"My parents have no savings for funeral costs, so which company should I buy final expense insurance from for them?",Gerber Life,5,recommended,True,0.82
+P22-1-2-2_chatgpt,chatgpt,Which brand makes the best console for a competitive shooter player who wants fast response and smooth frame rates?,Sony PlayStation,1,recommended,True,0.72
+P22-1-2-2_chatgpt,chatgpt,Which brand makes the best console for a competitive shooter player who wants fast response and smooth frame rates?,Microsoft Xbox,2,recommended,True,0.63
+P07-2-2-3_perplexity,perplexity,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,SAP Commerce Cloud,1,recommended,True,0.8
+P07-2-2-3_perplexity,perplexity,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,OroCommerce,2,recommended,True,0.95
+P07-2-2-3_perplexity,perplexity,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,Salesforce B2B Commerce,3,mentioned,False,0.06
+P07-2-2-3_perplexity,perplexity,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,NetSuite SuiteCommerce,4,mentioned,False,0.05
+P07-2-2-3_perplexity,perplexity,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,Adobe Commerce,5,mentioned,False,0.06
+P07-2-2-3_perplexity,perplexity,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,Shopify Plus,6,mentioned,False,0.07
+P07-2-2-3_perplexity,perplexity,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,BigCommerce B2B Edition,7,not sure,False,0.09
+P01-1-5-3_perplexity,perplexity,My leads keep slipping through the cracks because we track them in spreadsheets. What CRM should I use?,HubSpot,1,recommended,True,0.94
+P01-1-5-3_perplexity,perplexity,My leads keep slipping through the cracks because we track them in spreadsheets. What CRM should I use?,Pipedrive,2,recommended,False,0.37
+P01-1-5-3_perplexity,perplexity,My leads keep slipping through the cracks because we track them in spreadsheets. What CRM should I use?,Zoho,3,mentioned,False,0.06
+P01-1-5-3_perplexity,perplexity,My leads keep slipping through the cracks because we track them in spreadsheets. What CRM should I use?,Nimble,4,mentioned,False,0.05
+P01-1-5-3_perplexity,perplexity,My leads keep slipping through the cracks because we track them in spreadsheets. What CRM should I use?,Freshsales,5,mentioned,False,0.05
+P13-4-3-1_chatgpt,chatgpt,Which crypto exchange offers staking rewards on the widest range of coins for US users?,Kraken,1,recommended,True,0.73
+P13-4-3-1_chatgpt,chatgpt,Which crypto exchange offers staking rewards on the widest range of coins for US users?,Binance.US,2,recommended,True,0.94
+P13-4-3-1_chatgpt,chatgpt,Which crypto exchange offers staking rewards on the widest range of coins for US users?,Coinbase,3,mentioned,False,0.04
+P13-4-3-1_chatgpt,chatgpt,Which crypto exchange offers staking rewards on the widest range of coins for US users?,Gemini,4,mentioned,False,0.03
+P28-3-5-1_gemini,gemini,"I don't have time to photograph and list my clothes myself, which consignment service should I use to sell them?",ThredUp,1,recommended,False,0.49
+P28-3-5-1_gemini,gemini,"I don't have time to photograph and list my clothes myself, which consignment service should I use to sell them?",The RealReal,2,recommended,True,0.74
+P28-3-5-1_gemini,gemini,"I don't have time to photograph and list my clothes myself, which consignment service should I use to sell them?",Luxury Garage Sale,3,mentioned,False,0.18
+P28-3-5-1_gemini,gemini,"I don't have time to photograph and list my clothes myself, which consignment service should I use to sell them?",Crossroads Trading,4,mentioned,False,0.21
+P28-3-5-1_gemini,gemini,"I don't have time to photograph and list my clothes myself, which consignment service should I use to sell them?",Uptown Cheapskate,5,mentioned,False,0.09
+P38-5-3-2_gemini,gemini,Which rental car company has the best contactless app-based pickup with no counter visit?,National Car Rental,1,recommended,True,0.85
+P38-5-3-2_gemini,gemini,Which rental car company has the best contactless app-based pickup with no counter visit?,Hertz,2,recommended,True,0.84
+P38-5-3-2_gemini,gemini,Which rental car company has the best contactless app-based pickup with no counter visit?,Avis,3,mentioned,False,0.13
+P38-5-3-2_gemini,gemini,Which rental car company has the best contactless app-based pickup with no counter visit?,Enterprise,4,mentioned,False,0.11
+P35-4-2-4_gemini,gemini,Which GPS tracker brand works best for a family with an escape-artist husky?,Fi,1,recommended,True,0.54
+P35-4-2-4_gemini,gemini,Which GPS tracker brand works best for a family with an escape-artist husky?,Tractive,2,mentioned,False,0.33
+P35-4-2-4_gemini,gemini,Which GPS tracker brand works best for a family with an escape-artist husky?,Garmin,3,mentioned,False,0.2
+P13-4-5-2_gemini,gemini,"I'm tired of high fees eating into my small crypto trades, which exchange should I switch to?",Kraken,1,recommended,True,0.96
+P13-4-5-2_gemini,gemini,"I'm tired of high fees eating into my small crypto trades, which exchange should I switch to?",Coinbase,2,recommended,True,0.78
+P13-4-5-2_gemini,gemini,"I'm tired of high fees eating into my small crypto trades, which exchange should I switch to?",Robinhood,3,recommended,True,0.86
+P13-4-5-2_gemini,gemini,"I'm tired of high fees eating into my small crypto trades, which exchange should I switch to?",Webull,4,recommended,True,0.87
+P13-4-5-2_gemini,gemini,"I'm tired of high fees eating into my small crypto trades, which exchange should I switch to?",Binance.US,5,recommended,True,0.92
+P15-5-4-1_chatgpt,chatgpt,Which affordable pet insurance company still has good coverage for a mid-sized dog on a tight budget?,Pets Best,1,recommended,True,0.58
+P15-5-4-1_chatgpt,chatgpt,Which affordable pet insurance company still has good coverage for a mid-sized dog on a tight budget?,ASPCA Pet Health Insurance,2,recommended,False,0.11
+P15-5-4-1_chatgpt,chatgpt,Which affordable pet insurance company still has good coverage for a mid-sized dog on a tight budget?,Figo,3,recommended,False,0.16
+P37-5-1-3_chatgpt,chatgpt,Who offers the best pet travel program among US airlines?,Alaska Airlines,1,recommended,True,0.97
+P37-5-1-3_chatgpt,chatgpt,Who offers the best pet travel program among US airlines?,Southwest Airlines,2,recommended,False,0.17
+P37-5-1-3_chatgpt,chatgpt,Who offers the best pet travel program among US airlines?,Delta Air Lines,3,recommended,False,0.14
+P37-5-1-3_chatgpt,chatgpt,Who offers the best pet travel program among US airlines?,Hawaiian Airlines,4,recommended,False,0.05
+P02-1-2-2_google_ai_mode,google_ai_mode,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?,Semrush,1,mentioned,False,0.02
+P02-1-2-2_google_ai_mode,google_ai_mode,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?,Ahrefs,2,mentioned,False,0.02
+P02-1-2-2_google_ai_mode,google_ai_mode,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?,Rank Math,3,recommended,True,0.94
+P02-1-2-2_google_ai_mode,google_ai_mode,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?,Yoast SEO,4,recommended,True,0.91
+P02-1-2-2_google_ai_mode,google_ai_mode,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?,Google Search Console,5,recommended,True,0.98
+P02-1-2-2_google_ai_mode,google_ai_mode,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?,WP Recipe Maker,6,recommended,True,0.96
+P02-1-2-2_google_ai_mode,google_ai_mode,Which SEO software is best for a beginner who just launched a food blog and has no technical skills?,Google Trends,7,recommended,True,0.96
+P31-3-1-3_perplexity,perplexity,Which brand makes the best anti-aging serum overall?,Estée Lauder,1,recommended,True,0.71
+P31-3-1-3_perplexity,perplexity,Which brand makes the best anti-aging serum overall?,SkinCeuticals,2,mentioned,False,0.14
+P31-3-1-3_perplexity,perplexity,Which brand makes the best anti-aging serum overall?,Medik8,3,mentioned,False,0.1
+P31-3-1-3_perplexity,perplexity,Which brand makes the best anti-aging serum overall?,L'Oréal Paris,4,mentioned,False,0.12
+P31-3-1-3_perplexity,perplexity,Which brand makes the best anti-aging serum overall?,The Ordinary,5,mentioned,False,0.13
+P07-2-2-3_google_ai_mode,google_ai_mode,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,SAP Commerce Cloud,1,recommended,True,0.91
+P07-2-2-3_google_ai_mode,google_ai_mode,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,Adobe Commerce,2,recommended,True,0.87
+P07-2-2-3_google_ai_mode,google_ai_mode,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,commercetools,3,recommended,True,0.91
+P07-2-2-3_google_ai_mode,google_ai_mode,Which B2B e-commerce provider is best for a global enterprise with several international subsidiaries?,OroCommerce,4,recommended,True,0.86
+P31-3-1-3_google_ai_mode,google_ai_mode,Which brand makes the best anti-aging serum overall?,SkinCeuticals,1,recommended,True,0.97
+P31-3-1-3_google_ai_mode,google_ai_mode,Which brand makes the best anti-aging serum overall?,SkinMedica,2,recommended,True,0.96
+P31-3-1-3_google_ai_mode,google_ai_mode,Which brand makes the best anti-aging serum overall?,The Ordinary,3,recommended,True,0.97
+P31-3-1-3_google_ai_mode,google_ai_mode,Which brand makes the best anti-aging serum overall?,Good Molecules,4,recommended,False,0.44
+P31-3-1-3_google_ai_mode,google_ai_mode,Which brand makes the best anti-aging serum overall?,La Roche-Posay,5,recommended,True,0.97
+P31-3-1-3_google_ai_mode,google_ai_mode,Which brand makes the best anti-aging serum overall?,Medik8,6,recommended,True,0.85
+P35-4-5-3_perplexity,perplexity,"I lose signal with my hunting dog in the woods all the time, which GPS tracker brand works best there?",Garmin,1,recommended,True,0.87
+P35-4-5-3_perplexity,perplexity,"I lose signal with my hunting dog in the woods all the time, which GPS tracker brand works best there?",Dogtra,2,mentioned,False,0.23
+P35-4-5-3_perplexity,perplexity,"I lose signal with my hunting dog in the woods all the time, which GPS tracker brand works best there?",Tractive,3,mentioned,False,0.04
+P35-4-5-3_perplexity,perplexity,"I lose signal with my hunting dog in the woods all the time, which GPS tracker brand works best there?",Fi,4,mentioned,False,0.03
+P23-2-2-1_chatgpt,chatgpt,Which password manager is best for a family of five with teenagers?,1Password,1,recommended,True,0.96
+P23-2-2-1_chatgpt,chatgpt,Which password manager is best for a family of five with teenagers?,Bitwarden,2,mentioned,True,0.64
+P23-2-2-1_chatgpt,chatgpt,Which password manager is best for a family of five with teenagers?,NordPass,3,mentioned,False,0.04
+P23-2-2-1_chatgpt,chatgpt,Which password manager is best for a family of five with teenagers?,Dashlane,4,mentioned,False,0.03
+P39-5-4-3_google_ai_mode,google_ai_mode,Which brand has the best coffee subscription for a budget of $30 a month?,Coffee Bros.,1,recommended,True,0.95
+P39-5-4-3_google_ai_mode,google_ai_mode,Which brand has the best coffee subscription for a budget of $30 a month?,Peet's Coffee,2,recommended,True,0.95
+P39-5-4-3_google_ai_mode,google_ai_mode,Which brand has the best coffee subscription for a budget of $30 a month?,Counter Culture Coffee,3,recommended,True,0.95
+P39-5-4-3_google_ai_mode,google_ai_mode,Which brand has the best coffee subscription for a budget of $30 a month?,Equator Coffees,4,recommended,True,0.94
+P07-3-1-1_chatgpt,chatgpt,What is the best print on demand platform for starting an online merch business?,Printify,1,recommended,True,0.82
+P07-3-1-1_chatgpt,chatgpt,What is the best print on demand platform for starting an online merch business?,Printful,2,recommended,True,0.72
+P07-3-1-1_chatgpt,chatgpt,What is the best print on demand platform for starting an online merch business?,Etsy,3,recommended,False,0.49
+P07-3-1-1_chatgpt,chatgpt,What is the best print on demand platform for starting an online merch business?,Shopify Plus,4,mentioned,False,0.04
+P07-3-1-1_chatgpt,chatgpt,What is the best print on demand platform for starting an online merch business?,Gelato,5,mentioned,False,0.11
+P07-3-1-1_chatgpt,chatgpt,What is the best print on demand platform for starting an online merch business?,Fourthwall,6,mentioned,False,0.17
+P07-3-1-1_chatgpt,chatgpt,What is the best print on demand platform for starting an online merch business?,Redbubble,7,mentioned,False,0.05
+P12-3-2-4_gemini,gemini,Which remittance service works best for a nurse sending money to parents in the Philippines?,Wise,1,recommended,True,0.97
+P12-3-2-4_gemini,gemini,Which remittance service works best for a nurse sending money to parents in the Philippines?,Sendwave,2,recommended,True,0.95
+P12-3-2-4_gemini,gemini,Which remittance service works best for a nurse sending money to parents in the Philippines?,Smiles Mobile Remittance,3,mentioned,True,0.93
+P12-3-2-4_gemini,gemini,Which remittance service works best for a nurse sending money to parents in the Philippines?,Western Union,4,recommended,True,0.94
+P12-3-2-4_gemini,gemini,Which remittance service works best for a nurse sending money to parents in the Philippines?,MoneyGram,5,recommended,True,0.92
+P12-3-2-4_gemini,gemini,Which remittance service works best for a nurse sending money to parents in the Philippines?,Remitly,6,mentioned,False,0.04
+P12-3-2-4_gemini,gemini,Which remittance service works best for a nurse sending money to parents in the Philippines?,Xoom,7,mentioned,False,0.04
+P31-3-3-4_google_ai_mode,google_ai_mode,Which brand has the best peptide serum for firming skin?,SkinCeuticals,1,recommended,True,0.91
+P19-1-3-1_perplexity,perplexity,Which brand makes the best noise-cancelling headphones that fold flat for a small carry-on bag?,Sony,1,recommended,True,0.81
+P19-1-3-1_perplexity,perplexity,Which brand makes the best noise-cancelling headphones that fold flat for a small carry-on bag?,Bose,2,mentioned,False,0.16
+P19-1-3-1_perplexity,perplexity,Which brand makes the best noise-cancelling headphones that fold flat for a small carry-on bag?,Soundcore,3,mentioned,False,0.15
+P19-5-4-3_perplexity,perplexity,What is the best budget brand for running earbuds under $100 that can survive heavy sweat?,Soundcore,1,recommended,True,0.6
+P19-5-4-3_perplexity,perplexity,What is the best budget brand for running earbuds under $100 that can survive heavy sweat?,JLab,2,mentioned,False,0.1
+P19-5-4-3_perplexity,perplexity,What is the best budget brand for running earbuds under $100 that can survive heavy sweat?,EarFun,3,mentioned,False,0.1
+P31-3-3-4_chatgpt,chatgpt,Which brand has the best peptide serum for firming skin?,Medik8,1,recommended,True,0.79
+P31-3-3-4_chatgpt,chatgpt,Which brand has the best peptide serum for firming skin?,The Ordinary,2,mentioned,False,0.2
+P31-3-3-4_chatgpt,chatgpt,Which brand has the best peptide serum for firming skin?,Biossance,3,mentioned,False,0.2
+P30-3-5-2_gemini,gemini,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?",Adidas,1,recommended,True,0.96
+P30-3-5-2_gemini,gemini,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?",Nike,2,recommended,True,0.95
+P30-3-5-2_gemini,gemini,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?",Allbirds,3,recommended,True,0.95
+P30-3-5-2_gemini,gemini,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?",ASICS,4,recommended,True,0.94
+P30-3-5-2_gemini,gemini,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?",New Balance,5,recommended,True,0.95
+P30-3-5-2_gemini,gemini,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?",Darn Tough,6,recommended,True,0.88
+P30-3-5-2_gemini,gemini,"My feet sweat and overheat on summer walks, so which brand makes the most breathable walking shoes?",Smartwool,7,recommended,True,0.89
+P15-5-4-1_gemini,gemini,Which affordable pet insurance company still has good coverage for a mid-sized dog on a tight budget?,Pets Best,1,recommended,True,0.98
+P15-5-4-1_gemini,gemini,Which affordable pet insurance company still has good coverage for a mid-sized dog on a tight budget?,Lemonade,2,recommended,True,0.97
+P15-5-4-1_gemini,gemini,Which affordable pet insurance company still has good coverage for a mid-sized dog on a tight budget?,Figo,3,recommended,True,0.97
+P32-3-2-4_gemini,gemini,What air purifier brand works best for a small college dorm room?,Levoit,1,recommended,True,0.98
+P32-3-2-4_gemini,gemini,What air purifier brand works best for a small college dorm room?,Coway,2,recommended,True,0.97
+P27-2-4-4_chatgpt,chatgpt,Which prepaid provider offers the cheapest plan with at least 10GB of data?,Infimobile,1,recommended,True,0.97
+P27-2-4-4_chatgpt,chatgpt,Which prepaid provider offers the cheapest plan with at least 10GB of data?,Tello Mobile,2,recommended,True,0.81
+P27-2-4-4_chatgpt,chatgpt,Which prepaid provider offers the cheapest plan with at least 10GB of data?,H2O Wireless,3,mentioned,False,0.05
+P27-2-4-4_chatgpt,chatgpt,Which prepaid provider offers the cheapest plan with at least 10GB of data?,US Mobile,4,mentioned,False,0.05
+P06-2-1-2_perplexity,perplexity,Which live chat software is the best overall for customer support teams?,Intercom,1,recommended,True,0.78
+P06-2-1-2_perplexity,perplexity,Which live chat software is the best overall for customer support teams?,LiveChat,2,mentioned,False,0.11
+P06-2-1-2_perplexity,perplexity,Which live chat software is the best overall for customer support teams?,Zendesk,3,mentioned,False,0.12
+P06-2-1-2_perplexity,perplexity,Which live chat software is the best overall for customer support teams?,HubSpot,4,mentioned,False,0.08
+P06-2-1-2_perplexity,perplexity,Which live chat software is the best overall for customer support teams?,tawk.to,5,mentioned,False,0.12
+P06-2-1-2_perplexity,perplexity,Which live chat software is the best overall for customer support teams?,Tidio,6,mentioned,False,0.08
