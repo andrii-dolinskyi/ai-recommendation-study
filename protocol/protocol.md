@@ -90,7 +90,7 @@ Sixteen steps in five phases, run in order. Pilot data are not used in the resul
 ### Collection
 
 8. Pre-register: commit this protocol, the prompt set, the settings file and the code to GitHub with a date.
-9. Send all 4,000 prompts to ChatGPT, Gemini and Google AI Mode through Oxylabs and to Perplexity through the Sonar API (US, English); retry failed requests up to two times.
+9. Send all 4,000 prompts to ChatGPT, Gemini and Google AI Mode through Oxylabs and to Perplexity through the Sonar API (US, English); retry failed requests up to two times. The prompts go out in four batches of 10 industries, because of storage limits in the workflow tool; each batch is exported before the next one starts.
 10. Build a brand list per industry: Claude drafts names and aliases from a sample of answers, products count for their maker (Pixel counts for Google), fixed rules drop aliases of one or two characters and match aliases that are everyday words only with their capital letter, and a person reviews the list. The lists reviewed in the pilot are kept for the full run; brands in full-run answers that are not on them are drafted the same way, and a person reviews only those additions.
 11. Find recommendations: match brand names in each answer, Jev answers whether the answer names its own pick, whether each brand is one of its picks and whether each brand is offered as an option, and the rule in section 4 labels each brand recommended or only mentioned; then attach the link behind each recommendation and label who owns the page.
 12. Fetch every page behind a recommendation once, with a desktop Chrome user agent; pages that block the request, come back without text, or send the request to another language version are fetched again through Oxylabs from the United States, up to three tries: a plain request (with JavaScript rendering for pages that came back without text), the same request with a mobile browser identity, then the other of the two. Run PageSpeed Insights (mobile) on every measured page.
@@ -200,6 +200,8 @@ Each measure is tested on its own, with the same controls, so the report can say
 - Video pages (YouTube, TikTok) and Google search or shopping result links: kept in the link statistics, left out of the page measures.
 
 **Missing data:** nothing is imputed. A page missing a measure leaves only that measure's model. Core Web Vitals use origin-level data when page-level data is missing, flagged in the data; “no date” is its own category for last updated.
+
+**Too little data:** a model is not fitted, and the report says so, when fewer than 10 pages are cited more than once (within the engine, for the per-engine models), when a yes-or-no measure has fewer than 10 pages on either side or no page cited more than once on one side, or when the fit does not reach a stable estimate.
 
 **Exploratory analysis:** anything not listed here is labelled exploratory in the report. Code: Python with statsmodels; random seed 20261105.
 

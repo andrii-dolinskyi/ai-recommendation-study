@@ -1,0 +1,185 @@
+{
+  "study": "AI Recommendation Study (AIRS)",
+  "frozen_at": "pre-registration commit (see the git tag)",
+  "market": {
+    "country": "US",
+    "language": "en"
+  },
+  "prompts": {
+    "file": "prompts/prompts.csv",
+    "count": 4000,
+    "industries": 40,
+    "pilot_file": "pilot/pilot_prompts.csv"
+  },
+  "collection": {
+    "runs": [
+      {
+        "run": "full1",
+        "industry_ids": "1-10"
+      },
+      {
+        "run": "full2",
+        "industry_ids": "11-20"
+      },
+      {
+        "run": "full3",
+        "industry_ids": "21-30"
+      },
+      {
+        "run": "full4",
+        "industry_ids": "31-40"
+      }
+    ],
+    "runs_note": "The full run is collected in four batches of 10 industries because of storage limits in n8n; each batch's tables are exported to CSV and then removed from n8n. Every prompt is sent once to each engine.",
+    "engines": {
+      "chatgpt": {
+        "via": "Oxylabs Web Scraper API (async)",
+        "payload": {
+          "source": "chatgpt",
+          "parse": true,
+          "search": true,
+          "geo_location": "United States"
+        }
+      },
+      "gemini": {
+        "via": "Oxylabs Web Scraper API (async)",
+        "payload": {
+          "source": "gemini",
+          "parse": true,
+          "geo_location": "United States"
+        }
+      },
+      "google_ai_mode": {
+        "via": "Oxylabs Web Scraper API (async)",
+        "payload": {
+          "source": "google_ai_mode",
+          "render": "html",
+          "parse": true,
+          "geo_location": "United States"
+        }
+      },
+      "perplexity": {
+        "via": "Perplexity Sonar API",
+        "body": {
+          "model": "sonar",
+          "web_search_options": {
+            "search_context_size": "low",
+            "user_location": {
+              "country": "US"
+            }
+          }
+        }
+      }
+    },
+    "attempts": "up to 3 per answer (failed requests retried up to two times)"
+  },
+  "brand_lists": {
+    "drafting_model": "claude-sonnet-5-5",
+    "max_answer_chars_per_industry": 150000,
+    "base": "the 40 industry lists drafted from the pilot answers and reviewed by a person (668 brands)",
+    "additions": "brands in full-run answers that are not on the base list are drafted the same way and reviewed by a person before step 6",
+    "alias_rules": "aliases of one or two characters and number-only aliases are dropped; aliases that are everyday English words (first 8,000 entries of a pinned common-word list) or acronyms match only case-sensitively"
+  },
+  "recommendations": {
+    "judge": {
+      "name": "Jev",
+      "model": "jev-1.14.0"
+    },
+    "threshold": 0.5,
+    "questions": {
+      "answer_singles_out": "Does `answer` itself single out one or more brands as its recommendation, at the beginning, at the end, or as its suggestion for a purpose, for example \"the top choices are X and Y\", \"I recommend X\", \"I would look into X or Y first\", \"for this goal I would suggest X and Y\" or \"the best choice is X\"? Answer no if it only gives a list of brands, including a list of \"best for ...\" entries or one labelled \"best overall\", without singling any out.",
+      "brand_singled_out": "Is {brand} one of the brands that `answer` itself singles out as its recommendation, for example \"the top choices are X and Y\", \"I recommend X\", \"I would look into X or Y first\", \"for this goal I would suggest X and Y\" or \"the best choice is X\"? Answer no if {brand} only appears as an entry in a list, even one labelled \"best for ...\" or \"best overall\", or as an alternative.",
+      "brand_offered_as_option": "Does `answer` recommend {brand} to the reader as an option to choose, rather than only mentioning it?"
+    },
+    "rule": "If the answer singles out at least one brand, only the singled-out brands are recommended; otherwise every brand offered as an option is recommended."
+  },
+  "page_owner": {
+    "labels": [
+      "own_site",
+      "competitor",
+      "publisher",
+      "retailer",
+      "review_platform",
+      "social_media",
+      "other"
+    ],
+    "order": "own_site, retailer, review_platform, social_media, other, competitor, publisher (first match wins)",
+    "code": "workflows/code/step6_attribute_links.js"
+  },
+  "pages": {
+    "fetch": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+      "accept_language": "en-US,en;q=0.9",
+      "max_redirects": 5,
+      "timeout_seconds": 20
+    },
+    "fallback": {
+      "via": "Oxylabs realtime API, universal source, geo_location United States",
+      "when": "blocked (HTTP error or challenge page), fewer than 150 words of text, or redirected to another language version",
+      "tries": [
+        "plain request (JavaScript rendering for pages that came back without text)",
+        "the same with a mobile user agent",
+        "the other of plain and rendered"
+      ]
+    },
+    "left_out": [
+      "video pages (YouTube, TikTok, Vimeo, Dailymotion)",
+      "Google search and shopping result links",
+      "pages with no HTML after all tries",
+      "non-English pages"
+    ],
+    "min_words_for_content_measures": 200,
+    "link_check": {
+      "concurrency": 24,
+      "timeout_seconds": 8,
+      "time_budget_seconds_per_batch": 150
+    }
+  },
+  "page_type": {
+    "judge": "Jev jev-1.14.0",
+    "question": "What kind of page is `page`, by its format (not by who owns it)?",
+    "labels": {
+      "listicle": "Listicle: a list of several options, ranked or not, such as \"best X\", \"top 10 X\" or \"X alternatives\".",
+      "comparison": "Comparison: two or three named options compared side by side, such as \"X vs Y\".",
+      "review": "Review: an assessment of one product.",
+      "article": "Article: an informational article that does not list or rank options, such as a how-to, an explainer or a buying guide.",
+      "news": "News: a report on recent events, including press releases.",
+      "homepage": "Homepage: the front page of a website.",
+      "product_page": "Product page: a page about one product, plan or service.",
+      "pricing_page": "Pricing page: the plans and prices of one company.",
+      "category_page": "Category page: a store page listing many products of one kind.",
+      "directory": "Directory: a listing of many companies with a profile for each, such as G2, Clutch or Yelp.",
+      "forum": "Forum: a discussion thread, such as Reddit, Quora or a community.",
+      "video": "Video: a video page.",
+      "documentation": "Documentation: a help center or product documentation page.",
+      "other": "Other: anything else."
+    }
+  },
+  "criticism": {
+    "judge": "Jev jev-1.14.0",
+    "threshold": 0.5,
+    "question": "Does `page` criticize {brand}: does it state a drawback, weakness, complaint or con of {brand}, or say who {brand} does not suit? Answer no for plain facts such as prices, fees, plan limits, what a plan does not include, availability or fine print, unless the page presents them as a downside of {brand}."
+  },
+  "pagespeed": {
+    "api": "PageSpeed Insights v5",
+    "strategy": "mobile"
+  },
+  "ranks": {
+    "what": "backlink-based ranks, 0 to 1,000, for each measured page, its domain and each brand's own domain"
+  },
+  "analysis": {
+    "code": "analysis/analysis.py",
+    "seed": 20261105,
+    "bootstrap_resamples": 1000,
+    "fdr": 0.05,
+    "min_words": 200,
+    "too_little_data": "a model is not fitted when fewer than 10 pages are cited more than once, when a yes-or-no measure has fewer than 10 pages on either side or no page cited more than once on one side, or when the fit does not converge",
+    "thesis_support": "a measure that keeps its link after correction, in the same direction on at least three of the four engines"
+  },
+  "hand_checks": {
+    "answers": 30,
+    "pages": 30,
+    "kappa_threshold": 0.7,
+    "how": "suggested marks from a second reader, confirmed or changed by a person"
+  }
+}

@@ -10,6 +10,7 @@ Every collection and measurement step runs as an n8n workflow. Each one starts w
 | 3P | AIRS 3P · Perplexity answers | Sends prompts to Perplexity's Sonar API (model `sonar`, web search, US) |
 | 4 | AIRS 4 · Fetch answers | Collects finished Oxylabs jobs: answer text, citations and links |
 | 5 | AIRS 5 · Brand lists | Claude Sonnet 5.5 drafts each industry's brand list from the answers |
+| 5n | AIRS 5n · New brands for the full run | Keeps the brand lists reviewed in the pilot and has Claude Sonnet 5.5 read every answer of a full-run batch for brands not on them; a person reviews only those additions |
 | 5b | AIRS 5b · Clean brand aliases | Fixed alias rules (short and everyday-word aliases) |
 | 6a | AIRS 6a · Resolve Google redirects | Turns google.com/goto source links into the real page address |
 | 6 | AIRS 6 · Recommendations and links | Finds brands in answers; Jev answers whether the answer names its own pick, whether each brand is one of its picks and whether each is offered as an option; the recommendation rule labels each brand recommended or only mentioned; attaches each link and labels who owns the page relative to the recommended brand, one of: own site, competitor, publisher, retailer, review platform, social media, other |
@@ -26,3 +27,16 @@ Every collection and measurement step runs as an n8n workflow. Each one starts w
 - `step7/`: page fetch with the Oxylabs fallback, broken-link check, Jev questions, row packing, page queue, and the PageSpeed queue and parsing
 
 Credentials (Oxylabs, Perplexity, Anthropic, Jev, PageSpeed, ranks) are stored in n8n and are not part of this repository.
+
+## Full run, batch by batch
+
+The full run is collected in four batches of 10 industries (`full1` = industries 1-10, `full2` = 11-20, `full3` = 21-30, `full4` = 31-40), because the n8n data tables have a storage limit. For each batch, in this order:
+
+1. Step 3 and step 3P with the batch's run name and industries, then step 4 until no job is pending.
+2. Step 5n with the batch's run name: brands in the batch's answers that are not on the reviewed pilot lists are drafted; a person reviews them, rejected ones are removed, then step 5b cleans the aliases of the full-run list (`full`).
+3. Step 6a, then step 6 with the batch's run name and the brand list `full`.
+4. Step 7 and step 7p until no page is left, then step 8.
+5. Every table of the batch is exported to `data/<batch>/` in this repository, the row counts are compared with n8n, and only then are the batch's rows removed from n8n.
+
+The hand-checks (30 answers and 30 pages) are drawn from all batches together, from the exported tables. A page cited in two batches is measured in each; the analysis keeps its latest measurement. The analysis reads `data/` with all batch folders (`python analysis/analysis.py data out --run full`).
+

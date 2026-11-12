@@ -3,7 +3,8 @@
 Usage:
   python analysis/analysis.py DATA_DIR OUT_DIR [--run full]
 
-DATA_DIR holds the exported study tables as JSON ({"rows": [...]}) or CSV:
+DATA_DIR holds the exported study tables as JSON ({"rows": [...]}) or CSV, directly or in one folder per batch
+(DATA_DIR/full1/, DATA_DIR/full2/, ...; --run full then covers full1, full2, ...):
   mentions, links, flags, pages, page_brands, psi, ranks  (one file each, .json or .csv)
   prompts.csv                                             (the frozen prompt set)
 OUT_DIR receives one CSV per result table and summary.md.
@@ -17,6 +18,7 @@ Benjamini-Hochberg (FDR 5%) separately for RQ1 and RQ2; splits per engine; robus
 """
 import argparse
 import json
+import re
 import sys
 import warnings
 from pathlib import Path
@@ -73,14 +75,25 @@ RQ2_MEASURES = {
 
 # ------------------------------------------------------------------ loading
 def load(data: Path, name: str) -> pd.DataFrame:
-    for ext in (".json", ".csv"):
-        p = data / (name + ext)
-        if p.exists():
-            if ext == ".json":
-                raw = json.loads(p.read_text())
-                return pd.DataFrame(raw["rows"] if isinstance(raw, dict) else raw)
-            return pd.read_csv(p)
-    return pd.DataFrame()
+    """One study table: DATA_DIR/<name>.json or .csv, plus the same file in each batch folder (DATA_DIR/full1/, ...)."""
+    frames = []
+    for folder in [data] + sorted(p for p in data.iterdir() if p.is_dir()):
+        for ext in (".json", ".csv"):
+            p = folder / (name + ext)
+            if p.exists():
+                if ext == ".json":
+                    raw = json.loads(p.read_text())
+                    frames.append(pd.DataFrame(raw["rows"] if isinstance(raw, dict) else raw))
+                else:
+                    frames.append(pd.read_csv(p))
+                break
+    frames = [f for f in frames if len(f)]
+    return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+
+
+def in_run(runs: pd.Series, run: str) -> pd.Series:
+    """Rows of the run, or of its batches (run 'full' covers full1, full2, ...)."""
+    return runs.astype(str).str.fullmatch(re.escape(run) + r"\d*")
 
 
 def as_bool(s: pd.Series) -> pd.Series:
@@ -126,7 +139,7 @@ def build(data: Path, run: str):
     pages, pbrands, psi, ranks = load(data, "pages"), load(data, "page_brands"), load(data, "psi"), load(data, "ranks")
     for df in (mentions, links, flags, pages, pbrands, psi, ranks):
         if "run" in df:
-            df.drop(df.index[df["run"] != run], inplace=True)
+            df.drop(df.index[~in_run(df["run"], run)], inplace=True)
     mentions["recommended"] = as_bool(mentions["recommended"])
     links["recommended"] = as_bool(links["recommended"])
     # latest row per page; measured English pages only
@@ -166,7 +179,7 @@ def build(data: Path, run: str):
     flow["under_200_words_content_excluded"] = int((pd.to_numeric(pg["word_count"], errors="coerce") < MIN_WORDS).sum())
     # brand on page x answer groups
     brand_dom = {}
-    for _, b in load(data, "brands").iterrows() if (data / "brands.json").exists() or (data / "brands.csv").exists() else []:
+    for _, b in load(data, "brands").iterrows():
         ds = [norm_domain(d) for d in str(b.get("domains") or "").split("|") if d]
         if ds:
             brand_dom[(b["brand"], int(b["industry_id"]))] = ds[0]
@@ -378,6 +391,12 @@ def main():
                 split2.append({**r, "engine": e})
     s1, s2 = pd.DataFrame(split1), pd.DataFrame(split2)
     s1.to_csv(out / "rq1_by_engine.csv", index=False); s2.to_csv(out / "rq2_by_engine.csv", index=False)
+    # models not fitted because of too little data (protocol section 6), listed so the report can say so
+    fitted = lambda df, e=None: set(df["measure"]) if len(df) and e is None else (set(df.loc[df["engine"] == e, "measure"]) if len(df) else set())
+    skipped = [{"rq": rq, "engine": e or "all", "measure": m} for rq, measures, pooled, split in
+               (("RQ1", RQ1_MEASURES, rq1, s1), ("RQ2", RQ2_MEASURES, rq2r, s2))
+               for e in [None] + ENGINES for m in measures if m not in fitted(pooled if e is None else split, e)]
+    pd.DataFrame(skipped, columns=["rq", "engine", "measure"]).to_csv(out / "not_estimated.csv", index=False)
     robustness(pg).to_csv(out / "rq1_robustness_all_measures.csv", index=False)
 
     # thesis rule: a finding after BH that points the same way on at least three of the four engines
@@ -398,6 +417,12 @@ def main():
     lines += ["", "## Thesis support", "", "Supported." if len(sup) and sup["supports_thesis"].any() else "Not supported by any measure.", ""]
     for name, df in (("RQ1 pooled", rq1), ("RQ2 pooled", rq2r)):
         lines += ["## " + name, "", df.to_markdown(index=False) if len(df) else "No model could be fitted.", ""]
+    lines += ["## Not estimated (too little data)", "", f"{len(skipped)} models; see not_estimated.csv.", ""]
+    for rq in ("RQ1", "RQ2"):
+        for e in ["all"] + ENGINES:
+            ms = [x["measure"] for x in skipped if x["rq"] == rq and x["engine"] == e]
+            if ms:
+                lines.append(f"- {rq}, {e}: " + ", ".join(ms))
     (out / "summary.md").write_text("\n".join(lines))
     print("\n".join(lines[:12]))
 
