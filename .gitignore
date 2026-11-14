@@ -9,3 +9,5 @@ raw/
 Thumbs.db
 .vscode/
 __pycache__/
+# The engines' answer texts are kept by the study team, not released
+answers.csv

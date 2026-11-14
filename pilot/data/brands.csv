@@ -1,0 +1,669 @@
+run,industry_id,industry,brand,aliases,domains,case_sensitive,model,aliases_raw,cs_aliases,dropped_aliases,source,from_run,id
+pilot,1,CRM and sales software,HubSpot,HubSpot|HubSpot CRM|Sales Hub|HubSpot Sales Hub,hubspot.com,False,claude-sonnet-5-5,HubSpot|HubSpot CRM|Sales Hub|HubSpot Sales Hub,,,,,1
+pilot,1,CRM and sales software,Zoho,Zoho|Zoho CRM|Bigin|Bigin by Zoho|Zoho One|Zoho Voice|Zia,zoho.com,False,claude-sonnet-5-5,Zoho|Zoho CRM|Bigin|Bigin by Zoho|Zoho One|Zoho Voice|Zia,Zia,,,,2
+pilot,1,CRM and sales software,Salesforce,Salesforce|Agentforce,salesforce.com,False,claude-sonnet-5-5,Salesforce|Agentforce,,,,,3
+pilot,1,CRM and sales software,Pipedrive,Pipedrive,pipedrive.com,False,claude-sonnet-5-5,Pipedrive,,,,,4
+pilot,1,CRM and sales software,Freshsales,Freshsales|Freshworks|Freshcaller|Freddy AI,freshworks.com,False,claude-sonnet-5-5,Freshsales|Freshworks|Freshcaller|Freddy AI,,,,,5
+pilot,1,CRM and sales software,Close,Close|Close CRM,close.com,True,claude-sonnet-5-5,Close|Close CRM,Close|Close CRM,,,,6
+pilot,1,CRM and sales software,Less Annoying CRM,Less Annoying CRM|LACRM,lessannoyingcrm.com,False,claude-sonnet-5-5,Less Annoying CRM|LACRM,,,,,7
+pilot,1,CRM and sales software,Salesmate,Salesmate,salesmate.io,False,claude-sonnet-5-5,Salesmate,,,,,8
+pilot,1,CRM and sales software,Microsoft Dynamics 365,Microsoft Dynamics 365|Dynamics 365,dynamics.microsoft.com|microsoft.com,False,claude-sonnet-5-5,Microsoft Dynamics 365|Dynamics 365,,,,,9
+pilot,1,CRM and sales software,CloudTalk,CloudTalk,cloudtalk.io,False,claude-sonnet-5-5,CloudTalk,,,,,10
+pilot,1,CRM and sales software,Copper,Copper,copper.com,True,claude-sonnet-5-5,Copper,Copper,,,,11
+pilot,1,CRM and sales software,Attio,Attio,attio.com,False,claude-sonnet-5-5,Attio,,,,,12
+pilot,1,CRM and sales software,Folk,Folk,folk.app,True,claude-sonnet-5-5,Folk,Folk,,,,13
+pilot,1,CRM and sales software,Nimble,Nimble,nimble.com,True,claude-sonnet-5-5,Nimble,Nimble,,,,14
+pilot,2,"Marketing, SEO and AI visibility tools",Yoast SEO,Yoast SEO|Yoast,yoast.com,False,claude-sonnet-5-5,Yoast SEO|Yoast,,,,,15
+pilot,2,"Marketing, SEO and AI visibility tools",Rank Math,Rank Math|Rank Math SEO,rankmath.com,False,claude-sonnet-5-5,Rank Math|Rank Math SEO,,,,,16
+pilot,2,"Marketing, SEO and AI visibility tools",KeySearch,KeySearch|Keysearch,keysearch.co,False,claude-sonnet-5-5,KeySearch|Keysearch,,,,,17
+pilot,2,"Marketing, SEO and AI visibility tools",Google Search Console,Google Search Console|Search Console|GSC,search.google.com,False,claude-sonnet-5-5,Google Search Console|Search Console|GSC,GSC,,,,18
+pilot,2,"Marketing, SEO and AI visibility tools",Google PageSpeed Insights,Google PageSpeed Insights|PageSpeed Insights,pagespeed.web.dev,False,claude-sonnet-5-5,Google PageSpeed Insights|PageSpeed Insights,,,,,19
+pilot,2,"Marketing, SEO and AI visibility tools",Semrush,Semrush,semrush.com,False,claude-sonnet-5-5,Semrush,,,,,20
+pilot,2,"Marketing, SEO and AI visibility tools",Ahrefs,Ahrefs|Ahrefs Starter Plan,ahrefs.com,False,claude-sonnet-5-5,Ahrefs|Ahrefs Starter Plan,,,,,21
+pilot,2,"Marketing, SEO and AI visibility tools",WP Recipe Maker,WP Recipe Maker,wprecipemaker.com,False,claude-sonnet-5-5,WP Recipe Maker,,,,,22
+pilot,2,"Marketing, SEO and AI visibility tools",Tasty Recipes,Tasty Recipes,wptasty.com,False,claude-sonnet-5-5,Tasty Recipes,,,,,23
+pilot,2,"Marketing, SEO and AI visibility tools",Google Trends,Google Trends,trends.google.com,False,claude-sonnet-5-5,Google Trends,,,,,24
+pilot,2,"Marketing, SEO and AI visibility tools",Ubersuggest,Ubersuggest,neilpatel.com|ubersuggest.com,False,claude-sonnet-5-5,Ubersuggest,,,,,25
+pilot,2,"Marketing, SEO and AI visibility tools",SEO Rank Monitor,SEO Rank Monitor,seorankmonitor.com,False,claude-sonnet-5-5,SEO Rank Monitor,,,,,26
+pilot,2,"Marketing, SEO and AI visibility tools",PicoRank,PicoRank,picorank.com,False,claude-sonnet-5-5,PicoRank,,,,,27
+pilot,2,"Marketing, SEO and AI visibility tools",PixelsCorp Rank Tracker,PixelsCorp Rank Tracker|PixelsCorp,pixelscorp.com,False,claude-sonnet-5-5,PixelsCorp Rank Tracker|PixelsCorp,,,,,28
+pilot,2,"Marketing, SEO and AI visibility tools",Mangools,Mangools|SERPWatcher|SerpWatcher|KWFinder,mangools.com,False,claude-sonnet-5-5,Mangools|SERPWatcher|SerpWatcher|KWFinder,,,,,29
+pilot,2,"Marketing, SEO and AI visibility tools",WhatsMySERP,WhatsMySERP,whatsmyserp.com,False,claude-sonnet-5-5,WhatsMySERP,,,,,30
+pilot,2,"Marketing, SEO and AI visibility tools",SerpRobot,SerpRobot|SERPROBOT|SERPRobot,serprobot.com,False,claude-sonnet-5-5,SerpRobot|SERPROBOT|SERPRobot,,,,,31
+pilot,2,"Marketing, SEO and AI visibility tools",TrueRanker,TrueRanker,trueranker.com,False,claude-sonnet-5-5,TrueRanker,,,,,32
+pilot,2,"Marketing, SEO and AI visibility tools",AccuRanker,AccuRanker,accuranker.com,False,claude-sonnet-5-5,AccuRanker,,,,,33
+pilot,2,"Marketing, SEO and AI visibility tools",ProRankTracker,ProRankTracker,prorankplanet.com|prorank tracker.com,False,claude-sonnet-5-5,ProRankTracker,,,,,34
+pilot,2,"Marketing, SEO and AI visibility tools",Serpstat,Serpstat,serpstat.com,False,claude-sonnet-5-5,Serpstat,,,,,35
+pilot,2,"Marketing, SEO and AI visibility tools",SE Ranking,SE Ranking,seranking.com,False,claude-sonnet-5-5,SE Ranking,,,,,36
+pilot,2,"Marketing, SEO and AI visibility tools",Keyword.com,Keyword.com,keyword.com,False,claude-sonnet-5-5,Keyword.com,,,,,37
+pilot,3,Project management and collaboration,Float,Float,float.com,True,claude-sonnet-5-5,Float,Float,,,,38
+pilot,3,Project management and collaboration,Runn,Runn,runn.io,False,claude-sonnet-5-5,Runn,,,,,39
+pilot,3,Project management and collaboration,Wrike,Wrike|Wrike Work Intelligence,wrike.com,False,claude-sonnet-5-5,Wrike|Wrike Work Intelligence,,,,,40
+pilot,3,Project management and collaboration,Smartsheet,Smartsheet|Control Center,smartsheet.com,False,claude-sonnet-5-5,Smartsheet|Control Center,,,,,41
+pilot,3,Project management and collaboration,Asana,Asana,asana.com,False,claude-sonnet-5-5,Asana,,,,,42
+pilot,3,Project management and collaboration,Resource Guru,Resource Guru,resourceguruapp.com,False,claude-sonnet-5-5,Resource Guru,,,,,43
+pilot,3,Project management and collaboration,Teamwork.com,Teamwork.com|Teamwork,teamwork.com,False,claude-sonnet-5-5,Teamwork.com|Teamwork,,,,,44
+pilot,3,Project management and collaboration,Productive,Productive,productive.io,True,claude-sonnet-5-5,Productive,Productive,,,,45
+pilot,3,Project management and collaboration,Scoro,Scoro,scoro.com,False,claude-sonnet-5-5,Scoro,,,,,46
+pilot,3,Project management and collaboration,Planisware,Planisware,planisware.com,False,claude-sonnet-5-5,Planisware,,,,,47
+pilot,3,Project management and collaboration,Kantata,Kantata,kantata.com,False,claude-sonnet-5-5,Kantata,,,,,48
+pilot,3,Project management and collaboration,Meisterplan,Meisterplan,meisterplan.com,False,claude-sonnet-5-5,Meisterplan,,,,,49
+pilot,3,Project management and collaboration,LiquidPlanner,LiquidPlanner,liquidplanner.com,False,claude-sonnet-5-5,LiquidPlanner,,,,,50
+pilot,3,Project management and collaboration,Microsoft,Microsoft|Microsoft Project|MS Project|Microsoft Teams|Teams|Microsoft 365,microsoft.com,False,claude-sonnet-5-5,Microsoft|Microsoft Project|MS Project|Microsoft Teams|Teams|Microsoft 365,Microsoft|Teams,,,,51
+pilot,3,Project management and collaboration,monday.com,monday.com|monday|Monday,monday.com,True,claude-sonnet-5-5,monday.com|monday|Monday,monday.com|monday|Monday,,,,52
+pilot,3,Project management and collaboration,ClickUp,ClickUp,clickup.com,False,claude-sonnet-5-5,ClickUp,,,,,53
+pilot,3,Project management and collaboration,Slack,Slack|Slack Connect,slack.com,True,claude-sonnet-5-5,Slack|Slack Connect,Slack|Slack Connect,,,,54
+pilot,3,Project management and collaboration,Google,Google|Google Chat|Google Workspace|Google Drive,google.com|workspace.google.com,False,claude-sonnet-5-5,Google|Google Chat|Google Workspace|Google Drive,Google,,,,55
+pilot,3,Project management and collaboration,Pumble,Pumble,pumble.com,False,claude-sonnet-5-5,Pumble,,,,,56
+pilot,3,Project management and collaboration,Basecamp,Basecamp,basecamp.com,True,claude-sonnet-5-5,Basecamp,Basecamp,,,,57
+pilot,3,Project management and collaboration,Twist,Twist,twist.com,True,claude-sonnet-5-5,Twist,Twist,,,,58
+pilot,3,Project management and collaboration,WhatsApp,WhatsApp|WhatsApp Business,whatsapp.com,False,claude-sonnet-5-5,WhatsApp|WhatsApp Business,,,,,59
+pilot,3,Project management and collaboration,Telegram,Telegram,telegram.org,False,claude-sonnet-5-5,Telegram,,,,,60
+pilot,3,Project management and collaboration,Rock,Rock,rock.so,True,claude-sonnet-5-5,Rock,Rock,,,,61
+pilot,3,Project management and collaboration,Trello,Trello,trello.com,False,claude-sonnet-5-5,Trello,,,,,62
+pilot,3,Project management and collaboration,Notion,Notion,notion.so|notion.com,True,claude-sonnet-5-5,Notion,Notion,,,,63
+pilot,3,Project management and collaboration,Obsidian,Obsidian,obsidian.md,True,claude-sonnet-5-5,Obsidian,Obsidian,,,,64
+pilot,3,Project management and collaboration,Todoist,Todoist,todoist.com,False,claude-sonnet-5-5,Todoist,,,,,65
+pilot,3,Project management and collaboration,Jira,Jira,atlassian.com,False,claude-sonnet-5-5,Jira,,,,,66
+pilot,3,Project management and collaboration,Taskade,Taskade,taskade.com,False,claude-sonnet-5-5,Taskade,,,,,67
+pilot,3,Project management and collaboration,Zapier,Zapier,zapier.com,False,claude-sonnet-5-5,Zapier,,,,,68
+pilot,4,"HR, payroll and recruiting",BambooHR,BambooHR,bamboohr.com,False,claude-sonnet-5-5,BambooHR,,,,,69
+pilot,4,"HR, payroll and recruiting",Rippling,Rippling,rippling.com,False,claude-sonnet-5-5,Rippling,,,,,70
+pilot,4,"HR, payroll and recruiting",Gusto,Gusto,gusto.com,False,claude-sonnet-5-5,Gusto,,,,,71
+pilot,4,"HR, payroll and recruiting",HiBob,HiBob|Bob,hibob.com,False,claude-sonnet-5-5,HiBob|Bob,Bob,,,,72
+pilot,4,"HR, payroll and recruiting",ADP,ADP|ADP Workforce Now,adp.com,False,claude-sonnet-5-5,ADP|ADP Workforce Now,ADP,,,,73
+pilot,4,"HR, payroll and recruiting",Paychex,Paychex|Paychex Flex,paychex.com,False,claude-sonnet-5-5,Paychex|Paychex Flex,,,,,74
+pilot,4,"HR, payroll and recruiting",Paycom,Paycom,paycom.com,False,claude-sonnet-5-5,Paycom,,,,,75
+pilot,4,"HR, payroll and recruiting",Paylocity,Paylocity,paylocity.com,False,claude-sonnet-5-5,Paylocity,,,,,76
+pilot,4,"HR, payroll and recruiting",Payroll4Free,Payroll4Free|Payroll4Free.com,payroll4free.com,False,claude-sonnet-5-5,Payroll4Free|Payroll4Free.com,,,,,77
+pilot,4,"HR, payroll and recruiting",HR.my,HR.my,hr.my,False,claude-sonnet-5-5,HR.my,,,,,78
+pilot,4,"HR, payroll and recruiting",Zoho Payroll,Zoho Payroll|Zoho,zoho.com,False,claude-sonnet-5-5,Zoho Payroll|Zoho,,,,,79
+pilot,4,"HR, payroll and recruiting",ExcelPayroll,ExcelPayroll,excelpayroll.com,False,claude-sonnet-5-5,ExcelPayroll,,,,,80
+pilot,4,"HR, payroll and recruiting",Patriot Software,Patriot Software|Patriot|Patriot Payroll,patriotsoftware.com,False,claude-sonnet-5-5,Patriot Software|Patriot|Patriot Payroll,,,,,81
+pilot,4,"HR, payroll and recruiting",Square Payroll,Square Payroll,squareup.com,False,claude-sonnet-5-5,Square Payroll,,,,,82
+pilot,4,"HR, payroll and recruiting",SurePayroll,SurePayroll,surepayroll.com,False,claude-sonnet-5-5,SurePayroll,,,,,83
+pilot,5,Accounting and invoicing,Zoho Invoice,Zoho Invoice|Zoho,zoho.com,False,claude-sonnet-5-5,Zoho Invoice|Zoho,,,,,84
+pilot,5,Accounting and invoicing,Wave,Wave|Wave Accounting,waveapps.com,True,claude-sonnet-5-5,Wave|Wave Accounting,Wave|Wave Accounting,,,,85
+pilot,5,Accounting and invoicing,Bonsai,Bonsai,hellobonsai.com,False,claude-sonnet-5-5,Bonsai,,,,,86
+pilot,5,Accounting and invoicing,FreshBooks,FreshBooks,freshbooks.com,False,claude-sonnet-5-5,FreshBooks,,,,,87
+pilot,5,Accounting and invoicing,QuickBooks,QuickBooks|QuickBooks Online,quickbooks.intuit.com|intuit.com,False,claude-sonnet-5-5,QuickBooks|QuickBooks Online,,,,,88
+pilot,5,Accounting and invoicing,Xero,Xero,xero.com,False,claude-sonnet-5-5,Xero,,,,,89
+pilot,5,Accounting and invoicing,Plutio,Plutio,plutio.com,False,claude-sonnet-5-5,Plutio,,,,,90
+pilot,5,Accounting and invoicing,HoneyBook,HoneyBook,honeybook.com,False,claude-sonnet-5-5,HoneyBook,,,,,91
+pilot,5,Accounting and invoicing,Square Invoices,Square Invoices|Square,squareup.com|square.com,True,claude-sonnet-5-5,Square Invoices|Square,Square Invoices|Square,,,,92
+pilot,5,Accounting and invoicing,PayPal,PayPal|PayPal Invoicing,paypal.com,False,claude-sonnet-5-5,PayPal|PayPal Invoicing,PayPal,,,,93
+pilot,5,Accounting and invoicing,Invoice Ninja,Invoice Ninja,invoiceninja.com,False,claude-sonnet-5-5,Invoice Ninja,,,,,94
+pilot,5,Accounting and invoicing,Paymo,Paymo,paymoapp.com,False,claude-sonnet-5-5,Paymo,,,,,95
+pilot,5,Accounting and invoicing,Joist,Joist,joist.com,False,claude-sonnet-5-5,Joist,,,,,96
+pilot,5,Accounting and invoicing,Invoice Simple,Invoice Simple|InvoiceSimple,invoicesimple.com,False,claude-sonnet-5-5,Invoice Simple|InvoiceSimple,,,,,97
+pilot,5,Accounting and invoicing,Invoice2go,Invoice2go,invoice2go.com,False,claude-sonnet-5-5,Invoice2go,,,,,98
+pilot,5,Accounting and invoicing,Jobber,Jobber,getjobber.com,False,claude-sonnet-5-5,Jobber,,,,,99
+pilot,5,Accounting and invoicing,Bookipi,Bookipi,bookipi.com,False,claude-sonnet-5-5,Bookipi,,,,,100
+pilot,6,Customer support,Intercom,Intercom|Fin|Fin by Intercom|Intercom Messenger|Messenger API,intercom.com,False,claude-sonnet-5-5,Intercom|Fin|Fin by Intercom|Intercom Messenger|Messenger API,Fin,,,,101
+pilot,6,Customer support,Zendesk,Zendesk|Zendesk Chat|Zendesk Suite|Zendesk Web SDK,zendesk.com,False,claude-sonnet-5-5,Zendesk|Zendesk Chat|Zendesk Suite|Zendesk Web SDK,,,,,102
+pilot,6,Customer support,LiveChat,LiveChat|Live Chat,livechat.com,False,claude-sonnet-5-5,LiveChat|Live Chat,,,,,103
+pilot,6,Customer support,Freshchat,Freshchat|Freshworks,freshworks.com,False,claude-sonnet-5-5,Freshchat|Freshworks,,,,,104
+pilot,6,Customer support,Tidio,Tidio|Lyro,tidio.com,False,claude-sonnet-5-5,Tidio|Lyro,,,,,105
+pilot,6,Customer support,HubSpot,HubSpot|HubSpot Service Hub,hubspot.com,False,claude-sonnet-5-5,HubSpot|HubSpot Service Hub,,,,,106
+pilot,6,Customer support,SupportYourApp,SupportYourApp|SupportYourApp Inc.,supportyourapp.com,False,claude-sonnet-5-5,SupportYourApp|SupportYourApp Inc.,,,,,107
+pilot,6,Customer support,Gorgias,Gorgias,gorgias.com,False,claude-sonnet-5-5,Gorgias,,,,,108
+pilot,6,Customer support,tawk.to,tawk.to|Tawk.to,tawk.to,False,claude-sonnet-5-5,tawk.to|Tawk.to,,,,,109
+pilot,6,Customer support,Crisp,Crisp,crisp.chat,True,claude-sonnet-5-5,Crisp,Crisp,,,,110
+pilot,6,Customer support,Comm100,Comm100,comm100.com,False,claude-sonnet-5-5,Comm100,,,,,111
+pilot,6,Customer support,Kommunicate,Kommunicate,kommunicate.io,False,claude-sonnet-5-5,Kommunicate,,,,,112
+pilot,6,Customer support,REVE Chat,REVE Chat,revechat.com,False,claude-sonnet-5-5,REVE Chat,,,,,113
+pilot,6,Customer support,LiveAgent,LiveAgent,liveagent.com,False,claude-sonnet-5-5,LiveAgent,,,,,114
+pilot,6,Customer support,Twilio,Twilio,twilio.com,False,claude-sonnet-5-5,Twilio,,,,,115
+pilot,6,Customer support,Botpress,Botpress,botpress.com,False,claude-sonnet-5-5,Botpress,,,,,116
+pilot,7,E-commerce platforms,SAP Commerce Cloud,SAP Commerce Cloud|SAP Commerce|Hybris|SAP,sap.com,False,claude-sonnet-5-5,SAP Commerce Cloud|SAP Commerce|Hybris|SAP,SAP,,,,117
+pilot,7,E-commerce platforms,OroCommerce,OroCommerce|Oro|Oro Inc|OroCommerce Enterprise|OroCommerce Community Edition,oroinc.com,False,claude-sonnet-5-5,OroCommerce|Oro|Oro Inc|OroCommerce Enterprise|OroCommerce Community Edition,Oro,,,,118
+pilot,7,E-commerce platforms,Salesforce B2B Commerce,Salesforce B2B Commerce|Salesforce B2B Commerce Cloud|Salesforce Commerce|Salesforce,salesforce.com,False,claude-sonnet-5-5,Salesforce B2B Commerce|Salesforce B2B Commerce Cloud|Salesforce Commerce|Salesforce,,,,,119
+pilot,7,E-commerce platforms,commercetools,commercetools,commercetools.com,False,claude-sonnet-5-5,commercetools,,,,,120
+pilot,7,E-commerce platforms,Adobe Commerce,Adobe Commerce|Magento|Magento Enterprise|Magento Open Source|Mage-OS,adobe.com|magento.com|mage-os.org,False,claude-sonnet-5-5,Adobe Commerce|Magento|Magento Enterprise|Magento Open Source|Mage-OS,,,,,121
+pilot,7,E-commerce platforms,NetSuite SuiteCommerce,NetSuite SuiteCommerce|SuiteCommerce|NetSuite,netsuite.com,False,claude-sonnet-5-5,NetSuite SuiteCommerce|SuiteCommerce|NetSuite,,,,,122
+pilot,7,E-commerce platforms,Shopify Plus,Shopify Plus|Shopify,shopify.com,False,claude-sonnet-5-5,Shopify Plus|Shopify,,,,,123
+pilot,7,E-commerce platforms,BigCommerce B2B Edition,BigCommerce B2B Edition|BigCommerce,bigcommerce.com,False,claude-sonnet-5-5,BigCommerce B2B Edition|BigCommerce,,,,,124
+pilot,7,E-commerce platforms,Bagisto,Bagisto,bagisto.com,False,claude-sonnet-5-5,Bagisto,,,,,125
+pilot,7,E-commerce platforms,Medusa,Medusa,medusajs.com,False,claude-sonnet-5-5,Medusa,,,,,126
+pilot,7,E-commerce platforms,WooCommerce,WooCommerce,woocommerce.com,False,claude-sonnet-5-5,WooCommerce,,,,,127
+pilot,7,E-commerce platforms,nopCommerce,nopCommerce,nopcommerce.com,False,claude-sonnet-5-5,nopCommerce,,,,,128
+pilot,7,E-commerce platforms,PrestaShop,PrestaShop,prestashop.com,False,claude-sonnet-5-5,PrestaShop,,,,,129
+pilot,7,E-commerce platforms,Saleor,Saleor,saleor.io,False,claude-sonnet-5-5,Saleor,,,,,130
+pilot,7,E-commerce platforms,Odoo,Odoo|Odoo Community Edition,odoo.com,False,claude-sonnet-5-5,Odoo|Odoo Community Edition,,,,,131
+pilot,7,E-commerce platforms,Printify,Printify,printify.com,False,claude-sonnet-5-5,Printify,,,,,132
+pilot,7,E-commerce platforms,Printful,Printful,printful.com,False,claude-sonnet-5-5,Printful,,,,,133
+pilot,7,E-commerce platforms,Gelato,Gelato,gelato.com,False,claude-sonnet-5-5,Gelato,,,,,134
+pilot,7,E-commerce platforms,Fourthwall,Fourthwall,fourthwall.com,False,claude-sonnet-5-5,Fourthwall,,,,,135
+pilot,7,E-commerce platforms,Redbubble,Redbubble,redbubble.com,False,claude-sonnet-5-5,Redbubble,,,,,136
+pilot,7,E-commerce platforms,TeePublic,TeePublic|Teepublic,teepublic.com,False,claude-sonnet-5-5,TeePublic|Teepublic,,,,,137
+pilot,7,E-commerce platforms,Tapstitch,Tapstitch,tapstitch.com,False,claude-sonnet-5-5,Tapstitch,,,,,138
+pilot,7,E-commerce platforms,Merch by Amazon,Merch by Amazon,merch.amazon.com,False,claude-sonnet-5-5,Merch by Amazon,,,,,139
+pilot,7,E-commerce platforms,Etsy,Etsy,etsy.com,False,claude-sonnet-5-5,Etsy,,,,,140
+pilot,7,E-commerce platforms,Squarespace,Squarespace|squarespace,squarespace.com,False,claude-sonnet-5-5,Squarespace|squarespace,,,,,141
+pilot,8,Website builders and hosting,WP Engine,WP Engine|WPEngine,wpengine.com,False,claude-sonnet-5-5,WP Engine|WPEngine,,,,,142
+pilot,8,Website builders and hosting,Kinsta,Kinsta,kinsta.com,False,claude-sonnet-5-5,Kinsta,,,,,143
+pilot,8,Website builders and hosting,Pressable,Pressable,pressable.com,False,claude-sonnet-5-5,Pressable,,,,,144
+pilot,8,Website builders and hosting,SiteGround,SiteGround|SiteGround StartUp|GrowBig|GoGeek|Site Tools,siteground.com,False,claude-sonnet-5-5,SiteGround|SiteGround StartUp|GrowBig|GoGeek|Site Tools,,,,,145
+pilot,8,Website builders and hosting,Flywheel,Flywheel,getflywheel.com,True,claude-sonnet-5-5,Flywheel,Flywheel,,,,146
+pilot,8,Website builders and hosting,WordPress.com,WordPress.com|WordPress.com Business|WordPress.com Commerce,wordpress.com,False,claude-sonnet-5-5,WordPress.com|WordPress.com Business|WordPress.com Commerce,,,,,147
+pilot,8,Website builders and hosting,DreamHost,DreamHost|DreamPress|Shared Starter,dreamhost.com,False,claude-sonnet-5-5,DreamHost|DreamPress|Shared Starter,,,,,148
+pilot,8,Website builders and hosting,Hostinger,Hostinger|hPanel,hostinger.com,False,claude-sonnet-5-5,Hostinger|hPanel,,,,,149
+pilot,8,Website builders and hosting,Bluehost,Bluehost,bluehost.com,False,claude-sonnet-5-5,Bluehost,,,,,150
+pilot,8,Website builders and hosting,GreenGeeks,GreenGeeks,greengeeks.com,False,claude-sonnet-5-5,GreenGeeks,,,,,151
+pilot,8,Website builders and hosting,HostArmada,HostArmada,hostarmada.com,False,claude-sonnet-5-5,HostArmada,,,,,152
+pilot,8,Website builders and hosting,UpdraftPlus,UpdraftPlus,updraftplus.com,False,claude-sonnet-5-5,UpdraftPlus,,,,,153
+pilot,8,Website builders and hosting,BlogVault,BlogVault,blogvault.net,False,claude-sonnet-5-5,BlogVault,,,,,154
+pilot,8,Website builders and hosting,Jetpack,Jetpack|Jetpack backup,jetpack.com,True,claude-sonnet-5-5,Jetpack|Jetpack backup,Jetpack|Jetpack backup,,,,155
+pilot,9,Business cybersecurity,Microsoft Entra ID,Microsoft Entra ID|Entra ID|Entra ID P1|Entra ID Free|Azure AD|Azure Active Directory|Microsoft Entra|Microsoft 365 Business Premium,microsoft.com,False,claude-sonnet-5-5,Microsoft Entra ID|Entra ID|Entra ID P1|Entra ID Free|Azure AD|Azure Active Directory|Microsoft Entra|Microsoft 365 Business Premium,,,,,156
+pilot,9,Business cybersecurity,Okta,Okta|Okta Workforce Identity Cloud|Okta Workforce Identity|Okta Starter|Okta Workflows|Okta Integration Network|Okta Lifecycle Management|Universal Directory,okta.com,False,claude-sonnet-5-5,Okta|Okta Workforce Identity Cloud|Okta Workforce Identity|Okta Starter|Okta Workflows|Okta Integration Network|Okta Lifecycle Management|Universal Directory,,,,,157
+pilot,9,Business cybersecurity,Ping Identity,Ping Identity|PingFederate|PingOne|ForgeRock|Ping,pingidentity.com,False,claude-sonnet-5-5,Ping Identity|PingFederate|PingOne|ForgeRock|Ping,,,,,158
+pilot,9,Business cybersecurity,JumpCloud,JumpCloud,jumpcloud.com,False,claude-sonnet-5-5,JumpCloud,,,,,159
+pilot,9,Business cybersecurity,OneLogin,OneLogin|OneLogin Essentials,onelogin.com,False,claude-sonnet-5-5,OneLogin|OneLogin Essentials,,,,,160
+pilot,9,Business cybersecurity,Auth0,Auth0,auth0.com,False,claude-sonnet-5-5,Auth0,,,,,161
+pilot,9,Business cybersecurity,WorkOS,WorkOS,workos.com,False,claude-sonnet-5-5,WorkOS,,,,,162
+pilot,9,Business cybersecurity,Frontegg,Frontegg,frontegg.com,False,claude-sonnet-5-5,Frontegg,,,,,163
+pilot,9,Business cybersecurity,SSOJet,SSOJet,ssojet.com,False,claude-sonnet-5-5,SSOJet,,,,,164
+pilot,9,Business cybersecurity,Rippling,Rippling,rippling.com,False,claude-sonnet-5-5,Rippling,,,,,165
+pilot,9,Business cybersecurity,Keycloak,Keycloak,keycloak.org,False,claude-sonnet-5-5,Keycloak,,,,,166
+pilot,9,Business cybersecurity,LoginWith,LoginWith,loginwith.com,False,claude-sonnet-5-5,LoginWith,,,,,167
+pilot,9,Business cybersecurity,Google Workspace,Google Workspace|Google Cloud Identity|Google Workspace SSO,workspace.google.com|cloud.google.com,False,claude-sonnet-5-5,Google Workspace|Google Cloud Identity|Google Workspace SSO,,,,,168
+pilot,9,Business cybersecurity,Cisco Duo,Cisco Duo|Duo,duo.com|cisco.com,False,claude-sonnet-5-5,Cisco Duo|Duo,Duo,,,,169
+pilot,10,AI assistants and creative AI tools,ChatGPT Images,ChatGPT Images|ChatGPT|OpenAI|DALL-E|DALL·E,openai.com|chatgpt.com,False,claude-sonnet-5-5,ChatGPT Images|ChatGPT|OpenAI|DALL-E|DALL·E,,,,,170
+pilot,10,AI assistants and creative AI tools,Midjourney,Midjourney,midjourney.com,False,claude-sonnet-5-5,Midjourney,,,,,171
+pilot,10,AI assistants and creative AI tools,Leonardo AI,Leonardo AI|Leonardo.ai|Leonardo,leonardo.ai,False,claude-sonnet-5-5,Leonardo AI|Leonardo.ai|Leonardo,,,,,172
+pilot,10,AI assistants and creative AI tools,Dungeon Alchemist,Dungeon Alchemist|DungeonAlchemist,dungeonalchemist.com,False,claude-sonnet-5-5,Dungeon Alchemist|DungeonAlchemist,,,,,173
+pilot,10,AI assistants and creative AI tools,Inkarnate,Inkarnate,inkarnate.com,False,claude-sonnet-5-5,Inkarnate,,,,,174
+pilot,10,AI assistants and creative AI tools,CharGen,CharGen,chargen.ai,False,claude-sonnet-5-5,CharGen,,,,,175
+pilot,10,AI assistants and creative AI tools,Neural4D,Neural4D,,False,claude-sonnet-5-5,Neural4D,,,,,176
+pilot,10,AI assistants and creative AI tools,Recraft,Recraft,recraft.ai,False,claude-sonnet-5-5,Recraft,,,,,177
+pilot,10,AI assistants and creative AI tools,Dungeondraft,Dungeondraft|DungeonDraft,dungeondraft.net,False,claude-sonnet-5-5,Dungeondraft|DungeonDraft,,,,,178
+pilot,10,AI assistants and creative AI tools,Mage,Mage|Mango 3|Mage/Mango 3,mage.space,True,claude-sonnet-5-5,Mage|Mango 3|Mage/Mango 3,Mage|Mango 3|Mage/Mango 3,,,,179
+pilot,10,AI assistants and creative AI tools,Adobe Firefly,Adobe Firefly|Firefly|Adobe Firefly AI Sketch Generator,adobe.com|firefly.adobe.com,False,claude-sonnet-5-5,Adobe Firefly|Firefly|Adobe Firefly AI Sketch Generator,,,,,180
+pilot,10,AI assistants and creative AI tools,Krea AI,Krea AI|Krea,krea.ai,False,claude-sonnet-5-5,Krea AI|Krea,,,,,181
+pilot,10,AI assistants and creative AI tools,Vizcom,Vizcom,vizcom.ai,False,claude-sonnet-5-5,Vizcom,,,,,182
+pilot,10,AI assistants and creative AI tools,NewArc,NewArc,newarc.ai,False,claude-sonnet-5-5,NewArc,,,,,183
+pilot,10,AI assistants and creative AI tools,Stable Diffusion,Stable Diffusion|ControlNet|ComfyUI|Automatic1111,stability.ai,False,claude-sonnet-5-5,Stable Diffusion|ControlNet|ComfyUI|Automatic1111,,,,,184
+pilot,10,AI assistants and creative AI tools,Canva,Canva|Sketch to Life|Canva Sketch to Life,canva.com,False,claude-sonnet-5-5,Canva|Sketch to Life|Canva Sketch to Life,,,,,185
+pilot,11,Banks and neobanks,Chase,Chase|Chase Business Complete Banking|Chase for Business|Chase Bank|Chase First Banking|Chase High School Checking|QuickAccept,chase.com,False,claude-sonnet-5-5,Chase|Chase Business Complete Banking|Chase for Business|Chase Bank|Chase First Banking|Chase High School Checking|QuickAccept,Chase,,,,186
+pilot,11,Banks and neobanks,Bluevine,Bluevine|Bluevine Business Checking|Bluevine Premier|Bluevine Premier Business Checking,bluevine.com,False,claude-sonnet-5-5,Bluevine|Bluevine Business Checking|Bluevine Premier|Bluevine Premier Business Checking,,,,,187
+pilot,11,Banks and neobanks,Mercury,Mercury|Mercury Business Banking,mercury.com,True,claude-sonnet-5-5,Mercury|Mercury Business Banking,Mercury|Mercury Business Banking,,,,188
+pilot,11,Banks and neobanks,Relay,Relay|Relay Business Banking,relayfi.com,True,claude-sonnet-5-5,Relay|Relay Business Banking,Relay|Relay Business Banking,,,,189
+pilot,11,Banks and neobanks,Novo,Novo,novo.co,False,claude-sonnet-5-5,Novo,,,,,190
+pilot,11,Banks and neobanks,U.S. Bank,U.S. Bank|US Bank|Business Essentials|Platinum Business Money Market,usbank.com,False,claude-sonnet-5-5,U.S. Bank|US Bank|Business Essentials|Platinum Business Money Market,,,,,191
+pilot,11,Banks and neobanks,American Express,American Express|American Express Business Checking|American Express® Business Checking|Amex Business Checking|American Express Business Savings|American Express Business Banking|Amex,americanexpress.com,False,claude-sonnet-5-5,American Express|American Express Business Checking|American Express® Business Checking|Amex Business Checking|American Express Business Savings|American Express Business Banking|Amex,,,,,192
+pilot,11,Banks and neobanks,Bank of America,Bank of America,bankofamerica.com,False,claude-sonnet-5-5,Bank of America,,,,,193
+pilot,11,Banks and neobanks,NBKC Bank,NBKC Bank|NBKC,nbkc.com,False,claude-sonnet-5-5,NBKC Bank|NBKC,NBKC,,,,194
+pilot,11,Banks and neobanks,Found,Found,found.com,True,claude-sonnet-5-5,Found,Found,,,,195
+pilot,11,Banks and neobanks,Airwallex,Airwallex,airwallex.com,False,claude-sonnet-5-5,Airwallex,,,,,196
+pilot,11,Banks and neobanks,AdelFi,AdelFi|AdelFi Business Harvest Savings,adelfi.com,False,claude-sonnet-5-5,AdelFi|AdelFi Business Harvest Savings,,,,,197
+pilot,11,Banks and neobanks,Square,Square|Square Business Savings,squareup.com,True,claude-sonnet-5-5,Square|Square Business Savings,Square|Square Business Savings,,,,198
+pilot,11,Banks and neobanks,Axos Bank,Axos Bank|Axos|Axos Business Premium Savings|Axos Bank Business Interest Checking,axosbank.com,False,claude-sonnet-5-5,Axos Bank|Axos|Axos Business Premium Savings|Axos Bank Business Interest Checking,,,,,199
+pilot,11,Banks and neobanks,Prime Alliance Bank,Prime Alliance Bank|Prime Alliance Bank Business Savings,primealliancebank.com,False,claude-sonnet-5-5,Prime Alliance Bank|Prime Alliance Bank Business Savings,,,,,200
+pilot,11,Banks and neobanks,AmeriCU Credit Union,AmeriCU Credit Union|AmeriCU,americu.org,False,claude-sonnet-5-5,AmeriCU Credit Union|AmeriCU,,,,,201
+pilot,11,Banks and neobanks,Signature Federal Credit Union,Signature Federal Credit Union,signaturefcu.org,False,claude-sonnet-5-5,Signature Federal Credit Union,,,,,202
+pilot,11,Banks and neobanks,Tech Credit Union,Tech Credit Union,techcu.com,False,claude-sonnet-5-5,Tech Credit Union,,,,,203
+pilot,11,Banks and neobanks,Piermont Bank,Piermont Bank,piermontbank.com,False,claude-sonnet-5-5,Piermont Bank,,,,,204
+pilot,11,Banks and neobanks,Grasshopper Bank,Grasshopper Bank|Business Innovator Savings,grasshopper.bank,False,claude-sonnet-5-5,Grasshopper Bank|Business Innovator Savings,,,,,205
+pilot,11,Banks and neobanks,Capital One,Capital One|Capital One MONEY Teen Checking|Capital One Business Advantage Savings|Business Advantage Savings,capitalone.com,False,claude-sonnet-5-5,Capital One|Capital One MONEY Teen Checking|Capital One Business Advantage Savings|Business Advantage Savings,,,,,206
+pilot,11,Banks and neobanks,Small Business Bank,Small Business Bank,smallbusinessbank.com,False,claude-sonnet-5-5,Small Business Bank,,,,,207
+pilot,11,Banks and neobanks,First Internet Bank,First Internet Bank|First Internet Bank Business Money Market,firstib.com,False,claude-sonnet-5-5,First Internet Bank|First Internet Bank Business Money Market,,,,,208
+pilot,11,Banks and neobanks,Greenlight,Greenlight|Level Up,greenlight.com,False,claude-sonnet-5-5,Greenlight|Level Up,,,,,209
+pilot,11,Banks and neobanks,Current,Current|Current Teen Banking,current.com,True,claude-sonnet-5-5,Current|Current Teen Banking,Current|Current Teen Banking,,,,210
+pilot,11,Banks and neobanks,GoHenry,GoHenry,gohenry.com,False,claude-sonnet-5-5,GoHenry,,,,,211
+pilot,12,Payments,PayPal,PayPal|PayPal Pay in 4|Pay in 4|PayPal Pay Monthly|PayPal US,paypal.com,False,claude-sonnet-5-5,PayPal|PayPal Pay in 4|Pay in 4|PayPal Pay Monthly|PayPal US,PayPal,,,,212
+pilot,12,Payments,Affirm,Affirm,affirm.com,False,claude-sonnet-5-5,Affirm,,,,,213
+pilot,12,Payments,Klarna,Klarna,klarna.com,False,claude-sonnet-5-5,Klarna,,,,,214
+pilot,12,Payments,Afterpay,Afterpay|Cash App Afterpay,afterpay.com,False,claude-sonnet-5-5,Afterpay|Cash App Afterpay,,,,,215
+pilot,12,Payments,Sezzle,Sezzle,sezzle.com,False,claude-sonnet-5-5,Sezzle,,,,,216
+pilot,12,Payments,Splitit,Splitit,splitit.com,False,claude-sonnet-5-5,Splitit,,,,,217
+pilot,12,Payments,Remitly,Remitly,remitly.com,False,claude-sonnet-5-5,Remitly,,,,,218
+pilot,12,Payments,Wise,Wise,wise.com,True,claude-sonnet-5-5,Wise,Wise,,,,219
+pilot,12,Payments,Xoom,Xoom|Xoom (PayPal),xoom.com,False,claude-sonnet-5-5,Xoom|Xoom (PayPal),,,,,220
+pilot,12,Payments,Sendwave,Sendwave,sendwave.com,False,claude-sonnet-5-5,Sendwave,,,,,221
+pilot,12,Payments,Smiles Mobile Remittance,Smiles Mobile Remittance|Smiles,smilesremit.com,False,claude-sonnet-5-5,Smiles Mobile Remittance|Smiles,,,,,222
+pilot,12,Payments,Western Union,Western Union,westernunion.com,False,claude-sonnet-5-5,Western Union,,,,,223
+pilot,12,Payments,MoneyGram,MoneyGram,moneygram.com,False,claude-sonnet-5-5,MoneyGram,,,,,224
+pilot,12,Payments,Sharemoney,Sharemoney,sharemoney.com,False,claude-sonnet-5-5,Sharemoney,,,,,225
+pilot,13,Investing and trading apps,Coinbase,Coinbase|Coinbase Advanced|Coinbase Advanced Trade|Advanced Trade|Coinbase Earn|Coinbase Pro|Simple Buy,coinbase.com,False,claude-sonnet-5-5,Coinbase|Coinbase Advanced|Coinbase Advanced Trade|Advanced Trade|Coinbase Earn|Coinbase Pro|Simple Buy,,,,,226
+pilot,13,Investing and trading apps,Kraken,Kraken|Kraken Pro,kraken.com,False,claude-sonnet-5-5,Kraken|Kraken Pro,,,,,227
+pilot,13,Investing and trading apps,Robinhood,Robinhood|Robinhood Crypto,robinhood.com,False,claude-sonnet-5-5,Robinhood|Robinhood Crypto,,,,,228
+pilot,13,Investing and trading apps,Binance.US,Binance.US|Binance US,binance.us,False,claude-sonnet-5-5,Binance.US|Binance US,,,,,229
+pilot,13,Investing and trading apps,Binance,Binance|Binance.com|global Binance,binance.com,False,claude-sonnet-5-5,Binance|Binance.com|global Binance,,,,,230
+pilot,13,Investing and trading apps,Gemini,Gemini|Gemini ActiveTrader|ActiveTrader,gemini.com,True,claude-sonnet-5-5,Gemini|Gemini ActiveTrader|ActiveTrader,Gemini|Gemini ActiveTrader|ActiveTrader,,,,231
+pilot,13,Investing and trading apps,Crypto.com,Crypto.com,crypto.com,False,claude-sonnet-5-5,Crypto.com,,,,,232
+pilot,13,Investing and trading apps,Uphold,Uphold,uphold.com,True,claude-sonnet-5-5,Uphold,Uphold,,,,233
+pilot,13,Investing and trading apps,Bitstamp,Bitstamp|Bitstamp by Robinhood,bitstamp.net,False,claude-sonnet-5-5,Bitstamp|Bitstamp by Robinhood,,,,,234
+pilot,13,Investing and trading apps,Webull,Webull,webull.com,False,claude-sonnet-5-5,Webull,,,,,235
+pilot,13,Investing and trading apps,Cash App,Cash App,cash.app,False,claude-sonnet-5-5,Cash App,,,,,236
+pilot,13,Investing and trading apps,Ledger,Ledger,ledger.com,True,claude-sonnet-5-5,Ledger,Ledger,,,,237
+pilot,13,Investing and trading apps,Keplr,Keplr,keplr.app,False,claude-sonnet-5-5,Keplr,,,,,238
+pilot,13,Investing and trading apps,MetaMask,MetaMask,metamask.io,False,claude-sonnet-5-5,MetaMask,,,,,239
+pilot,13,Investing and trading apps,Phantom,Phantom,phantom.com|phantom.app,True,claude-sonnet-5-5,Phantom,Phantom,,,,240
+pilot,13,Investing and trading apps,Lido,Lido,lido.fi,True,claude-sonnet-5-5,Lido,Lido,,,,241
+pilot,13,Investing and trading apps,Rocket Pool,Rocket Pool,rocketpool.net,False,claude-sonnet-5-5,Rocket Pool,,,,,242
+pilot,13,Investing and trading apps,Jito,Jito,jito.network,False,claude-sonnet-5-5,Jito,,,,,243
+pilot,14,Credit cards and loans,Earnest,Earnest,earnest.com,False,claude-sonnet-5-5,Earnest,,,,,244
+pilot,14,Credit cards and loans,SoFi,SoFi|SoFi Plus,sofi.com,False,claude-sonnet-5-5,SoFi|SoFi Plus,,,,,245
+pilot,14,Credit cards and loans,Education Loan Finance,Education Loan Finance|ELFI|Education Loan Finance (ELFI),elfi.com,False,claude-sonnet-5-5,Education Loan Finance|ELFI|Education Loan Finance (ELFI),ELFI,,,,246
+pilot,14,Credit cards and loans,LendKey,LendKey,lendkey.com,False,claude-sonnet-5-5,LendKey,,,,,247
+pilot,14,Credit cards and loans,Credible,Credible,credible.com,False,claude-sonnet-5-5,Credible,,,,,248
+pilot,14,Credit cards and loans,RISLA,RISLA,risla.com,False,claude-sonnet-5-5,RISLA,,,,,249
+pilot,14,Credit cards and loans,Splash Financial,Splash Financial|Splash,splashfinancial.com,False,claude-sonnet-5-5,Splash Financial|Splash,,,,,250
+pilot,14,Credit cards and loans,MEFA,MEFA|Massachusetts Educational Financing Authority|MEFA (Massachusetts Educational Financing Authority),mefa.org,False,claude-sonnet-5-5,MEFA|Massachusetts Educational Financing Authority|MEFA (Massachusetts Educational Financing Authority),MEFA,,,,251
+pilot,15,Insurance,Principal Financial Group,Principal Financial Group|Principal,principal.com,False,claude-sonnet-5-5,Principal Financial Group|Principal,Principal,,,,252
+pilot,15,Insurance,MassMutual,MassMutual|Massachusetts Mutual,massmutual.com,False,claude-sonnet-5-5,MassMutual|Massachusetts Mutual,,,,,253
+pilot,15,Insurance,Guardian Life,Guardian Life|Guardian,guardianlife.com,False,claude-sonnet-5-5,Guardian Life|Guardian,Guardian,,,,254
+pilot,15,Insurance,Northwestern Mutual,Northwestern Mutual,northwesternmutual.com,False,claude-sonnet-5-5,Northwestern Mutual,,,,,255
+pilot,15,Insurance,New York Life,New York Life|AARP/New York Life|AARP / New York Life|AARP Guaranteed Acceptance Life Insurance,newyorklife.com,False,claude-sonnet-5-5,New York Life|AARP/New York Life|AARP / New York Life|AARP Guaranteed Acceptance Life Insurance,,,,,256
+pilot,15,Insurance,Pacific Life,Pacific Life,pacificlife.com,False,claude-sonnet-5-5,Pacific Life,,,,,257
+pilot,15,Insurance,Mutual of Omaha,Mutual of Omaha|Living Promise,mutualofomaha.com,False,claude-sonnet-5-5,Mutual of Omaha|Living Promise,,,,,258
+pilot,15,Insurance,Lincoln Financial,Lincoln Financial,lincolnfinancial.com,False,claude-sonnet-5-5,Lincoln Financial,,,,,259
+pilot,15,Insurance,Prudential,Prudential,prudential.com,False,claude-sonnet-5-5,Prudential,,,,,260
+pilot,15,Insurance,Nationwide,Nationwide,nationwide.com,False,claude-sonnet-5-5,Nationwide,Nationwide,,,,261
+pilot,15,Insurance,State Farm,State Farm,statefarm.com,False,claude-sonnet-5-5,State Farm,,,,,262
+pilot,15,Insurance,Pets Best,Pets Best|VetDirect Pay,petsbest.com,False,claude-sonnet-5-5,Pets Best|VetDirect Pay,,,,,263
+pilot,15,Insurance,ASPCA Pet Health Insurance,ASPCA Pet Health Insurance|ASPCA,aspcapetinsurance.com,False,claude-sonnet-5-5,ASPCA Pet Health Insurance|ASPCA,,,,,264
+pilot,15,Insurance,Figo,Figo,figopetinsurance.com,False,claude-sonnet-5-5,Figo,,,,,265
+pilot,15,Insurance,Lemonade,Lemonade,lemonade.com,False,claude-sonnet-5-5,Lemonade,,,,,266
+pilot,15,Insurance,Aetna,Aetna|Aetna / Accendo|Accendo Life|Accendo,accendo.com,False,claude-sonnet-5-5,Aetna|Aetna / Accendo|Accendo Life|Accendo,,,,,267
+pilot,15,Insurance,Transamerica,Transamerica|Immediate Solution|Express,transamerica.com,False,claude-sonnet-5-5,Transamerica|Immediate Solution|Express,Express,,,,268
+pilot,15,Insurance,Colonial Penn,Colonial Penn,coloniapenn.com,False,claude-sonnet-5-5,Colonial Penn,,,,,269
+pilot,15,Insurance,Gerber Life,Gerber Life,gerberlife.com,False,claude-sonnet-5-5,Gerber Life,,,,,270
+pilot,15,Insurance,Fidelity Life,Fidelity Life,fidelitylife.com,False,claude-sonnet-5-5,Fidelity Life,,,,,271
+pilot,15,Insurance,Royal Neighbors,Royal Neighbors,royalneighbors.org,False,claude-sonnet-5-5,Royal Neighbors,,,,,272
+pilot,16,Tax and personal finance apps,Koinly,Koinly,koinly.io,False,claude-sonnet-5-5,Koinly,,,,,273
+pilot,16,Tax and personal finance apps,CoinLedger,CoinLedger|CryptoTrader.Tax,coinledger.io,False,claude-sonnet-5-5,CoinLedger|CryptoTrader.Tax,,,,,274
+pilot,16,Tax and personal finance apps,CoinTracker,CoinTracker,cointracker.io,False,claude-sonnet-5-5,CoinTracker,,,,,275
+pilot,16,Tax and personal finance apps,TokenTax,TokenTax,tokentax.co,False,claude-sonnet-5-5,TokenTax,,,,,276
+pilot,16,Tax and personal finance apps,Summ,Summ|CryptoTaxCalculator|Crypto Tax Calculator,summ.com|cryptotaxcalculator.io,True,claude-sonnet-5-5,Summ|CryptoTaxCalculator|Crypto Tax Calculator,Summ|CryptoTaxCalculator|Crypto Tax Calculator,,,,277
+pilot,16,Tax and personal finance apps,CoinTracking,CoinTracking,cointracking.info,False,claude-sonnet-5-5,CoinTracking,,,,,278
+pilot,16,Tax and personal finance apps,FlyFin,FlyFin,flyfin.tax,False,claude-sonnet-5-5,FlyFin,,,,,279
+pilot,16,Tax and personal finance apps,Keeper,Keeper|Keeper Tax,keepertax.com,True,claude-sonnet-5-5,Keeper|Keeper Tax,Keeper|Keeper Tax,,,,280
+pilot,16,Tax and personal finance apps,TurboTax,TurboTax|TurboTax Live|TurboTax Self-Employed|TurboTax Live Assisted Self-Employed|TurboTax Live Full Service Self-Employed,turbotax.intuit.com|turbotax.com,False,claude-sonnet-5-5,TurboTax|TurboTax Live|TurboTax Self-Employed|TurboTax Live Assisted Self-Employed|TurboTax Live Full Service Self-Employed,,,,,281
+pilot,16,Tax and personal finance apps,H&R Block,H&R Block|H&R Block Self-Employed|Expert Assist|Online Assist|Expert Full Service,hrblock.com,False,claude-sonnet-5-5,H&R Block|H&R Block Self-Employed|Expert Assist|Online Assist|Expert Full Service,,,,,282
+pilot,16,Tax and personal finance apps,TaxSlayer,TaxSlayer|TaxSlayer Self-Employed,taxslayer.com,False,claude-sonnet-5-5,TaxSlayer|TaxSlayer Self-Employed,,,,,283
+pilot,16,Tax and personal finance apps,TaxAct,TaxAct|Xpert Help,taxact.com,False,claude-sonnet-5-5,TaxAct|Xpert Help,,,,,284
+pilot,16,Tax and personal finance apps,QuickBooks Online,QuickBooks Online|QuickBooks,quickbooks.intuit.com,False,claude-sonnet-5-5,QuickBooks Online|QuickBooks,,,,,285
+pilot,16,Tax and personal finance apps,FreshBooks,FreshBooks,freshbooks.com,False,claude-sonnet-5-5,FreshBooks,,,,,286
+pilot,17,Smartphones,Apple,Apple|iPhone|iPhone SE|iPhone 15|iPhone 15 Plus|iPhone 16|iPhone 17|iPhone 17e|Apple Store,apple.com,False,claude-sonnet-5-5,Apple|iPhone|iPhone SE|iPhone 15|iPhone 15 Plus|iPhone 16|iPhone 17|iPhone 17e|Apple Store,Apple,,,,287
+pilot,17,Smartphones,Samsung,Samsung|Samsung Galaxy|Galaxy|Galaxy A-series|Galaxy A16|Galaxy A36|Galaxy S-series,samsung.com,False,claude-sonnet-5-5,Samsung|Samsung Galaxy|Galaxy|Galaxy A-series|Galaxy A16|Galaxy A36|Galaxy S-series,Samsung|Galaxy,,,,288
+pilot,17,Smartphones,Motorola,Motorola,motorola.com,False,claude-sonnet-5-5,Motorola,Motorola,,,,289
+pilot,17,Smartphones,Lively,Lively|Jitterbug|Jitterbug Smart|Jitterbug Smart4|Jitterbug Smart5|Jitterbug Flip|Jitterbug Flip2|Jitterbug Flip3|Lively Jitterbug,lively.com|jitterbug.com,False,claude-sonnet-5-5,Lively|Jitterbug|Jitterbug Smart|Jitterbug Smart4|Jitterbug Smart5|Jitterbug Flip|Jitterbug Flip2|Jitterbug Flip3|Lively Jitterbug,,,,,290
+pilot,17,Smartphones,Google,Google|Google Pixel|Pixel|Pixel 10a,store.google.com|google.com,False,claude-sonnet-5-5,Google|Google Pixel|Pixel|Pixel 10a,Google|Pixel,,,,291
+pilot,17,Smartphones,RAZ Mobility,RAZ Mobility|RAZ|RAZ Memory Cell Phone,razmobility.com,False,claude-sonnet-5-5,RAZ Mobility|RAZ|RAZ Memory Cell Phone,RAZ,,,,292
+pilot,17,Smartphones,Consumer Cellular,Consumer Cellular|IRIS Easy Flip|Iris Easy Flip,consumercellular.com,False,claude-sonnet-5-5,Consumer Cellular|IRIS Easy Flip|Iris Easy Flip,,,,,293
+pilot,17,Smartphones,Sonim,Sonim|Sonim XP3plus 5G,sonim.com,False,claude-sonnet-5-5,Sonim|Sonim XP3plus 5G,,,,,294
+pilot,17,Smartphones,Tracfone,Tracfone|TCL Flip 3|Tracfone TCL Flip 3,tracfone.com,False,claude-sonnet-5-5,Tracfone|TCL Flip 3|Tracfone TCL Flip 3,,,,,295
+pilot,17,Smartphones,Schok,Schok|Schok VoltFlip|VoltFlip,schok.com,False,claude-sonnet-5-5,Schok|Schok VoltFlip|VoltFlip,,,,,296
+pilot,17,Smartphones,Easyfone,Easyfone,easyfone.com,False,claude-sonnet-5-5,Easyfone,,,,,297
+pilot,17,Smartphones,Best Buy,Best Buy,bestbuy.com,False,claude-sonnet-5-5,Best Buy,,,,,298
+pilot,18,Laptops,Lenovo,Lenovo|Lenovo Legion|Legion|Legion 5|Legion 7|Legion Pro 7i|Legion Pro 5|Legion Pro|Legion 7a|Pro 7i|ThinkPad|ThinkPad P Series|ThinkPad P1 Gen 8|ThinkPad P16|Yoga Pro,lenovo.com,False,claude-sonnet-5-5,Lenovo|Lenovo Legion|Legion|Legion 5|Legion 7|Legion Pro 7i|Legion Pro 5|Legion Pro|Legion 7a|Pro 7i|ThinkPad|ThinkPad P Series|ThinkPad P1 Gen 8|ThinkPad P16|Yoga Pro,,,,,299
+pilot,18,Laptops,ASUS,ASUS|Asus|ROG|ASUS ROG|ROG Zephyrus|ROG Zephyrus G14|ROG Zephyrus G16|ROG Strix|ProArt|ProArt P16|ProArt PX13|ProArt Px13|Vivobook Pro|Republic of Gamers|Dialpad,asus.com,False,claude-sonnet-5-5,ASUS|Asus|ROG|ASUS ROG|ROG Zephyrus|ROG Zephyrus G14|ROG Zephyrus G16|ROG Strix|ProArt|ProArt P16|ProArt PX13|ProArt Px13|Vivobook Pro|Republic of Gamers|Dialpad,ASUS|ROG,,,,300
+pilot,18,Laptops,Acer,Acer|Acer Predator|Predator,acer.com,False,claude-sonnet-5-5,Acer|Acer Predator|Predator,Acer,,,,301
+pilot,18,Laptops,Apple,Apple|MacBook Pro|MacBook|M5 Pro|M5 Max,apple.com,False,claude-sonnet-5-5,Apple|MacBook Pro|MacBook|M5 Pro|M5 Max,Apple,,,,302
+pilot,18,Laptops,Razer,Razer|Razer Blade 16|Razer Blade 18|Razer Blade,razer.com,False,claude-sonnet-5-5,Razer|Razer Blade 16|Razer Blade 18|Razer Blade,,,,,303
+pilot,18,Laptops,HP,HP|Hewlett-Packard|HP ZBook|ZBook Studio|ZBook Fury|ZBook|HP OMEN|HP Omen 16|OMEN,hp.com,False,claude-sonnet-5-5,HP|Hewlett-Packard|HP ZBook|ZBook Studio|ZBook Fury|ZBook|HP OMEN|HP Omen 16|OMEN,HP|OMEN,,,,304
+pilot,18,Laptops,Samsung,Samsung|Samsung Galaxy Book Ultra|Galaxy Book Ultra|Galaxy Book6 Ultra,samsung.com,False,claude-sonnet-5-5,Samsung|Samsung Galaxy Book Ultra|Galaxy Book Ultra|Galaxy Book6 Ultra,Samsung,,,,305
+pilot,18,Laptops,Dell,Dell,dell.com,False,claude-sonnet-5-5,Dell,Dell,,,,306
+pilot,18,Laptops,MSI,MSI|Raider 18 HX AI|Raider 18 HX,msi.com,False,claude-sonnet-5-5,MSI|Raider 18 HX AI|Raider 18 HX,MSI,,,,307
+pilot,18,Laptops,NIMO,NIMO,,False,claude-sonnet-5-5,NIMO,NIMO,,,,308
+pilot,19,Headphones and speakers,Sony,Sony|WH-1000XM6|WH-1000XM5|Sony LinkBuds Fit|LinkBuds Fit,sony.com,False,claude-sonnet-5-5,Sony|WH-1000XM6|WH-1000XM5|XM5|XM6|Sony LinkBuds Fit|LinkBuds Fit,Sony,XM5|XM6,,,309
+pilot,19,Headphones and speakers,Bose,Bose|QuietComfort Ultra|Bose QuietComfort Ultra|QuietComfort Ultra Headphones (2nd Gen)|QuietComfort Ultra 2nd Gen|QuietComfort|Bose QuietComfort Ultra Headphones,bose.com,False,claude-sonnet-5-5,Bose|QuietComfort Ultra|Bose QuietComfort Ultra|QuietComfort Ultra Headphones (2nd Gen)|QuietComfort Ultra 2nd Gen|QuietComfort|Bose QuietComfort Ultra Headphones,,,,,310
+pilot,19,Headphones and speakers,Sennheiser,Sennheiser|MOMENTUM 4|Momentum 4|Momentum 5|Momentum Series,sennheiser.com|sennheiser-hearing.com,False,claude-sonnet-5-5,Sennheiser|MOMENTUM 4|Momentum 4|Momentum 5|Momentum Series,,,,,311
+pilot,19,Headphones and speakers,Soundcore,Soundcore|Anker Soundcore|Soundcore by Anker|Anker|Space Q45|Space 2|Space One Pro|Soundcore Life Q30|Life Q30|Soundcore Sport X20|Sport X20|Sport X10|Soundcore Sport X10|AeroFit 2|AeroFit|Soundcore Life A1|Life A1,soundcore.com|anker.com,False,claude-sonnet-5-5,Soundcore|Anker Soundcore|Soundcore by Anker|Anker|Space Q45|Space 2|Space One Pro|Soundcore Life Q30|Life Q30|Soundcore Sport X20|Sport X20|Sport X10|Soundcore Sport X10|AeroFit 2|AeroFit|Soundcore Life A1|Life A1,,,,,312
+pilot,19,Headphones and speakers,Heyday,Heyday,,False,claude-sonnet-5-5,Heyday,,,,,313
+pilot,19,Headphones and speakers,RCA,RCA,rcaaudio.com,False,claude-sonnet-5-5,RCA,RCA,,,,314
+pilot,19,Headphones and speakers,Beats,Beats|Powerbeats|Powerbeats Pro 2|Beats Powerbeats Pro 2|Powerbeats Fit|Beats Fit Pro|Fit Pro,beatsbydre.com,False,claude-sonnet-5-5,Beats|Powerbeats|Powerbeats Pro 2|Beats Powerbeats Pro 2|Powerbeats Fit|Beats Fit Pro|Fit Pro,,,,,315
+pilot,19,Headphones and speakers,JBL,JBL|Endurance Peak|Endurance Peak 3|Endurance Peak 4|JBL Endurance Peak 3|JBL Endurance Peak 4|Reflect Aero|Endurance Race 2|JBL Endurance Race 2,jbl.com,False,claude-sonnet-5-5,JBL|Endurance Peak|Endurance Peak 3|Endurance Peak 4|JBL Endurance Peak 3|JBL Endurance Peak 4|Reflect Aero|Endurance Race 2|JBL Endurance Race 2,JBL,,,,316
+pilot,19,Headphones and speakers,Shokz,Shokz|OpenRun|OpenRun Pro 2|Shokz OpenRun Pro 2,shokz.com,False,claude-sonnet-5-5,Shokz|OpenRun|OpenRun Pro 2|Shokz OpenRun Pro 2,,,,,317
+pilot,19,Headphones and speakers,JLab,JLab|JLab Go Air Sport+|Go Air Sport+|JBuds Sport ANC 4|JLab JBuds Sport ANC 4|Sport ANC 4|JLab Go Sport+|Go Sport+,jlab.com,False,claude-sonnet-5-5,JLab|JLab Go Air Sport+|Go Air Sport+|JBuds Sport ANC 4|JLab JBuds Sport ANC 4|Sport ANC 4|JLab Go Sport+|Go Sport+,,,,,318
+pilot,19,Headphones and speakers,Jabra,Jabra,jabra.com,False,claude-sonnet-5-5,Jabra,,,,,319
+pilot,19,Headphones and speakers,EarFun,EarFun|EarFun OpenJump|OpenJump,myearfun.com,False,claude-sonnet-5-5,EarFun|EarFun OpenJump|OpenJump,,,,,320
+pilot,20,Smart home and cameras,Ring,Ring|Ring Outdoor Cam|Ring Stick Up Cam|Ring Stick up Cam Battery 3rd Generation,ring.com,True,claude-sonnet-5-5,Ring|Ring Outdoor Cam|Ring Stick Up Cam|Ring Stick up Cam Battery 3rd Generation,Ring|Ring Outdoor Cam|Ring Stick Up Cam|Ring Stick up Cam Battery 3rd Generation,,,,321
+pilot,20,Smart home and cameras,Eufy,Eufy|eufy|eufy SoloCam|Eufy SoloCam S340|SoloCam,eufy.com,False,claude-sonnet-5-5,Eufy|eufy|eufy SoloCam|Eufy SoloCam S340|SoloCam,,,,,322
+pilot,20,Smart home and cameras,Google Nest,Google Nest|Google Nest Cam|Nest Cam|Nest,store.google.com|nest.com,False,claude-sonnet-5-5,Google Nest|Google Nest Cam|Nest Cam|Nest,,,,,323
+pilot,20,Smart home and cameras,Blink,Blink|Blink Outdoor 4,blinkforhome.com,True,claude-sonnet-5-5,Blink|Blink Outdoor 4,Blink|Blink Outdoor 4,,,,324
+pilot,20,Smart home and cameras,TP-Link Tapo,TP-Link Tapo|Tapo|TP-Link Tapo Indoor/Outdoor Camera,tapo.com,False,claude-sonnet-5-5,TP-Link Tapo|Tapo|TP-Link Tapo Indoor/Outdoor Camera,,,,,325
+pilot,20,Smart home and cameras,SimpliSafe,SimpliSafe,simplisafe.com,False,claude-sonnet-5-5,SimpliSafe,,,,,326
+pilot,20,Smart home and cameras,ADT,ADT,adt.com,False,claude-sonnet-5-5,ADT,ADT,,,,327
+pilot,20,Smart home and cameras,Vivint,Vivint,vivint.com,False,claude-sonnet-5-5,Vivint,,,,,328
+pilot,20,Smart home and cameras,TP-Link Deco,TP-Link Deco|Deco|TP-Link Deco BE63|Deco BE63|Deco BE85|Deco BE5000|Deco XE75|Deco XE75 Pro|Deco BE25|Deco BE67|TP-Link,tp-link.com,False,claude-sonnet-5-5,TP-Link Deco|Deco|TP-Link Deco BE63|Deco BE63|Deco BE85|Deco BE5000|Deco XE75|Deco XE75 Pro|Deco BE25|Deco BE67|TP-Link,,,,,329
+pilot,20,Smart home and cameras,NETGEAR Orbi,NETGEAR Orbi|Netgear Orbi|Orbi|Orbi 770|Orbi 870|Orbi 970|Orbi 770 Series|NETGEAR|Netgear,netgear.com,False,claude-sonnet-5-5,NETGEAR Orbi|Netgear Orbi|Orbi|Orbi 770|Orbi 870|Orbi 970|Orbi 770 Series|NETGEAR|Netgear,,,,,330
+pilot,20,Smart home and cameras,Amazon eero,Amazon eero|eero|Eero|eero Pro 7|eero Pro 6E|eero Max 7|eero 6+|Eero 7|eero Plus,eero.com,False,claude-sonnet-5-5,Amazon eero|eero|Eero|eero Pro 7|eero Pro 6E|eero Max 7|eero 6+|Eero 7|eero Plus,,,,,331
+pilot,21,"TVs, monitors and streaming devices",Sony,Sony|Bravia|BRAVIA|Bravia 8 II|BRAVIA 8 II|Bravia 8|Bravia XR A95L|A95L|A95 Series|Acoustic Surface Audio+,sony.com|electronics.sony.com,False,claude-sonnet-5-5,Sony|Bravia|BRAVIA|Bravia 8 II|BRAVIA 8 II|Bravia 8|Bravia XR A95L|A95L|A95 Series|Acoustic Surface Audio+,Sony|A95L,,,,332
+pilot,21,"TVs, monitors and streaming devices",LG,LG|LG OLED|LG G6|LG G5|LG C-series|C-Series|G-Series|LG G-Series|LG OLED evo|OLED evo G6|LG OLED Gallery|Gallery Series|LG Gallery TV|LG OLED W6|W6 Wallpaper TV|LG G4,lg.com,True,claude-sonnet-5-5,LG|LG OLED|LG G6|G6|LG G5|G5|C6|LG C-series|C-Series|G-Series|LG G-Series|LG OLED evo|OLED evo G6|LG OLED Gallery|Gallery Series|LG Gallery TV|LG OLED W6|W6 Wallpaper TV|LG G4|G4,LG|LG OLED|LG G6|LG G5|LG C-series|C-Series|G-Series|LG G-Series|LG OLED evo|OLED evo G6|LG OLED Gallery|Gallery Series|LG Gallery TV|LG OLED W6|W6 Wallpaper TV|LG G4,G6|G5|C6|G4,,,333
+pilot,21,"TVs, monitors and streaming devices",Samsung,Samsung|Samsung S95H|S95H|S95F|S99H|S90 Series|Samsung S-Series|The Frame|The Frame Pro|Frame Pro|Samsung Frame,samsung.com,False,claude-sonnet-5-5,Samsung|Samsung S95H|S95H|S95F|S95|S99H|S90|S90 Series|Samsung S-Series|The Frame|The Frame Pro|Frame Pro|Samsung Frame,Samsung|S95H|S95F|S99H,S95|S90,,,334
+pilot,21,"TVs, monitors and streaming devices",Panasonic,Panasonic|Panasonic Z95B|Z95B|Z95BP|Z95 Series|Technics 360 Soundscape Pro,panasonic.com,False,claude-sonnet-5-5,Panasonic|Panasonic Z95B|Z95B|Z95BP|Z95 Series|Technics 360 Soundscape Pro,Panasonic|Z95B,,,,335
+pilot,21,"TVs, monitors and streaming devices",Philips,Philips|Philips OLED+910|OLED+910|OLED910,philips.com,False,claude-sonnet-5-5,Philips|Philips OLED+910|OLED+910|OLED910,Philips,,,,336
+pilot,21,"TVs, monitors and streaming devices",Hisense,Hisense|Hisense Canvas TV,hisense-usa.com|hisense.com,False,claude-sonnet-5-5,Hisense|Hisense Canvas TV,,,,,337
+pilot,22,Gaming,Sony PlayStation,Sony PlayStation|Sony|PlayStation|PlayStation 5 Pro|PS5 Pro|PlayStation 5|PlayStation 4|PS4 Slim|PlayStation 4 Pro|PS4 Pro|DualSense|DualSense Edge|PSSR,playstation.com|sony.com,False,claude-sonnet-5-5,Sony PlayStation|Sony|PlayStation|PlayStation 5 Pro|PS5 Pro|PlayStation 5|PS5|PlayStation 4|PS4|PS4 Slim|PlayStation 4 Pro|PS4 Pro|DualSense|DualSense Edge|PSSR,Sony|PlayStation|PSSR,PS5|PS4,,,338
+pilot,22,Gaming,Microsoft Xbox,Microsoft Xbox|Microsoft|Xbox|Xbox Series X|Xbox Series S|Series S|Series X|Xbox Game Pass|Game Pass|Xbox Elite Series 2|Xbox Elite Wireless Controller Series 2,xbox.com|microsoft.com,False,claude-sonnet-5-5,Microsoft Xbox|Microsoft|Xbox|Xbox Series X|Xbox Series S|Series S|Series X|Xbox Game Pass|Game Pass|Xbox Elite Series 2|Xbox Elite Wireless Controller Series 2,Microsoft|Xbox,,,,339
+pilot,22,Gaming,Nintendo,Nintendo|Nintendo Switch|Switch|Nintendo Switch Lite|Switch Lite,nintendo.com,False,claude-sonnet-5-5,Nintendo|Nintendo Switch|Switch|Nintendo Switch Lite|Switch Lite,Nintendo|Switch,,,,340
+pilot,22,Gaming,Scuf,Scuf|SCUF,scufgaming.com,False,claude-sonnet-5-5,Scuf|SCUF,SCUF,,,,341
+pilot,22,Gaming,Razer,Razer,razer.com,False,claude-sonnet-5-5,Razer,,,,,342
+pilot,22,Gaming,GameStop,GameStop,gamestop.com,False,claude-sonnet-5-5,GameStop,,,,,343
+pilot,22,Gaming,Swappa,Swappa|Swappa.com,swappa.com,False,claude-sonnet-5-5,Swappa|Swappa.com,,,,,344
+pilot,23,Online security and privacy apps,NordVPN,NordVPN|Nord VPN|NordLynx|Double VPN,nordvpn.com,False,claude-sonnet-5-5,NordVPN|Nord VPN|NordLynx|Double VPN,,,,,345
+pilot,23,Online security and privacy apps,Proton VPN,Proton VPN|ProtonVPN|Secure Core,protonvpn.com,False,claude-sonnet-5-5,Proton VPN|ProtonVPN|Secure Core,,,,,346
+pilot,23,Online security and privacy apps,Private Internet Access,Private Internet Access|PIA,privateinternetaccess.com,False,claude-sonnet-5-5,Private Internet Access|PIA,PIA,,,,347
+pilot,23,Online security and privacy apps,Surfshark,Surfshark|MultiHop|Dynamic MultiHop,surfshark.com,False,claude-sonnet-5-5,Surfshark|MultiHop|Dynamic MultiHop,,,,,348
+pilot,23,Online security and privacy apps,IVPN,IVPN,ivpn.net,False,claude-sonnet-5-5,IVPN,IVPN,,,,349
+pilot,23,Online security and privacy apps,OVPN,OVPN,ovpn.com,False,claude-sonnet-5-5,OVPN,OVPN,,,,350
+pilot,23,Online security and privacy apps,IPVanish,IPVanish,ipvanish.com,False,claude-sonnet-5-5,IPVanish,,,,,351
+pilot,23,Online security and privacy apps,hide.me,hide.me|hide.me VPN|hide.me VPN Multihop,hide.me,False,claude-sonnet-5-5,hide.me|hide.me VPN|hide.me VPN Multihop,,,,,352
+pilot,23,Online security and privacy apps,Windscribe,Windscribe,windscribe.com,False,claude-sonnet-5-5,Windscribe,,,,,353
+pilot,23,Online security and privacy apps,Mullvad,Mullvad|Mullvad VPN,mullvad.net,False,claude-sonnet-5-5,Mullvad|Mullvad VPN,,,,,354
+pilot,23,Online security and privacy apps,ExpressVPN,ExpressVPN|Express VPN|Lightway,expressvpn.com,False,claude-sonnet-5-5,ExpressVPN|Express VPN|Lightway,,,,,355
+pilot,23,Online security and privacy apps,AirVPN,AirVPN,airvpn.org,False,claude-sonnet-5-5,AirVPN,,,,,356
+pilot,23,Online security and privacy apps,1Password,1Password|1Password Family|1Password Families|1Password for Families,1password.com,False,claude-sonnet-5-5,1Password|1Password Family|1Password Families|1Password for Families,,,,,357
+pilot,23,Online security and privacy apps,Bitwarden,Bitwarden|Bitwarden Families,bitwarden.com,False,claude-sonnet-5-5,Bitwarden|Bitwarden Families,,,,,358
+pilot,23,Online security and privacy apps,NordPass,NordPass|NordPass Family,nordpass.com,False,claude-sonnet-5-5,NordPass|NordPass Family,,,,,359
+pilot,23,Online security and privacy apps,Dashlane,Dashlane|Dashlane Friends & Family,dashlane.com,False,claude-sonnet-5-5,Dashlane|Dashlane Friends & Family,,,,,360
+pilot,23,Online security and privacy apps,Proton Pass,Proton Pass|Proton Pass Family,proton.me,False,claude-sonnet-5-5,Proton Pass|Proton Pass Family,,,,,361
+pilot,24,Video and music streaming,Amazon Prime Video,Amazon Prime Video|Prime Video|Amazon Prime|Prime Membership,primevideo.com|amazon.com,False,claude-sonnet-5-5,Amazon Prime Video|Prime Video|Amazon Prime|Prime Membership,,,,,362
+pilot,24,Video and music streaming,Netflix,Netflix|Netflix with ads|Netflix (with ads)|Netflix (Standard with Ads),netflix.com,False,claude-sonnet-5-5,Netflix|Netflix with ads|Netflix (with ads)|Netflix (Standard with Ads),,,,,363
+pilot,24,Video and music streaming,HBO Max,HBO Max|HBO Max (with ads)|HBO Max (Basic with Ads),hbomax.com|max.com,False,claude-sonnet-5-5,HBO Max|HBO Max (with ads)|HBO Max (Basic with Ads),,,,,364
+pilot,24,Video and music streaming,Hulu,Hulu|Disney+ and Hulu bundle|Disney+ / Hulu Bundle|Disney+ & Hulu,hulu.com,False,claude-sonnet-5-5,Hulu|Disney+ and Hulu bundle|Disney+ / Hulu Bundle|Disney+ & Hulu,,,,,365
+pilot,24,Video and music streaming,Disney+,Disney+|Disney Plus|Disney+ and Hulu bundle|Disney+ / Hulu Bundle|Disney+ & Hulu,disneyplus.com,False,claude-sonnet-5-5,Disney+|Disney Plus|Disney+ and Hulu bundle|Disney+ / Hulu Bundle|Disney+ & Hulu,,,,,366
+pilot,24,Video and music streaming,Peacock,Peacock,peacocktv.com,False,claude-sonnet-5-5,Peacock,,,,,367
+pilot,24,Video and music streaming,Paramount+,Paramount+|Paramount+ Essential|Paramount+ with Showtime|Showtime,paramountplus.com,False,claude-sonnet-5-5,Paramount+|Paramount+ Essential|Paramount+ with Showtime|Showtime,,,,,368
+pilot,24,Video and music streaming,Apple TV,Apple TV|Apple TV+,tv.apple.com|apple.com,False,claude-sonnet-5-5,Apple TV|Apple TV+,,,,,369
+pilot,24,Video and music streaming,MGM+,MGM+,mgmplus.com,False,claude-sonnet-5-5,MGM+,,,,,370
+pilot,24,Video and music streaming,Tubi,Tubi,tubitv.com,False,claude-sonnet-5-5,Tubi,,,,,371
+pilot,24,Video and music streaming,Pluto TV,Pluto TV,pluto.tv,False,claude-sonnet-5-5,Pluto TV,,,,,372
+pilot,24,Video and music streaming,Freevee,Freevee,amazon.com,False,claude-sonnet-5-5,Freevee,,,,,373
+pilot,24,Video and music streaming,Roku Channel,Roku Channel|The Roku Channel,therokuchannel.roku.com|roku.com,False,claude-sonnet-5-5,Roku Channel|The Roku Channel,,,,,374
+pilot,24,Video and music streaming,YouTube,YouTube,youtube.com,False,claude-sonnet-5-5,YouTube,,,,,375
+pilot,24,Video and music streaming,Spotify,Spotify|Spotify Connect,spotify.com,False,claude-sonnet-5-5,Spotify|Spotify Connect,,,,,376
+pilot,24,Video and music streaming,Apple Music,Apple Music,music.apple.com,False,claude-sonnet-5-5,Apple Music,,,,,377
+pilot,24,Video and music streaming,YouTube Music,YouTube Music|YouTube Premium,music.youtube.com,False,claude-sonnet-5-5,YouTube Music|YouTube Premium,,,,,378
+pilot,24,Video and music streaming,Tidal,Tidal|TIDAL|Tidal Connect,tidal.com,False,claude-sonnet-5-5,Tidal|TIDAL|Tidal Connect,,,,,379
+pilot,24,Video and music streaming,Qobuz,Qobuz,qobuz.com,False,claude-sonnet-5-5,Qobuz,,,,,380
+pilot,24,Video and music streaming,Amazon Music Unlimited,Amazon Music Unlimited|Amazon Music,music.amazon.com,False,claude-sonnet-5-5,Amazon Music Unlimited|Amazon Music,,,,,381
+pilot,25,Language learning and online courses,TalentLMS,TalentLMS,talentlms.com,False,claude-sonnet-5-5,TalentLMS,,,,,382
+pilot,25,Language learning and online courses,Connecteam,Connecteam,connecteam.com,False,claude-sonnet-5-5,Connecteam,,,,,383
+pilot,25,Language learning and online courses,Trainual,Trainual,trainual.com,False,claude-sonnet-5-5,Trainual,,,,,384
+pilot,25,Language learning and online courses,360Learning,360Learning,360learning.com,False,claude-sonnet-5-5,360Learning,,,,,385
+pilot,25,Language learning and online courses,GoSkills,GoSkills,goskills.com,False,claude-sonnet-5-5,GoSkills,,,,,386
+pilot,25,Language learning and online courses,TalentCards,TalentCards,talentcards.io,False,claude-sonnet-5-5,TalentCards,,,,,387
+pilot,25,Language learning and online courses,Cornerstone,Cornerstone|Cornerstone OnDemand,cornerstoneondemand.com,True,claude-sonnet-5-5,Cornerstone|Cornerstone OnDemand,Cornerstone|Cornerstone OnDemand,,,,388
+pilot,25,Language learning and online courses,Docebo,Docebo,docebo.com,False,claude-sonnet-5-5,Docebo,,,,,389
+pilot,25,Language learning and online courses,LearnWorlds,LearnWorlds,learnworlds.com,False,claude-sonnet-5-5,LearnWorlds,,,,,390
+pilot,25,Language learning and online courses,Thinkific,Thinkific,thinkific.com,False,claude-sonnet-5-5,Thinkific,,,,,391
+pilot,25,Language learning and online courses,Udemy,Udemy|Udemy Business|Udemy Personal Plan,udemy.com,False,claude-sonnet-5-5,Udemy|Udemy Business|Udemy Personal Plan,,,,,392
+pilot,25,Language learning and online courses,LinkedIn Learning,LinkedIn Learning,linkedin.com,False,claude-sonnet-5-5,LinkedIn Learning,,,,,393
+pilot,25,Language learning and online courses,Coursera,Coursera|Coursera Plus,coursera.org,False,claude-sonnet-5-5,Coursera|Coursera Plus,,,,,394
+pilot,25,Language learning and online courses,Skillshare,Skillshare,skillshare.com,False,claude-sonnet-5-5,Skillshare,,,,,395
+pilot,25,Language learning and online courses,DataCamp,DataCamp,datacamp.com,False,claude-sonnet-5-5,DataCamp,,,,,396
+pilot,25,Language learning and online courses,MasterClass,MasterClass,masterclass.com,False,claude-sonnet-5-5,MasterClass,,,,,397
+pilot,25,Language learning and online courses,Khan Academy,Khan Academy,khanacademy.org,False,claude-sonnet-5-5,Khan Academy,,,,,398
+pilot,25,Language learning and online courses,edX,edX|EdX,edx.org,False,claude-sonnet-5-5,edX|EdX,edX|EdX,,,,399
+pilot,25,Language learning and online courses,Udacity,Udacity|Nanodegree,udacity.com,False,claude-sonnet-5-5,Udacity|Nanodegree,,,,,400
+pilot,25,Language learning and online courses,Pluralsight,Pluralsight,pluralsight.com,False,claude-sonnet-5-5,Pluralsight,,,,,401
+pilot,25,Language learning and online courses,Harvard Business School Online,Harvard Business School Online|HBS Online|HBS|CORe,online.hbs.edu,False,claude-sonnet-5-5,Harvard Business School Online|HBS Online|HBS|CORe,HBS|CORe,,,,402
+pilot,26,Fitness and health apps,Headspace,Headspace|Headspace Family Plan|Headspace for Kids|Headspace Family,headspace.com,False,claude-sonnet-5-5,Headspace|Headspace Family Plan|Headspace for Kids|Headspace Family,,,,,403
+pilot,26,Fitness and health apps,Calm,Calm|Calm Premium|Calm Premium Family|Calm Family Plan|Daily Calm,calm.com,True,claude-sonnet-5-5,Calm|Calm Premium|Calm Premium Family|Calm Family Plan|Daily Calm,Calm|Calm Premium|Calm Premium Family|Calm Family Plan|Daily Calm,,,,404
+pilot,26,Fitness and health apps,Insight Timer,Insight Timer|Insight Timer Plus,insighttimer.com,False,claude-sonnet-5-5,Insight Timer|Insight Timer Plus,,,,,405
+pilot,26,Fitness and health apps,Waking Up,Waking Up|Waking Up by Sam Harris,wakingup.com,False,claude-sonnet-5-5,Waking Up|Waking Up by Sam Harris,,,,,406
+pilot,26,Fitness and health apps,Buddhify,Buddhify,buddhify.com,False,claude-sonnet-5-5,Buddhify,,,,,407
+pilot,27,Mobile and internet providers,Verizon Fios,Verizon Fios|Fios,verizon.com,False,claude-sonnet-5-5,Verizon Fios|Fios,,,,,408
+pilot,27,Mobile and internet providers,Verizon 5G Home,Verizon 5G Home|Verizon 5G Home Internet,verizon.com,False,claude-sonnet-5-5,Verizon 5G Home|Verizon 5G Home Internet,,,,,409
+pilot,27,Mobile and internet providers,Honest Networks,Honest Networks,honestnetworks.com,False,claude-sonnet-5-5,Honest Networks,,,,,410
+pilot,27,Mobile and internet providers,Brooklyn Fiber,Brooklyn Fiber,brooklynfiber.com,False,claude-sonnet-5-5,Brooklyn Fiber,,,,,411
+pilot,27,Mobile and internet providers,Spectrum,Spectrum,spectrum.com,False,claude-sonnet-5-5,Spectrum,Spectrum,,,,412
+pilot,27,Mobile and internet providers,T-Mobile 5G Home Internet,T-Mobile 5G Home Internet|T-Mobile Home Internet|T-Mobile,t-mobile.com,False,claude-sonnet-5-5,T-Mobile 5G Home Internet|T-Mobile Home Internet|T-Mobile,,,,,413
+pilot,27,Mobile and internet providers,GFiber,GFiber|Google Fiber,fiber.google.com|gfiber.com,False,claude-sonnet-5-5,GFiber|Google Fiber,,,,,414
+pilot,27,Mobile and internet providers,AT&T Fiber,AT&T Fiber|AT&T,att.com,False,claude-sonnet-5-5,AT&T Fiber|AT&T,AT&T,,,,415
+pilot,27,Mobile and internet providers,Frontier Fiber,Frontier Fiber|Frontier,frontier.com,False,claude-sonnet-5-5,Frontier Fiber|Frontier,,,,,416
+pilot,27,Mobile and internet providers,Ziply Fiber,Ziply Fiber|Ziply,ziplyfiber.com,False,claude-sonnet-5-5,Ziply Fiber|Ziply,,,,,417
+pilot,27,Mobile and internet providers,Kinetic,Kinetic|Kinetic Fiber,windstream.com|kineticbywindstream.com,False,claude-sonnet-5-5,Kinetic|Kinetic Fiber,,,,,418
+pilot,27,Mobile and internet providers,Metronet,Metronet,metronet.com,False,claude-sonnet-5-5,Metronet,,,,,419
+pilot,27,Mobile and internet providers,IQ Fiber,IQ Fiber,iqfiber.com,False,claude-sonnet-5-5,IQ Fiber,,,,,420
+pilot,27,Mobile and internet providers,Xfinity,Xfinity|Comcast,xfinity.com,False,claude-sonnet-5-5,Xfinity|Comcast,,,,,421
+pilot,27,Mobile and internet providers,Fidium Fiber,Fidium Fiber|Fidium,fidiumfiber.com,False,claude-sonnet-5-5,Fidium Fiber|Fidium,,,,,422
+pilot,27,Mobile and internet providers,Quantum Fiber,Quantum Fiber,quantumfiber.com,False,claude-sonnet-5-5,Quantum Fiber,,,,,423
+pilot,27,Mobile and internet providers,Infimobile,Infimobile,infimobile.com,False,claude-sonnet-5-5,Infimobile,,,,,424
+pilot,27,Mobile and internet providers,Tello Mobile,Tello Mobile|Tello,tello.com,False,claude-sonnet-5-5,Tello Mobile|Tello,,,,,425
+pilot,27,Mobile and internet providers,H2O Wireless,H2O Wireless,h2owireless.com,False,claude-sonnet-5-5,H2O Wireless|H2O,,H2O,,,426
+pilot,27,Mobile and internet providers,US Mobile,US Mobile|Unlimited Starter|Unlimited Flex|Warp|Dark Star|Light Speed,usmobile.com,False,claude-sonnet-5-5,US Mobile|Unlimited Starter|Unlimited Flex|Warp|Dark Star|Light Speed,,,,,427
+pilot,27,Mobile and internet providers,Visible,Visible|Visible+|Visible Base,visible.com,False,claude-sonnet-5-5,Visible|Visible+|Visible Base,Visible,,,,428
+pilot,27,Mobile and internet providers,Mint Mobile,Mint Mobile|Mint,mintmobile.com,False,claude-sonnet-5-5,Mint Mobile|Mint,Mint,,,,429
+pilot,27,Mobile and internet providers,Cricket Wireless,Cricket Wireless|Cricket|Supreme Unlimited,cricketwireless.com,False,claude-sonnet-5-5,Cricket Wireless|Cricket|Supreme Unlimited,Cricket,,,,430
+pilot,27,Mobile and internet providers,MobileX,MobileX|Unlimited 10,mobilex.com,False,claude-sonnet-5-5,MobileX|Unlimited 10,,,,,431
+pilot,27,Mobile and internet providers,Red Pocket Mobile,Red Pocket Mobile|Red Pocket,redpocket.com,False,claude-sonnet-5-5,Red Pocket Mobile|Red Pocket,,,,,432
+pilot,27,Mobile and internet providers,Verizon,Verizon,verizon.com,False,claude-sonnet-5-5,Verizon,Verizon,,,,433
+pilot,28,Online stores and marketplaces,Back Market,Back Market,backmarket.com,False,claude-sonnet-5-5,Back Market,,,,,434
+pilot,28,Online stores and marketplaces,Amazon Renewed,Amazon Renewed|Amazon|Renewed Premium|Renewed Guarantee,amazon.com,False,claude-sonnet-5-5,Amazon Renewed|Amazon|Renewed Premium|Renewed Guarantee,Amazon,,,,435
+pilot,28,Online stores and marketplaces,eBay,eBay|eBay Refurbished|eBay Certified Refurbished,ebay.com,False,claude-sonnet-5-5,eBay|eBay Refurbished|eBay Certified Refurbished,eBay,,,,436
+pilot,28,Online stores and marketplaces,Apple Certified Refurbished,Apple Certified Refurbished|Apple Refurbished,apple.com,False,claude-sonnet-5-5,Apple Certified Refurbished|Apple Refurbished,,,,,437
+pilot,28,Online stores and marketplaces,Best Buy Outlet,Best Buy Outlet|Best Buy,bestbuy.com,False,claude-sonnet-5-5,Best Buy Outlet|Best Buy,,,,,438
+pilot,28,Online stores and marketplaces,Swappa,Swappa,swappa.com,False,claude-sonnet-5-5,Swappa,,,,,439
+pilot,28,Online stores and marketplaces,ThredUp,ThredUp|thredUP|ThredUp Clean Out|Clean Out Kit,thredup.com,False,claude-sonnet-5-5,ThredUp|thredUP|ThredUp Clean Out|Clean Out Kit,,,,,440
+pilot,28,Online stores and marketplaces,The RealReal,The RealReal|RealReal,therealreal.com,False,claude-sonnet-5-5,The RealReal|RealReal,,,,,441
+pilot,28,Online stores and marketplaces,FASHIONPHILE,FASHIONPHILE|Fashionphile,fashionphile.com,False,claude-sonnet-5-5,FASHIONPHILE|Fashionphile,,,,,442
+pilot,28,Online stores and marketplaces,Luxury Garage Sale,Luxury Garage Sale,luxurygaragesale.com,False,claude-sonnet-5-5,Luxury Garage Sale,,,,,443
+pilot,28,Online stores and marketplaces,Crossroads Trading,Crossroads Trading|Crossroads|Bag It,crossroadstrading.com,False,claude-sonnet-5-5,Crossroads Trading|Crossroads|Bag It,,,,,444
+pilot,28,Online stores and marketplaces,Uptown Cheapskate,Uptown Cheapskate,uptowncheapskate.com,False,claude-sonnet-5-5,Uptown Cheapskate,,,,,445
+pilot,28,Online stores and marketplaces,Buffalo Exchange,Buffalo Exchange|Sell by Mail,buffaloexchange.com,False,claude-sonnet-5-5,Buffalo Exchange|Sell by Mail,,,,,446
+pilot,29,Fashion,Patagonia,Patagonia|Worn Wear|Footprint Chronicles|Ironclad Guarantee|Patagonia Worn Wear,patagonia.com,False,claude-sonnet-5-5,Patagonia|Worn Wear|Footprint Chronicles|Ironclad Guarantee|Patagonia Worn Wear,,,,,447
+pilot,29,Fashion,Eileen Fisher,Eileen Fisher|EILEEN FISHER|Eileen Fisher Renew|Renew,eileenfisher.com,False,claude-sonnet-5-5,Eileen Fisher|EILEEN FISHER|Eileen Fisher Renew|Renew,,,,,448
+pilot,29,Fashion,Asket,Asket|ASKET,asket.com,False,claude-sonnet-5-5,Asket|ASKET,,,,,449
+pilot,29,Fashion,Nudie Jeans,Nudie Jeans,nudiejeans.com,False,claude-sonnet-5-5,Nudie Jeans,,,,,450
+pilot,29,Fashion,Kotn,Kotn,kotn.com,False,claude-sonnet-5-5,Kotn,,,,,451
+pilot,29,Fashion,Armedangels,Armedangels|ARMEDANGELS,armedangels.com,False,claude-sonnet-5-5,Armedangels|ARMEDANGELS,,,,,452
+pilot,29,Fashion,People Tree,People Tree,peopletree.co.uk,False,claude-sonnet-5-5,People Tree,,,,,453
+pilot,29,Fashion,Pact,Pact,wearpact.com,True,claude-sonnet-5-5,Pact,Pact,,,,454
+pilot,29,Fashion,Everlane,Everlane,everlane.com,False,claude-sonnet-5-5,Everlane,,,,,455
+pilot,29,Fashion,Reformation,Reformation,thereformation.com,False,claude-sonnet-5-5,Reformation,,,,,456
+pilot,29,Fashion,AYA Sustainable Fashion,AYA Sustainable Fashion|AYA|Aya,ayaecofashion.com,False,claude-sonnet-5-5,AYA Sustainable Fashion|AYA|Aya,AYA|Aya,,,,457
+pilot,29,Fashion,Rawganique,Rawganique,rawganique.com,False,claude-sonnet-5-5,Rawganique,,,,,458
+pilot,29,Fashion,Wild & Pree,Wild & Pree,wildandpree.com,False,claude-sonnet-5-5,Wild & Pree,,,,,459
+pilot,29,Fashion,Strand,Strand|Strand Clothing,strandclothing.com,True,claude-sonnet-5-5,Strand|Strand Clothing,Strand|Strand Clothing,,,,460
+pilot,29,Fashion,Harvest & Mill,Harvest & Mill,harvestandmill.com,False,claude-sonnet-5-5,Harvest & Mill,,,,,461
+pilot,29,Fashion,Mover,Mover|Mover Plastic Free Sportswear,moversportswear.com,True,claude-sonnet-5-5,Mover|Mover Plastic Free Sportswear,Mover|Mover Plastic Free Sportswear,,,,462
+pilot,29,Fashion,Industry of All Nations,Industry of All Nations|IOAN,industryofallnations.com,False,claude-sonnet-5-5,Industry of All Nations|IOAN,IOAN,,,,463
+pilot,29,Fashion,Iron Roots,Iron Roots,ironroots.com,False,claude-sonnet-5-5,Iron Roots,,,,,464
+pilot,29,Fashion,MATE the Label,MATE the Label|Mate the Label,matethelabel.com,False,claude-sonnet-5-5,MATE the Label|Mate the Label,,,,,465
+pilot,29,Fashion,Community Clothing,Community Clothing,communityclothing.co.uk,False,claude-sonnet-5-5,Community Clothing,,,,,466
+pilot,29,Fashion,Arms of Andes,Arms of Andes,armsofandes.com,False,claude-sonnet-5-5,Arms of Andes,,,,,467
+pilot,29,Fashion,Honest Basics,Honest Basics,honestbasics.com,False,claude-sonnet-5-5,Honest Basics,,,,,468
+pilot,29,Fashion,Yes Friends,Yes Friends,yesfriends.co,False,claude-sonnet-5-5,Yes Friends,,,,,469
+pilot,29,Fashion,Boody,Boody,boody.com,False,claude-sonnet-5-5,Boody,,,,,470
+pilot,29,Fashion,tentree,tentree,tentree.com,False,claude-sonnet-5-5,tentree,,,,,471
+pilot,29,Fashion,Quince,Quince,quince.com,False,claude-sonnet-5-5,Quince,,,,,472
+pilot,29,Fashion,Organic Basics,Organic Basics,organicbasics.com,False,claude-sonnet-5-5,Organic Basics,,,,,473
+pilot,29,Fashion,Girlfriend Collective,Girlfriend Collective,girlfriend.com,False,claude-sonnet-5-5,Girlfriend Collective,,,,,474
+pilot,29,Fashion,Outerknown,Outerknown|Outerworn,outerknown.com,False,claude-sonnet-5-5,Outerknown|Outerworn,,,,,475
+pilot,29,Fashion,Rapanui,Rapanui,rapanuiclothing.com,False,claude-sonnet-5-5,Rapanui,,,,,476
+pilot,29,Fashion,ThredUp,ThredUp,thredup.com,False,claude-sonnet-5-5,ThredUp,,,,,477
+pilot,29,Fashion,Poshmark,Poshmark,poshmark.com,False,claude-sonnet-5-5,Poshmark,,,,,478
+pilot,29,Fashion,Depop,Depop,depop.com,False,claude-sonnet-5-5,Depop,,,,,479
+pilot,30,Running shoes and sportswear,HOKA,HOKA|Hoka|Clifton 11|Clifton|Bondi 9|Bondi|Transport 2|Transport|Kawana 3|Hoka Clifton Series,hoka.com,False,claude-sonnet-5-5,HOKA|Hoka|Clifton 11|Clifton|Bondi 9|Bondi|Transport 2|Transport|Kawana 3|Hoka Clifton Series,HOKA|Transport,,,,480
+pilot,30,Running shoes and sportswear,New Balance,New Balance|Fresh Foam X More v6|Fresh Foam X 1080|574 Core|1906R|990v6|Fresh Foam X 880v14|880v14,newbalance.com,False,claude-sonnet-5-5,New Balance|Fresh Foam X More v6|Fresh Foam X 1080|1080|574 Core|237|1906R|530|990v6|Fresh Foam X 880v14|880v14,,1080|237|530,,,481
+pilot,30,Running shoes and sportswear,Brooks,Brooks|Ghost 18|Ghost|Ghost Max|Adrenaline GTS|Glycerin GTS 22,brooksrunning.com,False,claude-sonnet-5-5,Brooks|Ghost 18|Ghost|Ghost Max|Adrenaline GTS|Glycerin GTS 22,Brooks|Ghost,,,,482
+pilot,30,Running shoes and sportswear,ASICS,ASICS|Asics|Gel-Cumulus 28|GEL-Kayano 14|GEL-Kayano|Gel-Kayano,asics.com,False,claude-sonnet-5-5,ASICS|Asics|Gel-Cumulus 28|GEL-Kayano 14|GEL-Kayano|Gel-Kayano,,,,,483
+pilot,30,Running shoes and sportswear,On,On|On Running|Cloud 6|Cloud 6 Versa|Cloud 5|Cloud 5 Coast|Cloudtilt|Cloudnova|CloudTec,on.com|on-running.com,True,claude-sonnet-5-5,On|On Running|Cloud 6|Cloud 6 Versa|Cloud 5|Cloud 5 Coast|Cloudtilt|Cloudnova|CloudTec,On|On Running|Cloud 6|Cloud 6 Versa|Cloud 5|Cloud 5 Coast|Cloudtilt|Cloudnova|CloudTec,,,,484
+pilot,30,Running shoes and sportswear,Allbirds,Allbirds|Tree Runner|Tree Runners|Tree Runner Go|Tree Line,allbirds.com,False,claude-sonnet-5-5,Allbirds|Tree Runner|Tree Runners|Tree Runner Go|Tree Line,,,,,485
+pilot,30,Running shoes and sportswear,ECCO,ECCO|Ecco|ECCO Soft 7|ECCO Gruuv,ecco.com,False,claude-sonnet-5-5,ECCO|Ecco|ECCO Soft 7|ECCO Gruuv,ECCO,,,,486
+pilot,30,Running shoes and sportswear,Merrell,Merrell|Moab 3,merrell.com,False,claude-sonnet-5-5,Merrell|Moab 3,,,,,487
+pilot,30,Running shoes and sportswear,Skechers,Skechers|GOwalk|GO WALK 6|Arch Fit|Goga Mat,skechers.com,False,claude-sonnet-5-5,Skechers|GOwalk|GO WALK 6|Arch Fit|Goga Mat,,,,,488
+pilot,30,Running shoes and sportswear,Saucony,Saucony|Ride 19,saucony.com,False,claude-sonnet-5-5,Saucony|Ride 19,,,,,489
+pilot,30,Running shoes and sportswear,Adidas,Adidas|adidas|Climacool,adidas.com,False,claude-sonnet-5-5,Adidas|adidas|Climacool,Adidas|adidas,,,,490
+pilot,30,Running shoes and sportswear,Nike,Nike|Zoom Vomero 5|Air Pegasus|Pegasus,nike.com,False,claude-sonnet-5-5,Nike|Zoom Vomero 5|Air Pegasus|Pegasus,Nike,,,,491
+pilot,30,Running shoes and sportswear,Columbia,Columbia|Columbia Konos Featherweight|Konos Featherweight,columbia.com,False,claude-sonnet-5-5,Columbia|Columbia Konos Featherweight|Konos Featherweight,Columbia,,,,492
+pilot,30,Running shoes and sportswear,Darn Tough,Darn Tough,darntough.com,False,claude-sonnet-5-5,Darn Tough,,,,,493
+pilot,30,Running shoes and sportswear,Smartwool,Smartwool,smartwool.com,False,claude-sonnet-5-5,Smartwool,,,,,494
+pilot,31,Beauty and skincare,SkinCeuticals,SkinCeuticals|C E Ferulic|P-Tiox|P-Tiox Anti-Wrinkle Peptide Serum,skinceuticals.com,False,claude-sonnet-5-5,SkinCeuticals|C E Ferulic|P-Tiox|P-Tiox Anti-Wrinkle Peptide Serum,,,,,495
+pilot,31,Beauty and skincare,Medik8,Medik8|Crystal Retinal|Liquid Peptides|Medik8 Liquid Peptides,medik8.com,False,claude-sonnet-5-5,Medik8|Crystal Retinal|Liquid Peptides|Medik8 Liquid Peptides,,,,,496
+pilot,31,Beauty and skincare,Murad,Murad|Retinol Youth Renewal Serum,murad.com,False,claude-sonnet-5-5,Murad|Retinol Youth Renewal Serum,,,,,497
+pilot,31,Beauty and skincare,Olay,Olay,olay.com,False,claude-sonnet-5-5,Olay,,,,,498
+pilot,31,Beauty and skincare,Estée Lauder,Estée Lauder|Estee Lauder|Advanced Night Repair|Advanced Night Repair Serum,esteelauder.com,False,claude-sonnet-5-5,Estée Lauder|Estee Lauder|Advanced Night Repair|Advanced Night Repair Serum,,,,,499
+pilot,31,Beauty and skincare,Clarins,Clarins|Double Serum,clarins.com,False,claude-sonnet-5-5,Clarins|Double Serum,,,,,500
+pilot,31,Beauty and skincare,The Ordinary,The Ordinary|Multi-Peptide + Copper Peptides 1% Serum|Multi-Peptide + HA,theordinary.com,False,claude-sonnet-5-5,The Ordinary|Multi-Peptide + Copper Peptides 1% Serum|Multi-Peptide + HA,,,,,501
+pilot,31,Beauty and skincare,CeraVe,CeraVe,cerave.com,False,claude-sonnet-5-5,CeraVe,,,,,502
+pilot,31,Beauty and skincare,SkinMedica,SkinMedica|TNS Advanced+ Serum|TNS Advanced+|TNS,skinmedica.com,False,claude-sonnet-5-5,SkinMedica|TNS Advanced+ Serum|TNS Advanced+|TNS,TNS,,,,503
+pilot,31,Beauty and skincare,Good Molecules,Good Molecules,goodmolecules.com,False,claude-sonnet-5-5,Good Molecules,,,,,504
+pilot,31,Beauty and skincare,La Roche-Posay,La Roche-Posay|Retinol B3 Anti-Aging Serum|Pure Vitamin C10,laroche-posay.us,False,claude-sonnet-5-5,La Roche-Posay|Retinol B3 Anti-Aging Serum|Pure Vitamin C10,,,,,505
+pilot,31,Beauty and skincare,L'Oréal Paris,L'Oréal Paris|L’Oréal Paris|Revitalift,lorealparisusa.com,False,claude-sonnet-5-5,L'Oréal Paris|L’Oréal Paris|Revitalift,,,,,506
+pilot,31,Beauty and skincare,Biossance,Biossance|Squalane + Copper Peptide Rapid Plumping Serum,biossance.com,False,claude-sonnet-5-5,Biossance|Squalane + Copper Peptide Rapid Plumping Serum,,,,,507
+pilot,31,Beauty and skincare,Eighth Day,Eighth Day|The Regenerative Serum,eighthdayskincare.com,False,claude-sonnet-5-5,Eighth Day|The Regenerative Serum,,,,,508
+pilot,31,Beauty and skincare,COSRX,COSRX|6 Peptide Skin Booster,cosrx.com,False,claude-sonnet-5-5,COSRX|6 Peptide Skin Booster,,,,,509
+pilot,31,Beauty and skincare,PCA Skin,PCA Skin|Pro-Max Age Renewal Advanced Anti-Aging Serum,pcaskin.com,False,claude-sonnet-5-5,PCA Skin|Pro-Max Age Renewal Advanced Anti-Aging Serum,,,,,510
+pilot,31,Beauty and skincare,Medicube,Medicube|PDRN Pink Peptide Serum,medicube.us,False,claude-sonnet-5-5,Medicube|PDRN Pink Peptide Serum,,,,,511
+pilot,31,Beauty and skincare,Color Wow,Color Wow|COLOR WOW|Dream Coat Supernatural Spray|Dream Coat,colorwowhair.com,False,claude-sonnet-5-5,Color Wow|COLOR WOW|Dream Coat Supernatural Spray|Dream Coat,,,,,512
+pilot,31,Beauty and skincare,Moroccanoil,Moroccanoil|Intense Smoothing Frizz Control Hair Serum|Intense Smoothing Frizz Control Serum,moroccanoil.com,False,claude-sonnet-5-5,Moroccanoil|Intense Smoothing Frizz Control Hair Serum|Intense Smoothing Frizz Control Serum,,,,,513
+pilot,31,Beauty and skincare,Redken,Redken|Frizz Dismiss Instant Deflate Oil-In-Serum,redken.com,False,claude-sonnet-5-5,Redken|Frizz Dismiss Instant Deflate Oil-In-Serum,,,,,514
+pilot,31,Beauty and skincare,Living Proof,Living Proof|No Frizz Smooth Styling Cream|No Frizz Vanishing Oil|No Frizz Smooth Styling Serum,livingproof.com,False,claude-sonnet-5-5,Living Proof|No Frizz Smooth Styling Cream|No Frizz Vanishing Oil|No Frizz Smooth Styling Serum,,,,,515
+pilot,31,Beauty and skincare,Ouidad,Ouidad|Advanced Climate Control Heat & Humidity Gel,ouidad.com,False,claude-sonnet-5-5,Ouidad|Advanced Climate Control Heat & Humidity Gel,,,,,516
+pilot,31,Beauty and skincare,Garnier Fructis,Garnier Fructis|Garnier|Sleek & Shine Anti-Frizz Serum,garnierusa.com,False,claude-sonnet-5-5,Garnier Fructis|Garnier|Sleek & Shine Anti-Frizz Serum,,,,,517
+pilot,31,Beauty and skincare,Oribe,Oribe|Impermeable Anti-Humidity Spray|Oribe Impermeable,oribe.com,False,claude-sonnet-5-5,Oribe|Impermeable Anti-Humidity Spray|Oribe Impermeable,,,,,518
+pilot,31,Beauty and skincare,Hairitage,Hairitage|Mane Event Anti-Frizz + Humidity Spray,hairitage.com,False,claude-sonnet-5-5,Hairitage|Mane Event Anti-Frizz + Humidity Spray,,,,,519
+pilot,31,Beauty and skincare,John Frieda,John Frieda|Frizz Ease Extra Strength Serum|Frizz Ease,johnfrieda.com,False,claude-sonnet-5-5,John Frieda|Frizz Ease Extra Strength Serum|Frizz Ease,,,,,520
+pilot,31,Beauty and skincare,Amika,Amika|The Shield,loveamika.com,False,claude-sonnet-5-5,Amika|The Shield,,,,,521
+pilot,32,Home appliances,Chefman,Chefman|Chefman TurboFry|TurboFry|Chefman TurboFry 9-Quart Dual Basket|Chefman TurboFry Touch,chefman.com,False,claude-sonnet-5-5,Chefman|Chefman TurboFry|TurboFry|Chefman TurboFry 9-Quart Dual Basket|Chefman TurboFry Touch,,,,,522
+pilot,32,Home appliances,Midea,Midea|Midea Dual-Zone Air Fryer,midea.com,False,claude-sonnet-5-5,Midea|Midea Dual-Zone Air Fryer,,,,,523
+pilot,32,Home appliances,Cuisinart,Cuisinart|Cuisinart 11-qt Dual Basket Air Fryer,cuisinart.com,False,claude-sonnet-5-5,Cuisinart|Cuisinart 11-qt Dual Basket Air Fryer,,,,,524
+pilot,32,Home appliances,Ninja,Ninja|Ninja Foodi|Ninja Foodi DualZone|DualZone,ninjakitchen.com,False,claude-sonnet-5-5,Ninja|Ninja Foodi|Ninja Foodi DualZone|DualZone,,,,,525
+pilot,32,Home appliances,Beautiful by Drew Barrymore,Beautiful by Drew Barrymore|Beautiful|Drew Barrymore TriZone|9 Qt TriZone,beautifulkitchenware.com,False,claude-sonnet-5-5,Beautiful by Drew Barrymore|Beautiful|Drew Barrymore TriZone|9 Qt TriZone,Beautiful,,,,526
+pilot,32,Home appliances,Simple Deluxe,Simple Deluxe|Simple Deluxe Dual Basket,,False,claude-sonnet-5-5,Simple Deluxe|Simple Deluxe Dual Basket,,,,,527
+pilot,32,Home appliances,COSORI,COSORI|Cosori,cosori.com,False,claude-sonnet-5-5,COSORI|Cosori,,,,,528
+pilot,32,Home appliances,Instant Pot,Instant Pot|Instant|Instant Vortex|Instant Vortex Dual-Basket,instantpot.com|instanthome.com,False,claude-sonnet-5-5,Instant Pot|Instant|Instant Vortex|Instant Vortex Dual-Basket,Instant,,,,529
+pilot,32,Home appliances,Levoit,Levoit|LEVOIT|Levoit Core 300|Levoit Core 300S|Levoit Core 300S-P|Levoit Core 200S|Levoit Core Mini|Levoit Vital 100S|Levoit Eleva 300X|Core 300|Core 300S|Vital 100S|Eleva 300X|Core 200S|Core Mini,levoit.com,False,claude-sonnet-5-5,Levoit|LEVOIT|Levoit Core 300|Levoit Core 300S|Levoit Core 300S-P|Levoit Core 200S|Levoit Core Mini|Levoit Vital 100S|Levoit Eleva 300X|Core 300|Core 300S|Vital 100S|Eleva 300X|Core 200S|Core Mini,,,,,530
+pilot,32,Home appliances,Coway,Coway|Coway Airmega 100|Coway Airmega Mighty|Airmega 100|Airmega Mighty|AP-1512HH|Airmega,cowaymega.com,False,claude-sonnet-5-5,Coway|Coway Airmega 100|Coway Airmega Mighty|Airmega 100|Airmega Mighty|AP-1512HH|Airmega,,,,,531
+pilot,32,Home appliances,Blueair,Blueair|Blueair HEPASilent|HEPASilent,blueair.com,False,claude-sonnet-5-5,Blueair|Blueair HEPASilent|HEPASilent,,,,,532
+pilot,32,Home appliances,Winix,Winix|Winix 5530,winixamerica.com,False,claude-sonnet-5-5,Winix|Winix 5530,,,,,533
+pilot,33,Furniture and mattresses,Arhaus,Arhaus|Owen|Kipton,arhaus.com,False,claude-sonnet-5-5,Arhaus|Owen|Kipton,,,,,534
+pilot,33,Furniture and mattresses,Restoration Hardware,Restoration Hardware|Cloud,rh.com,False,claude-sonnet-5-5,Restoration Hardware|RH|Cloud,Cloud,RH,,,535
+pilot,33,Furniture and mattresses,Crate & Barrel,Crate & Barrel|Crate and Barrel|Lounge Deep|Gather Deep|Tidal|Drift,crateandbarrel.com,False,claude-sonnet-5-5,Crate & Barrel|Crate and Barrel|Lounge Deep|Gather Deep|Tidal|Drift,,,,,536
+pilot,33,Furniture and mattresses,Room & Board,Room & Board|Room and Board|Metro Deep|Metro,roomandboard.com,False,claude-sonnet-5-5,Room & Board|Room and Board|Metro Deep|Metro,Metro,,,,537
+pilot,33,Furniture and mattresses,Lovesac,Lovesac|Sactionals|Sactional,lovesac.com,False,claude-sonnet-5-5,Lovesac|Sactionals|Sactional,,,,,538
+pilot,33,Furniture and mattresses,Pottery Barn,Pottery Barn|Big Sur|York Deep Seat|York|Turner,potterybarn.com,False,claude-sonnet-5-5,Pottery Barn|Big Sur|York Deep Seat|York|Turner,York|Turner,,,,539
+pilot,33,Furniture and mattresses,West Elm,West Elm|Haven|Harmony,westelm.com,False,claude-sonnet-5-5,West Elm|Haven|Harmony,Haven|Harmony,,,,540
+pilot,33,Furniture and mattresses,Sixpenny,Sixpenny|Neva|Devyn Extra Deep,sixpenny.com,False,claude-sonnet-5-5,Sixpenny|Neva|Devyn Extra Deep,,,,,541
+pilot,33,Furniture and mattresses,La-Z-Boy,La-Z-Boy|Dillon|Astor,la-z-boy.com,False,claude-sonnet-5-5,La-Z-Boy|Dillon|Astor,,,,,542
+pilot,33,Furniture and mattresses,CB2,CB2|Movie|Avec|Piazza,cb2.com,False,claude-sonnet-5-5,CB2|Movie|Avec|Piazza,CB2|Movie,,,,543
+pilot,33,Furniture and mattresses,Interior Define,Interior Define|Charly|Sloan,interiordefine.com,False,claude-sonnet-5-5,Interior Define|Charly|Sloan,,,,,544
+pilot,33,Furniture and mattresses,Bassett Furniture,Bassett Furniture|Bassett|True Custom,bassettfurniture.com,False,claude-sonnet-5-5,Bassett Furniture|Bassett|True Custom,,,,,545
+pilot,33,Furniture and mattresses,7th Avenue,7th Avenue,7thavenue.com,False,claude-sonnet-5-5,7th Avenue,,,,,546
+pilot,33,Furniture and mattresses,Mirewood,Mirewood,mirewood.com,False,claude-sonnet-5-5,Mirewood,,,,,547
+pilot,33,Furniture and mattresses,Sundays,Sundays|Sundays Company|Get Together|Movie Night,sundays-company.com,True,claude-sonnet-5-5,Sundays|Sundays Company|Get Together|Movie Night,Sundays|Sundays Company|Get Together|Movie Night,,,,548
+pilot,33,Furniture and mattresses,Albany Park,Albany Park|Kova,albanypark.com,False,claude-sonnet-5-5,Albany Park|Kova,,,,,549
+pilot,33,Furniture and mattresses,Rowe,Rowe,rowefurniture.com,True,claude-sonnet-5-5,Rowe,Rowe,,,,550
+pilot,33,Furniture and mattresses,DreamSofa,DreamSofa,dreamsofa.com,False,claude-sonnet-5-5,DreamSofa,,,,,551
+pilot,33,Furniture and mattresses,Burrow,Burrow|Nomad|Range,burrow.com,False,claude-sonnet-5-5,Burrow|Nomad|Range,Range,,,,552
+pilot,33,Furniture and mattresses,Zinus,Zinus,zinus.com,False,claude-sonnet-5-5,Zinus,,,,,553
+pilot,33,Furniture and mattresses,Allform,Allform,allform.com,False,claude-sonnet-5-5,Allform,,,,,554
+pilot,33,Furniture and mattresses,Joybird,Joybird|Bryant Compact|Bryant,joybird.com,False,claude-sonnet-5-5,Joybird|Bryant Compact|Bryant,,,,,555
+pilot,33,Furniture and mattresses,Cozey,Cozey,cozey.ca,False,claude-sonnet-5-5,Cozey,,,,,556
+pilot,33,Furniture and mattresses,Koala,Koala,koala.com,True,claude-sonnet-5-5,Koala,Koala,,,,557
+pilot,34,Baby and kids,Huggies,Huggies|Huggies Snug & Dry|Huggies Little Snugglers|Huggies Little Movers,huggies.com,False,claude-sonnet-5-5,Huggies|Huggies Snug & Dry|Huggies Little Snugglers|Huggies Little Movers,,,,,558
+pilot,34,Baby and kids,Pampers,Pampers|Pampers Swaddlers|Pampers Pure Protection|Pampers Pure,pampers.com,False,claude-sonnet-5-5,Pampers|Pampers Swaddlers|Pampers Pure Protection|Pampers Pure,,,,,559
+pilot,34,Baby and kids,Kirkland Signature,Kirkland Signature|Kirkland Signature Diapers|Kirkland,costco.com,False,claude-sonnet-5-5,Kirkland Signature|Kirkland Signature Diapers|Kirkland,,,,,560
+pilot,34,Baby and kids,Up&Up,Up&Up|Up & Up|Target Up&Up|Target's Up & Up Disposable Diapers,target.com,False,claude-sonnet-5-5,Up&Up|Up & Up|Target Up&Up|Target's Up & Up Disposable Diapers,,,,,561
+pilot,34,Baby and kids,Coterie,Coterie,coterie.com,False,claude-sonnet-5-5,Coterie,,,,,562
+pilot,34,Baby and kids,Kudos,Kudos,kudoscare.com,False,claude-sonnet-5-5,Kudos,,,,,563
+pilot,34,Baby and kids,Honest Company,Honest Company|Honest|Honest.com|The Honest Company,honest.com,False,claude-sonnet-5-5,Honest Company|Honest|Honest.com|The Honest Company,Honest,,,,564
+pilot,34,Baby and kids,Kinder Cloth Diaper Co.,Kinder Cloth Diaper Co.|Kinder|Kinder Cloth Diaper Co. Mystery Starter Bundle|Kinder Cloth Diaper Co. Essential Pocket Diaper Starter Bundle,kindercloth.com,False,claude-sonnet-5-5,Kinder Cloth Diaper Co.|Kinder|Kinder Cloth Diaper Co. Mystery Starter Bundle|Kinder Cloth Diaper Co. Essential Pocket Diaper Starter Bundle,,,,,565
+pilot,34,Baby and kids,Esembly,Esembly|Esembly Try-It Kit,esembly.com,False,claude-sonnet-5-5,Esembly|Esembly Try-It Kit,,,,,566
+pilot,34,Baby and kids,ALVABABY,ALVABABY|Alva Baby|Alvababy,alvababy.com,False,claude-sonnet-5-5,ALVABABY|Alva Baby|Alvababy,,,,,567
+pilot,34,Baby and kids,Nora's Nursery,Nora's Nursery|Nora’s Nursery,norasnursery.com,False,claude-sonnet-5-5,Nora's Nursery|Nora’s Nursery,,,,,568
+pilot,34,Baby and kids,Mama Koala,Mama Koala,mamakoala.com,False,claude-sonnet-5-5,Mama Koala,,,,,569
+pilot,34,Baby and kids,GroVia,GroVia,grovia.com,False,claude-sonnet-5-5,GroVia,,,,,570
+pilot,34,Baby and kids,bumGenius,bumGenius|BumGenius,bumgenius.com,False,claude-sonnet-5-5,bumGenius|BumGenius,,,,,571
+pilot,34,Baby and kids,Rumparooz,Rumparooz,rumparooz.com,False,claude-sonnet-5-5,Rumparooz,,,,,572
+pilot,34,Baby and kids,Thirsties,Thirsties|Thirsties Natural One Size,thirsties.com,False,claude-sonnet-5-5,Thirsties|Thirsties Natural One Size,,,,,573
+pilot,34,Baby and kids,Green Mountain Diapers,Green Mountain Diapers|GMD,greenmountaindiapers.com,False,claude-sonnet-5-5,Green Mountain Diapers|GMD,GMD,,,,574
+pilot,34,Baby and kids,OsoCozy,OsoCozy|OsoCozy Unbleached Prefold Economy Package|ClothDiaper.com,clothdiaper.com,False,claude-sonnet-5-5,OsoCozy|OsoCozy Unbleached Prefold Economy Package|ClothDiaper.com,,,,,575
+pilot,35,Pet products,Tractive,Tractive|Tractive DOG 6|Tractive GPS Dog 6|Tractive XL,tractive.com,False,claude-sonnet-5-5,Tractive|Tractive DOG 6|Tractive GPS Dog 6|Tractive XL,,,,,576
+pilot,35,Pet products,Fi,Fi|Fi Series 3+|Fi Series 3|Fi Smart Collar,tryfi.com,True,claude-sonnet-5-5,Fi|Fi Series 3+|Fi Series 3|Fi Smart Collar,Fi|Fi Series 3+|Fi Series 3|Fi Smart Collar,,,,577
+pilot,35,Pet products,Garmin,Garmin|Garmin Alpha|Garmin Alpha 300|Garmin Alpha 300i|Garmin Alpha 200i|Alpha XL|Alpha T20|TT25|TT Series|inReach,garmin.com,False,claude-sonnet-5-5,Garmin|Garmin Alpha|Garmin Alpha 300|Garmin Alpha 300i|Garmin Alpha 200i|Alpha XL|Alpha T20|T20|TT25|TT Series|inReach,TT25,T20,,,578
+pilot,35,Pet products,Dogtra,Dogtra|Dogtra Pathfinder2|Dogtra Pathfinder 2|Pathfinder2|Pathfinder 2|PATHFINDER2,dogtra.com,False,claude-sonnet-5-5,Dogtra|Dogtra Pathfinder2|Dogtra Pathfinder 2|Pathfinder2|Pathfinder 2|PATHFINDER2,,,,,579
+pilot,35,Pet products,SportDOG,SportDOG|SportDOG TEK 2.0|TEK 2.0,sportdog.com,False,claude-sonnet-5-5,SportDOG|SportDOG TEK 2.0|TEK 2.0,,,,,580
+pilot,35,Pet products,Halo,Halo,halocollar.com,True,claude-sonnet-5-5,Halo,Halo,,,,581
+pilot,35,Pet products,BarkBox,BarkBox|BARK|Bark,barkbox.com|bark.co,False,claude-sonnet-5-5,BarkBox|BARK|Bark,BARK,,,,582
+pilot,35,Pet products,Pet Treater,Pet Treater,pettreater.com,False,claude-sonnet-5-5,Pet Treater,,,,,583
+pilot,35,Pet products,PupJoy,PupJoy,pupjoy.com,False,claude-sonnet-5-5,PupJoy,,,,,584
+pilot,35,Pet products,Butters Barkery,Butters Barkery|The Tail Teaser,buttersbarkery.com,False,claude-sonnet-5-5,Butters Barkery|The Tail Teaser,,,,,585
+pilot,35,Pet products,Pooch Perks,Pooch Perks,poochperks.com,False,claude-sonnet-5-5,Pooch Perks,,,,,586
+pilot,35,Pet products,Cratejoy,Cratejoy|Ziva's Surprise Pack,cratejoy.com,False,claude-sonnet-5-5,Cratejoy|Ziva's Surprise Pack,,,,,587
+pilot,35,Pet products,PupBox,PupBox,,False,claude-sonnet-5-5,PupBox,,,,,588
+pilot,36,Hotels and travel booking,Royal Caribbean,Royal Caribbean|Royal Caribbean International,royalcaribbean.com,False,claude-sonnet-5-5,Royal Caribbean|Royal Caribbean International,,,,,589
+pilot,36,Hotels and travel booking,Celebrity Cruises,Celebrity Cruises|Celebrity|Edge-class|Edge-series|Solstice-Class|Millennium-Class,celebritycruises.com,False,claude-sonnet-5-5,Celebrity Cruises|Celebrity|Edge-class|Edge-series|Solstice-Class|Millennium-Class,Celebrity,,,,590
+pilot,36,Hotels and travel booking,Holland America Line,Holland America Line|Holland America,hollandamerica.com,False,claude-sonnet-5-5,Holland America Line|Holland America,,,,,591
+pilot,36,Hotels and travel booking,Disney Cruise Line,Disney Cruise Line,disneycruise.disney.go.com,False,claude-sonnet-5-5,Disney Cruise Line,,,,,592
+pilot,36,Hotels and travel booking,Crystal,Crystal|Crystal Cruises,crystalcruises.com,True,claude-sonnet-5-5,Crystal|Crystal Cruises,Crystal|Crystal Cruises,,,,593
+pilot,36,Hotels and travel booking,Viking,Viking|Viking Ocean Cruises|Viking Ocean|Viking River Cruises,vikingcruises.com,False,claude-sonnet-5-5,Viking|Viking Ocean Cruises|Viking Ocean|Viking River Cruises,,,,,594
+pilot,36,Hotels and travel booking,Regent Seven Seas Cruises,Regent Seven Seas Cruises|Regent Seven Seas|Regent,rssc.com,False,claude-sonnet-5-5,Regent Seven Seas Cruises|Regent Seven Seas|Regent,,,,,595
+pilot,36,Hotels and travel booking,Virgin Voyages,Virgin Voyages,virginvoyages.com,False,claude-sonnet-5-5,Virgin Voyages,,,,,596
+pilot,36,Hotels and travel booking,Carnival,Carnival|Carnival Cruise Line,carnival.com,False,claude-sonnet-5-5,Carnival|Carnival Cruise Line,,,,,597
+pilot,36,Hotels and travel booking,Norwegian Cruise Line,Norwegian Cruise Line|NCL,ncl.com,False,claude-sonnet-5-5,Norwegian Cruise Line|NCL,NCL,,,,598
+pilot,36,Hotels and travel booking,Oceania Cruises,Oceania Cruises|Oceania,oceaniacruises.com,False,claude-sonnet-5-5,Oceania Cruises|Oceania,,,,,599
+pilot,36,Hotels and travel booking,GetYourGuide,GetYourGuide,getyourguide.com,False,claude-sonnet-5-5,GetYourGuide,,,,,600
+pilot,36,Hotels and travel booking,Viator,Viator|Viator Rewards,viator.com,False,claude-sonnet-5-5,Viator|Viator Rewards,,,,,601
+pilot,36,Hotels and travel booking,Tiqets,Tiqets,tiqets.com,False,claude-sonnet-5-5,Tiqets,,,,,602
+pilot,36,Hotels and travel booking,Headout,Headout,headout.com,False,claude-sonnet-5-5,Headout,,,,,603
+pilot,36,Hotels and travel booking,Klook,Klook,klook.com,False,claude-sonnet-5-5,Klook,,,,,604
+pilot,36,Hotels and travel booking,Booking.com,Booking.com,booking.com,False,claude-sonnet-5-5,Booking.com,,,,,605
+pilot,36,Hotels and travel booking,Expedia,Expedia,expedia.com,False,claude-sonnet-5-5,Expedia,,,,,606
+pilot,37,Airlines,Alaska Airlines,Alaska Airlines|Alaska|Alaska Pet Connect|Pet Connect,alaskaair.com,False,claude-sonnet-5-5,Alaska Airlines|Alaska|Alaska Pet Connect|Pet Connect,Alaska,,,,607
+pilot,37,Airlines,Southwest Airlines,Southwest Airlines|Southwest,southwest.com,False,claude-sonnet-5-5,Southwest Airlines|Southwest,Southwest,,,,608
+pilot,37,Airlines,Delta Air Lines,Delta Air Lines|Delta,delta.com,True,claude-sonnet-5-5,Delta Air Lines|Delta,Delta Air Lines|Delta,,,,609
+pilot,37,Airlines,Hawaiian Airlines,Hawaiian Airlines|Hawaiian,hawaiianairlines.com,False,claude-sonnet-5-5,Hawaiian Airlines|Hawaiian,,,,,610
+pilot,37,Airlines,American Airlines,American Airlines|American,aa.com,True,claude-sonnet-5-5,American Airlines|American,American Airlines|American,,,,611
+pilot,37,Airlines,United Airlines,United Airlines|United,united.com,True,claude-sonnet-5-5,United Airlines|United,United Airlines|United,,,,612
+pilot,37,Airlines,Frontier Airlines,Frontier Airlines|Frontier,flyfrontier.com,False,claude-sonnet-5-5,Frontier Airlines|Frontier,,,,,613
+pilot,37,Airlines,JetBlue Airways,JetBlue Airways|JetBlue|JetPaws|Pets in Space,jetblue.com,False,claude-sonnet-5-5,JetBlue Airways|JetBlue|JetPaws|Pets in Space,,,,,614
+pilot,37,Airlines,Spirit Airlines,Spirit Airlines|Spirit,spirit.com,True,claude-sonnet-5-5,Spirit Airlines|Spirit,Spirit Airlines|Spirit,,,,615
+pilot,37,Airlines,Allegiant Air,Allegiant Air|Allegiant,allegiantair.com,False,claude-sonnet-5-5,Allegiant Air|Allegiant,,,,,616
+pilot,38,Cars and EVs,National Car Rental,National Car Rental|National|Emerald Club|Emerald Aisle|National Emerald Club,nationalcar.com,False,claude-sonnet-5-5,National Car Rental|National|Emerald Club|Emerald Aisle|National Emerald Club,National,,,,617
+pilot,38,Cars and EVs,Turo,Turo,turo.com,False,claude-sonnet-5-5,Turo,,,,,618
+pilot,38,Cars and EVs,SIXT,SIXT|Sixt|SIXT app,sixt.com,False,claude-sonnet-5-5,SIXT|Sixt|SIXT app,SIXT,,,,619
+pilot,38,Cars and EVs,Hertz,Hertz|Hertz Gold Plus Rewards|Hertz Gold+|Gold Plus Rewards|Hertz Ultimate Choice|Ultimate Choice|Fast Lane powered by CLEAR|Hertz Rent a Car,hertz.com,False,claude-sonnet-5-5,Hertz|Hertz Gold Plus Rewards|Hertz Gold+|Gold Plus Rewards|Hertz Ultimate Choice|Ultimate Choice|Fast Lane powered by CLEAR|Hertz Rent a Car,,,,,620
+pilot,38,Cars and EVs,Avis,Avis|Avis Preferred,avis.com,False,claude-sonnet-5-5,Avis|Avis Preferred,,,,,621
+pilot,38,Cars and EVs,Enterprise,Enterprise|Enterprise Rent-A-Car|Enterprise Plus,enterprise.com,False,claude-sonnet-5-5,Enterprise|Enterprise Rent-A-Car|Enterprise Plus,Enterprise,,,,622
+pilot,38,Cars and EVs,Alamo,Alamo|Alamo Rent A Car|Alamo Skip the Counter|Accelerated Check-in,alamo.com,False,claude-sonnet-5-5,Alamo|Alamo Rent A Car|Alamo Skip the Counter|Accelerated Check-in,,,,,623
+pilot,38,Cars and EVs,Zipcar,Zipcar,zipcar.com,False,claude-sonnet-5-5,Zipcar,,,,,624
+pilot,38,Cars and EVs,Budget,Budget|Budget Car Rental,budget.com,True,claude-sonnet-5-5,Budget|Budget Car Rental,Budget|Budget Car Rental,,,,625
+pilot,39,Food and drink delivery,Green Chef,Green Chef,greenchef.com,False,claude-sonnet-5-5,Green Chef,,,,,626
+pilot,39,Food and drink delivery,ModifyHealth,ModifyHealth|Modify Health,modifyhealth.com,False,claude-sonnet-5-5,ModifyHealth|Modify Health,,,,,627
+pilot,39,Food and drink delivery,Factor,Factor|Factor Meals|Factor75,factor75.com|factormeals.com,True,claude-sonnet-5-5,Factor|Factor Meals|Factor75,Factor|Factor Meals|Factor75,,,,628
+pilot,39,Food and drink delivery,Trifecta,Trifecta|Trifecta Nutrition,trifectanutrition.com,False,claude-sonnet-5-5,Trifecta|Trifecta Nutrition,,,,,629
+pilot,39,Food and drink delivery,SmashMeals,SmashMeals|Smash Meals,smashmeals.com,False,claude-sonnet-5-5,SmashMeals|Smash Meals,,,,,630
+pilot,39,Food and drink delivery,HelloFresh,HelloFresh|Hello Fresh,hellofresh.com,False,claude-sonnet-5-5,HelloFresh|Hello Fresh,,,,,631
+pilot,39,Food and drink delivery,Sunbasket,Sunbasket|Sun Basket,sunbasket.com,False,claude-sonnet-5-5,Sunbasket|Sun Basket,,,,,632
+pilot,39,Food and drink delivery,Hungryroot,Hungryroot,hungryroot.com,False,claude-sonnet-5-5,Hungryroot,,,,,633
+pilot,39,Food and drink delivery,Home Chef,Home Chef,homechef.com,False,claude-sonnet-5-5,Home Chef,,,,,634
+pilot,39,Food and drink delivery,Epicured,Epicured,epicured.com,False,claude-sonnet-5-5,Epicured,,,,,635
+pilot,39,Food and drink delivery,Purple Carrot,Purple Carrot,purplecarrot.com,False,claude-sonnet-5-5,Purple Carrot,,,,,636
+pilot,39,Food and drink delivery,Trade Coffee,Trade Coffee|Trade,drinktrade.com,False,claude-sonnet-5-5,Trade Coffee|Trade,Trade,,,,637
+pilot,39,Food and drink delivery,Atlas Coffee Club,Atlas Coffee Club|Atlas,atlascoffeeclub.com,False,claude-sonnet-5-5,Atlas Coffee Club|Atlas,Atlas,,,,638
+pilot,39,Food and drink delivery,Bean Box,Bean Box|Beanbox,beanbox.com,False,claude-sonnet-5-5,Bean Box|Beanbox,,,,,639
+pilot,39,Food and drink delivery,Equator Coffees,Equator Coffees|Equator Coffee|Equator,equatorcoffees.com,False,claude-sonnet-5-5,Equator Coffees|Equator Coffee|Equator,,,,,640
+pilot,39,Food and drink delivery,Podium Coffee Club,Podium Coffee Club|Podium Coffee|Podium,podiumcoffeeclub.com,False,claude-sonnet-5-5,Podium Coffee Club|Podium Coffee|Podium,,,,,641
+pilot,39,Food and drink delivery,Cometeer,Cometeer,cometeer.com,False,claude-sonnet-5-5,Cometeer,,,,,642
+pilot,39,Food and drink delivery,MistoBox,MistoBox|Mistobox,mistobox.com,False,claude-sonnet-5-5,MistoBox|Mistobox,,,,,643
+pilot,39,Food and drink delivery,Blue Bottle Coffee,Blue Bottle Coffee|Blue Bottle|Bella Donovan,bluebottlecoffee.com,False,claude-sonnet-5-5,Blue Bottle Coffee|Blue Bottle|Bella Donovan,,,,,644
+pilot,39,Food and drink delivery,Stumptown Coffee Roasters,Stumptown Coffee Roasters|Stumptown|Hair Bender,stumptowncoffee.com,False,claude-sonnet-5-5,Stumptown Coffee Roasters|Stumptown|Hair Bender,,,,,645
+pilot,39,Food and drink delivery,Black & White Coffee Roasters,Black & White Coffee Roasters|Black and White Roasters|Black & White Roasters,blackandwhiteroasters.com,False,claude-sonnet-5-5,Black & White Coffee Roasters|Black and White Roasters|Black & White Roasters,,,,,646
+pilot,39,Food and drink delivery,Onyx Coffee Lab,Onyx Coffee Lab|Onyx,onyxcoffeelab.com,False,claude-sonnet-5-5,Onyx Coffee Lab|Onyx,,,,,647
+pilot,39,Food and drink delivery,Driftaway Coffee,Driftaway Coffee|Driftaway,driftaway.coffee,False,claude-sonnet-5-5,Driftaway Coffee|Driftaway,,,,,648
+pilot,39,Food and drink delivery,Peet's Coffee,Peet's Coffee|Peet's|Peets|Major Dickason's,peets.com,False,claude-sonnet-5-5,Peet's Coffee|Peet's|Peets|Major Dickason's,,,,,649
+pilot,39,Food and drink delivery,Partners Coffee,Partners Coffee|Partners,partnerscoffee.com,True,claude-sonnet-5-5,Partners Coffee|Partners,Partners Coffee|Partners,,,,650
+pilot,39,Food and drink delivery,Coffee Bros.,Coffee Bros.|Coffee Bros|Coffee Brothers,coffeebros.com,False,claude-sonnet-5-5,Coffee Bros.|Coffee Bros|Coffee Brothers,,,,,651
+pilot,39,Food and drink delivery,Counter Culture Coffee,Counter Culture Coffee|Counter Culture,counterculturecoffee.com,False,claude-sonnet-5-5,Counter Culture Coffee|Counter Culture,,,,,652
+pilot,40,Outdoor and travel gear,Hilleberg,Hilleberg|Hilleberg the Tentmaker|Nammatj|Nammatj GT|Keron|Keron 4 GT|Saivo|Allak 2|Kerlon,hilleberg.com,False,claude-sonnet-5-5,Hilleberg|Hilleberg the Tentmaker|Nammatj|Nammatj GT|Keron|Keron 4 GT|Saivo|Allak 2|Kerlon,,,,,653
+pilot,40,Outdoor and travel gear,Mountain Hardwear,Mountain Hardwear|Trango|Trango 2|Trango 3|Trango 4|AC 2,mountainhardwear.com,False,claude-sonnet-5-5,Mountain Hardwear|Trango|Trango 2|Trango 3|Trango 4|AC 2,,,,,654
+pilot,40,Outdoor and travel gear,MSR,MSR|Mountain Safety Research|Remote 2|Remote|Access 2|Access 3|Access,msrgear.com,False,claude-sonnet-5-5,MSR|Mountain Safety Research|Remote 2|Remote|Access 2|Access 3|Access,MSR|Remote|Access,,,,655
+pilot,40,Outdoor and travel gear,The North Face,The North Face|North Face|Mountain 25|Bastion 4|VE 25,thenorthface.com,False,claude-sonnet-5-5,The North Face|North Face|Mountain 25|Bastion 4|VE 25,,,,,656
+pilot,40,Outdoor and travel gear,Samaya,Samaya|Samaya 2.0|Samaya2.5|Assault2 Ultra,samayaequipment.com,False,claude-sonnet-5-5,Samaya|Samaya 2.0|Samaya2.5|Assault2 Ultra,,,,,657
+pilot,40,Outdoor and travel gear,SlingFin,SlingFin|CrossBow 2|WindSaber|HotBox,slingfin.com,False,claude-sonnet-5-5,SlingFin|CrossBow 2|WindSaber|HotBox,,,,,658
+pilot,40,Outdoor and travel gear,Black Diamond,Black Diamond|Eldorado|FirstLight|Mission 3P|Mission Series|Fineline,blackdiamondequipment.com,False,claude-sonnet-5-5,Black Diamond|Eldorado|FirstLight|Mission 3P|Mission Series|Fineline,,,,,659
+pilot,40,Outdoor and travel gear,NEMO Equipment,NEMO Equipment|NEMO|Nemo|Chogori,nemoequipment.com,False,claude-sonnet-5-5,NEMO Equipment|NEMO|Nemo|Chogori,NEMO,,,,660
+pilot,40,Outdoor and travel gear,RBM Outdoors,RBM Outdoors|UP-2 Hot Tent,rbmoutdoors.com,False,claude-sonnet-5-5,RBM Outdoors|UP-2 Hot Tent,,,,,661
+pilot,40,Outdoor and travel gear,Rab,Rab|Latok Mountain|Kangri GORE-TEX|Kangri GTX|Kangri|Downpour,rab.equipment,False,claude-sonnet-5-5,Rab|Latok Mountain|Kangri GORE-TEX|Kangri GTX|Kangri|Downpour,Rab,,,,662
+pilot,40,Outdoor and travel gear,REI Co-op,REI Co-op|REI|Arete ASL|Trailmade 3L|Teris GTX|Rainier,rei.com,False,claude-sonnet-5-5,REI Co-op|REI|Arete ASL|Trailmade 3L|Teris GTX|Rainier,REI,,,,663
+pilot,40,Outdoor and travel gear,Patagonia,Patagonia|Torrentshell 3L|Torrentshell|Triolet Jacket|Triolet,patagonia.com,False,claude-sonnet-5-5,Patagonia|Torrentshell 3L|Torrentshell|Triolet Jacket|Triolet,,,,,664
+pilot,40,Outdoor and travel gear,Outdoor Research,Outdoor Research|Foray 3L|Foray II|Aspire II|Archangel|Headwall,outdoorresearch.com,False,claude-sonnet-5-5,Outdoor Research|OR|Foray 3L|Foray II|Aspire II|Archangel|Headwall,,OR,,,665
+pilot,40,Outdoor and travel gear,Arc'teryx,Arc'teryx|Arc’teryx|Arcteryx|Beta SL|Beta LT|Beta Lightweight|Beta Series,arcteryx.com,False,claude-sonnet-5-5,Arc'teryx|Arc’teryx|Arcteryx|Beta SL|Beta LT|Beta Lightweight|Beta Series,,,,,666
+pilot,40,Outdoor and travel gear,Montbell,Montbell|Rain Trekker|Storm Cruiser,montbell.us|montbell.com,False,claude-sonnet-5-5,Montbell|Rain Trekker|Storm Cruiser,,,,,667
+pilot,40,Outdoor and travel gear,Backcountry.com,Backcountry.com|Backcountry,backcountry.com,False,claude-sonnet-5-5,Backcountry.com|Backcountry,,,,,668

@@ -37,6 +37,10 @@ PAGE_OWNERS = ["own_site", "competitor", "publisher", "retailer", "review_platfo
 PAGE_TYPES = ["listicle", "comparison", "review", "article", "news", "homepage", "product_page", "pricing_page",
               "category_page", "directory", "forum", "video", "documentation", "other"]
 MIN_WORDS = 200
+# social media pages (the sites step 6 labels social_media) stay in the link statistics but are left out of
+# page measures: most Reddit pages return no text without a browser (decision after the second full-run batch)
+SOCIAL_DOMAINS = ["youtube.com", "youtu.be", "linkedin.com", "reddit.com", "x.com", "twitter.com", "facebook.com",
+                  "instagram.com", "tiktok.com", "quora.com", "medium.com", "pinterest.com"]
 
 # measure name -> (kind, family); kind: count (log1p then SD), cont (SD), bool (yes vs no), rate (SD)
 RQ1_MEASURES = {
@@ -134,7 +138,8 @@ def share_ci(df: pd.DataFrame, value: str, by: list, cluster: str, rng) -> pd.Da
 
 # ------------------------------------------------------------------ build analysis tables
 def build(data: Path, run: str):
-    prompts = pd.read_csv(data / "prompts.csv", dtype=str)
+    prompts_file = data / "prompts.csv" if (data / "prompts.csv").exists() else data.parent / "prompts" / "prompts.csv"
+    prompts = pd.read_csv(prompts_file, dtype=str)
     mentions, links, flags = load(data, "mentions"), load(data, "links"), load(data, "flags")
     pages, pbrands, psi, ranks = load(data, "pages"), load(data, "page_brands"), load(data, "psi"), load(data, "ranks")
     for df in (mentions, links, flags, pages, pbrands, psi, ranks):
@@ -162,13 +167,25 @@ def build(data: Path, run: str):
     for e in ENGINES:
         pages["reach_" + e] = pages.get("reach_" + e, 0)
         pages["reach_" + e] = pages["reach_" + e].fillna(0)
-    # only pages behind recommendations are analysed (the page table can hold pages measured for other links)
-    in_set = pages["url_norm"].isin(rec_links["url_norm"])
+    # only pages behind recommendations are analysed (the page table can hold pages measured for other links);
+    # the study measures websites: social media pages are counted here, by platform, and left out of page measures
+    def social_site(u):
+        h = norm_domain(u)
+        return next((d for d in SOCIAL_DOMAINS if h == d or h.endswith("." + d)), "")
+    rec_urls = pd.Series(rec_links["url_norm"].dropna().unique())
+    rec_social = rec_urls.map(social_site)
+    site_urls = set(rec_urls[rec_social.eq("")])
+    in_set = pages["url_norm"].isin(site_urls)
     flow = {
-        "pages_behind_recommendations": int(rec_links["url_norm"].nunique()),
-        "video_or_google_results_not_fetched": int(rec_links["url_norm"].nunique() - in_set.sum()),
-        "pages_in_page_table": int(in_set.sum()),
+        "pages_behind_recommendations": int(len(rec_urls)),
+        "social_media_pages_left_out": int(rec_social.ne("").sum()),
     }
+    for d, n in rec_social[rec_social.ne("")].value_counts().items():
+        flow["social_media_pages_left_out: " + d] = int(n)
+    flow.update({
+        "video_or_google_results_not_fetched": int(len(site_urls) - in_set.sum()),
+        "pages_in_page_table": int(in_set.sum()),
+    })
     pages = pages[in_set].copy()
     flow.update({
         "failed_no_html": int((pages["status"] != "measured").sum()),

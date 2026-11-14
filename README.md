@@ -14,8 +14,10 @@ The study sends 4,000 US buyer questions from 40 industries to four AI engines (
 | `analysis/` | The Python analysis script (models, corrections and the thesis rule from the protocol) |
 | `settings/` | The fixed settings of the run: engines and how each is asked, models, questions, labels, fetch rules and analysis constants |
 | `pilot/` | The 100 pilot prompts and the pilot quality checks |
+| `data/` | The dataset: one folder per batch (`full1` to `full4`, 10 industries each) with the recommendations and mentions, links, answer flags, pages, brands on pages, PageSpeed results, ranks and fetch log; `brands.csv` is the full-run brand list |
+| `n8n_tables/` | Copies of the other n8n tables (all brand list rows, Google redirects, drafted candidate questions), exported when the run ended |
 
-The dataset is added after collection.
+The analysis reads `data/` with all batch folders: `python analysis/analysis.py data out --run full`.
 
 ## Pre-registration
 
@@ -23,4 +25,4 @@ The protocol, the final prompt set and the code are committed and tagged `prereg
 
 ## Not released
 
-API keys and stored copies of other websites' pages.
+API keys, the engines' answer texts (`answers.csv`, kept by the study team; the released tables give the brands, recommendations, links and measures taken from them) and stored copies of other websites' pages.

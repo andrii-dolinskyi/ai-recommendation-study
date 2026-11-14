@@ -75,9 +75,15 @@
   },
   "brand_lists": {
     "drafting_model": "claude-sonnet-5-5",
-    "max_answer_chars_per_industry": 150000,
+    "max_answer_chars_per_request": 150000,
     "base": "the 40 industry lists drafted from the pilot answers and reviewed by a person (668 brands)",
-    "additions": "brands in full-run answers that are not on the base list are drafted the same way and reviewed by a person before step 6",
+    "additions": "brands in full-run answers that are not on the base list are drafted the same way (every answer of the batch is read), tidied by the fixed rules in tidy_rules, and a random sample of 50 additions from the first batch (full1) is checked by a person; rejected brands are removed and the share rejected is reported; additions in later batches get the same rules without a sample check",
+    "tidy_rules": {
+      "same_brand": "two additions of one industry are merged when their names differ only in case, spaces, punctuation, a web-address ending or a trailing AI; or when they share a domain and one name begins or ends with the other; or when they share a domain and each lists the other as an alias. The merged brand keeps the name found in the most answers (ties: the shorter name)",
+      "shared_alias": "an alias on two or more brands of one industry stays only on the brand whose name it is, or on the one brand whose name contains it or is contained in it; it is dropped from the other additions. Reviewed brands keep their aliases",
+      "everyday_word": "an addition whose name or alias (4+ characters, with a capital letter) the batch's answers write in lowercase in more than half of at least 3 uses is matched only as written, unless the lowercase spelling is itself one of its names"
+    },
+    "sample_check": {"batches": ["full1"], "size": 50, "seed": 20261112},
     "alias_rules": "aliases of one or two characters and number-only aliases are dropped; aliases that are everyday English words (first 8,000 entries of a pinned common-word list) or acronyms match only case-sensitively"
   },
   "recommendations": {
@@ -125,6 +131,7 @@
     "left_out": [
       "video pages (YouTube, TikTok, Vimeo, Dailymotion)",
       "Google search and shopping result links",
+      "social media pages (YouTube, Reddit, X, LinkedIn, Facebook, Instagram, Quora, TikTok, Medium, Pinterest): the study measures websites; kept in the link statistics and counted by platform, left out of the page measures (decided after batch full2; batches full1 and full2 fetched them, later batches do not)",
       "pages with no HTML after all tries",
       "non-English pages"
     ],

@@ -91,7 +91,7 @@ Sixteen steps in five phases, run in order. Pilot data are not used in the resul
 
 8. Pre-register: commit this protocol, the prompt set, the settings file and the code to GitHub with a date.
 9. Send all 4,000 prompts to ChatGPT, Gemini and Google AI Mode through Oxylabs and to Perplexity through the Sonar API (US, English); retry failed requests up to two times. The prompts go out in four batches of 10 industries, because of storage limits in the workflow tool; each batch is exported before the next one starts.
-10. Build a brand list per industry: Claude drafts names and aliases from a sample of answers, products count for their maker (Pixel counts for Google), fixed rules drop aliases of one or two characters and match aliases that are everyday words only with their capital letter, and a person reviews the list. The lists reviewed in the pilot are kept for the full run; brands in full-run answers that are not on them are drafted the same way, and a person reviews only those additions.
+10. Build a brand list per industry: Claude drafts names and aliases from a sample of answers, products count for their maker (Pixel counts for Google), fixed rules drop aliases of one or two characters and match aliases that are everyday words only with their capital letter, and a person reviews the list. The lists reviewed in the pilot are kept for the full run; brands in full-run answers that are not on them are drafted the same way. Fixed rules then tidy these additions: two additions are merged when they are one brand (spellings such as Hunter and Hunter.io, or a product line such as Zoho Social with its maker Zoho on the same domain); an alias that two brands share stays only with the brand it names and is dropped from the others; and a brand whose name the batch's answers mostly write in lowercase (helpdesk for HelpDesk) is matched only as written. A person then checks a random sample of 50 additions from the first batch, with suggested marks from a second reader; the brands the person rejects are removed, and the share rejected is reported as the error rate of the additions. Additions in the other three batches get the same fixed rules without a sample check.
 11. Find recommendations: match brand names in each answer, Jev answers whether the answer names its own pick, whether each brand is one of its picks and whether each brand is offered as an option, and the rule in section 4 labels each brand recommended or only mentioned; then attach the link behind each recommendation and label who owns the page.
 12. Fetch every page behind a recommendation once, with a desktop Chrome user agent; pages that block the request, come back without text, or send the request to another language version are fetched again through Oxylabs from the United States, up to three tries: a plain request (with JavaScript rendering for pages that came back without text), the same request with a mobile browser identity, then the other of the two. Run PageSpeed Insights (mobile) on every measured page.
 
@@ -197,7 +197,7 @@ Each measure is tested on its own, with the same controls, so the report can say
 - Answers still failing after two retries.
 - Pages with no HTML after the fetch and up to three Oxylabs tries, and non-English pages.
 - Pages with under 200 words of main content (blocked, image-only or app shells), from content measures only.
-- Video pages (YouTube, TikTok) and Google search or shopping result links: kept in the link statistics, left out of the page measures.
+- Video pages (YouTube, TikTok) and Google search or shopping result links: kept in the link statistics, left out of the page measures. Social media pages (YouTube, Reddit, X, LinkedIn, Facebook, Instagram, Quora, TikTok, Medium, Pinterest) are treated the same way: the study measures websites, so links to social media are counted by platform in the link statistics and the flow table, and their pages are left out of the page measures.
 
 **Missing data:** nothing is imputed. A page missing a measure leaves only that measure's model. Core Web Vitals use origin-level data when page-level data is missing, flagged in the data; “no date” is its own category for last updated.
 
@@ -223,13 +223,13 @@ A person checks random samples against the automated values before analysis; eac
 
 **Pilot check, pages:** suggested marks for 30 pilot pages behind recommendations were read and marked by a person. Agreement with the study's values: page type 93%, kappa 0.92; page owner 97%, kappa 0.96. Criticism reached 74%, kappa 0.51, because the first question also counted plain facts such as prices, fees and plan limits as negative; the question was narrowed to real criticism (kappa 0.85 on the same pages) and then checked on 20 new pages, where suggested marks for 61 brands were read and marked by a person: agreement 98%, kappa 0.97. A person also reviewed all 668 brands in the 40 industry brand lists and flagged none.
 
-**Fixed settings:** Jev is pinned to jev-1.14.0 and the Claude model to claude-sonnet-5-5; every response records the model that answered. Prompts, settings and code are frozen at pre-registration.
+**Fixed settings:** Jev is pinned to jev-1.14.0 and the Claude model to claude-sonnet-5-5; every response records the model that answered. Prompts, settings and code are frozen at pre-registration, with two changes made after it: the fixed rules for brand additions and the sample check of the first batch's additions (step 10), added when the first batch showed duplicate and everyday-word brands; and social media pages left out of the page measures (section 6), decided after the second batch, when 255 of 264 Reddit pages returned no text without a browser.
 
 ## 8. Limitations
 
 - **One****market.** Answers change over time and by place; this is one collection run, from the US, in English.
 - **Logged-out answers.** Logged-in and personalised answers can differ.
-- **Automated judgments.** Brand matching, recommended-or-mentioned, page type and criticism are automated; the hand-checks in section 7 measure their error. Jev can also give a different label when the same question is asked again: two reruns of the recommended-or-mentioned step on the same pilot answers changed 36 and 45 of 1,852 labels (about 2%), and agreement with the person's reading stayed at kappa 0.82.
+- **Automated judgments.** Brand matching, recommended-or-mentioned, page type and criticism are automated; the hand-checks in section 7 measure their error. Jev can also give a different label when the same question is asked again: two reruns of the recommended-or-mentioned step on the same pilot answers changed 36 and 45 of 1,852 labels (about 2%), and agreement with the person's reading stayed at kappa 0.82. Brands added in the full run were checked by a person only as a sample of 50 from the first batch; the later batches' additions rest on the drafting model and the fixed rules.
 - **Link attribu****tion****.** All four engines show where each citation sits; a citation in a part of the answer that names no brand is given to the brand whose list item or section it sits in, which can be wrong; the hand-check in section 7 measures how often.
 - **Field speed data.** Real-user Core Web Vitals exist only for pages and sites with enough Chrome traffic; the rest rely on origin-level or lab data.
 
@@ -239,7 +239,7 @@ A person checks random samples against the automated values before analysis; eac
 - **Report:** findings and charts on snoika.com Reports.
 - **Public dataset:** prompts, recommendations with their links, and the page and brand-on-page measures.
 - **Code:** the n8n workflows with their JavaScript, and the Python analysis script, on GitHub.
-- **Not released:** API keys and stored copies of other sites' pages.
+- **Not released:** API keys, the engines' answer texts (kept by the study team; the dataset gives the measures taken from them) and stored copies of other sites' pages.
 
 ## Appendix A: Industries and subcategories
 

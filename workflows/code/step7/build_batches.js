@@ -10,8 +10,9 @@ for (const i of $('Get Done Pages').all()) { const r = i.json; if (!r.url_norm) 
 // pages that failed through the scraper before all three tries existed get the missing tries now
 const OLD_FALLBACK = r => { const f = String(r.fail_reason || ''); return /^fallback_failed/.test(f) && !/not supported/i.test(f) && (f.match(/;/g) || []).length < 2; };
 const done = new Set(Object.values(latest).filter(r => !(retry && r.status === 'failed' && (TRANSIENT.test(String(r.fail_reason || '')) || OLD_FALLBACK(r)))).map(r => r.url_norm));
-// left out of page measures: video pages, and Google search or shopping result pages (not a page of a site)
-const SKIP = /^https?:\/\/(?:[a-z0-9-]+\.)*(?:youtube\.com|youtu\.be|tiktok\.com|vimeo\.com|dailymotion\.com)(?:[\/?#]|$)|^https?:\/\/(?:www\.)?google\.[a-z.]+\/(?:search|shopping|aclk)/i;
+// left out of page measures: video pages, social media pages (the study measures websites; decided after batch full2),
+// and Google search or shopping result pages (not a page of a site)
+const SKIP = /^https?:\/\/(?:[a-z0-9-]+\.)*(?:youtube\.com|youtu\.be|tiktok\.com|vimeo\.com|dailymotion\.com|linkedin\.com|reddit\.com|x\.com|twitter\.com|facebook\.com|instagram\.com|quora\.com|medium\.com|pinterest\.com)(?:[\/?#]|$)|^https?:\/\/(?:www\.)?google\.[a-z.]+\/(?:search|shopping|aclk)/i;
 function clean(u) {
   let x = String(u || '').trim().replace(/#.*$/, '');
   const q = x.indexOf('?');

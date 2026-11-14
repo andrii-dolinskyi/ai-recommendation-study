@@ -1,0 +1,51 @@
+batch,brand_row_id,industry,brand,domains,answers,suggested,person
+full1,941,CRM and sales software,Fathom,fathom.video,36,keep,keep
+full1,868,CRM and sales software,LeadIQ,leadiq.com,3,keep,keep
+full1,959,CRM and sales software,NICE CXone,nice.com,1,keep,keep
+full1,910,CRM and sales software,Projul,projul.com,1,keep,keep
+full1,788,CRM and sales software,Tableau,tableau.com,1,keep,keep
+full1,1112,"Marketing, SEO and AI visibility tools",Botric,,1,keep,keep
+full1,1146,"Marketing, SEO and AI visibility tools",Jasper,jasper.ai,3,keep,keep
+full1,1021,"Marketing, SEO and AI visibility tools",Whitespark,whitespark.ca,8,keep,keep
+full1,1087,"Marketing, SEO and AI visibility tools",Wrenfield Data,,1,keep,keep
+full1,1281,Project management and collaboration,Autodesk Construction Cloud,autodesk.com,3,keep,keep
+full1,1356,Project management and collaboration,Granola,granola.ai,2,keep,keep
+full1,1418,Project management and collaboration,Tettra,tettra.com,12,keep,keep
+full1,1398,Project management and collaboration,diagrams.net,diagrams.net|draw.io,7,keep,keep
+full1,1519,"HR, payroll and recruiting",Betterworks,betterworks.com,2,keep,keep
+full1,1563,"HR, payroll and recruiting",HireVue,hirevue.com,3,keep,keep
+full1,1485,"HR, payroll and recruiting",Immediate,immediate.co,1,keep,keep
+full1,1863,Accounting and invoicing,BELAY,belaysolutions.com,1,keep,keep
+full1,1892,Accounting and invoicing,Bookist,bookist.com,1,keep,keep
+full1,1777,Accounting and invoicing,Brex,brex.com,36,keep,keep
+full1,1697,Accounting and invoicing,Manager.io,manager.io,7,keep,keep
+full1,1712,Accounting and invoicing,MarginEdge,marginedge.com,5,keep,keep
+full1,1768,Accounting and invoicing,Moon Invoice,mooninvoice.com,1,keep,keep
+full1,1805,Accounting and invoicing,Pleo,pleo.io,1,keep,keep
+full1,1810,Accounting and invoicing,Rydoo,rydoo.com,3,keep,keep
+full1,1685,Accounting and invoicing,Xendoo,xendoo.com,16,keep,keep
+full1,1859,Accounting and invoicing,Zeni,zeni.ai,1,keep,keep
+full1,2053,Customer support,Bitrix24,bitrix24.com,1,keep,keep
+full1,1996,Customer support,Chatbase,chatbase.co,6,keep,keep
+full1,2009,Customer support,Replicant,replicant.com,2,keep,keep
+full1,2046,Customer support,Sprinklr,sprinklr.com,1,keep,keep
+full1,2272,E-commerce platforms,Constructor,constructor.com,1,keep,keep
+full1,2316,E-commerce platforms,Flxpoint,flxpoint.com,2,keep,keep
+full1,2382,E-commerce platforms,Rollo,rollo.com,1,keep,keep
+full1,2349,E-commerce platforms,Veeqo,veeqo.com,28,keep,keep
+full1,2214,E-commerce platforms,Zoey,zoey.com,2,keep,keep
+full1,2425,Website builders and hosting,Owner.com,owner.com,3,keep,keep
+full1,2504,Website builders and hosting,Wordify,wordify.com,2,keep,keep
+full1,2672,Business cybersecurity,1Password,1password.com,3,keep,keep
+full1,2768,Business cybersecurity,IPVanish,ipvanish.com,1,keep,keep
+full1,2716,Business cybersecurity,Keepnet,keepnetlabs.com,1,keep,keep
+full1,2668,Business cybersecurity,Living Security,livingsecurity.com,4,keep,keep
+full1,2703,Business cybersecurity,Phished,phished.io,4,keep,keep
+full1,2732,Business cybersecurity,PhishingBox,phishingbox.com,1,keep,keep
+full1,2656,Business cybersecurity,Spambrella,spambrella.com,1,keep,keep
+full1,3062,AI assistants and creative AI tools,Looppanel,looppanel.com,1,keep,keep
+full1,3006,AI assistants and creative AI tools,PixVerse,pixverse.ai,2,keep,keep
+full1,2851,AI assistants and creative AI tools,Proton Lumo,lumo.proton.me|proton.me,4,keep,keep
+full1,2837,AI assistants and creative AI tools,Sim AI,sim.ai,2,keep,keep
+full1,3049,AI assistants and creative AI tools,Tactiq,tactiq.io,2,keep,keep
+full1,3051,AI assistants and creative AI tools,TurboScribe,turboscribe.ai,1,keep,keep
