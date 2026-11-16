@@ -75,6 +75,10 @@ RQ2_MEASURES = {
     "share_words": ("cont", "brand_on_page"), "ratio_to_others": ("cont", "brand_on_page"),
     "price_shown": ("bool", "brand_on_page"), "criticism": ("bool", "brand_on_page"),
 }
+# measures the final hand-check put below kappa 0.7 (protocol section 7): fitted and reported as exploratory,
+# outside the correction and the thesis rule
+EXPLORATORY = {"criticism"}
+RQ2_CONFIRM = {m: v for m, v in RQ2_MEASURES.items() if m not in EXPLORATORY}
 
 
 # ------------------------------------------------------------------ loading
@@ -396,14 +400,17 @@ def main():
     # RQ1 and RQ2, pooled and per engine
     rq1 = pd.DataFrame([r for m, (k, f) in RQ1_MEASURES.items() if (r := rq1_model(pg, m, k, f, "reach_all"))])
     rq1 = bh(rq1); rq1.to_csv(out / "rq1_pooled.csv", index=False)
-    rq2r = pd.DataFrame([r for m, (k, _) in RQ2_MEASURES.items() if (r := rq2_model(rq2, m, k))])
+    rq2r = pd.DataFrame([r for m, (k, _) in RQ2_CONFIRM.items() if (r := rq2_model(rq2, m, k))])
     rq2r = bh(rq2r); rq2r.to_csv(out / "rq2_pooled.csv", index=False)
+    rq2x = pd.DataFrame([{**r, "engine": e or "all"} for e in [None] + ENGINES for m, (k, _) in RQ2_MEASURES.items()
+                         if m in EXPLORATORY and (r := rq2_model(rq2 if e is None else rq2[rq2["engine"] == e], m, k))])
+    rq2x.to_csv(out / "rq2_exploratory.csv", index=False)
     split1, split2 = [], []
     for e in ENGINES:
         for m, (k, f) in RQ1_MEASURES.items():
             if (r := rq1_model(pg, m, k, f, "reach_" + e)):
                 split1.append({**r, "engine": e})
-        for m, (k, _) in RQ2_MEASURES.items():
+        for m, (k, _) in RQ2_CONFIRM.items():
             if (r := rq2_model(rq2[rq2["engine"] == e], m, k)):
                 split2.append({**r, "engine": e})
     s1, s2 = pd.DataFrame(split1), pd.DataFrame(split2)
@@ -411,7 +418,7 @@ def main():
     # models not fitted because of too little data (protocol section 6), listed so the report can say so
     fitted = lambda df, e=None: set(df["measure"]) if len(df) and e is None else (set(df.loc[df["engine"] == e, "measure"]) if len(df) else set())
     skipped = [{"rq": rq, "engine": e or "all", "measure": m} for rq, measures, pooled, split in
-               (("RQ1", RQ1_MEASURES, rq1, s1), ("RQ2", RQ2_MEASURES, rq2r, s2))
+               (("RQ1", RQ1_MEASURES, rq1, s1), ("RQ2", RQ2_CONFIRM, rq2r, s2))
                for e in [None] + ENGINES for m in measures if m not in fitted(pooled if e is None else split, e)]
     pd.DataFrame(skipped, columns=["rq", "engine", "measure"]).to_csv(out / "not_estimated.csv", index=False)
     robustness(pg).to_csv(out / "rq1_robustness_all_measures.csv", index=False)
@@ -434,6 +441,8 @@ def main():
     lines += ["", "## Thesis support", "", "Supported." if len(sup) and sup["supports_thesis"].any() else "Not supported by any measure.", ""]
     for name, df in (("RQ1 pooled", rq1), ("RQ2 pooled", rq2r)):
         lines += ["## " + name, "", df.to_markdown(index=False) if len(df) else "No model could be fitted.", ""]
+    lines += ["## Exploratory (below the hand-check bar, outside the correction and the thesis rule)", "",
+              rq2x.to_markdown(index=False) if len(rq2x) else "No model could be fitted.", ""]
     lines += ["## Not estimated (too little data)", "", f"{len(skipped)} models; see not_estimated.csv.", ""]
     for rq in ("RQ1", "RQ2"):
         for e in ["all"] + ENGINES:

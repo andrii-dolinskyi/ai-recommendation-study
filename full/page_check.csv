@@ -1,0 +1,113 @@
+page,sample,url,check,brand,person,study,jev_p
+1,final_30,https://www.bill.com/blog/family-office-wealth-management-technology,page_type,,article,listicle,
+1,final_30,https://www.bill.com/blog/family-office-wealth-management-technology,page_owner,BILL,own_site,own_site,
+1,final_30,https://www.bill.com/blog/family-office-wealth-management-technology,criticism,BILL,no_criticism,True,0.96
+2,final_30,https://gusto.com/partner-resources/payroll-accountants-partner-gunnchamberlain,page_type,,other,article,
+2,final_30,https://gusto.com/partner-resources/payroll-accountants-partner-gunnchamberlain,page_owner,Gusto,own_site,own_site,
+2,final_30,https://gusto.com/partner-resources/payroll-accountants-partner-gunnchamberlain,criticism,Gusto,no_criticism,False,0.03
+3,final_30,https://thepointsguy.com/airline/guide-bidding-flight-upgrades,page_type,,article,article,
+3,final_30,https://thepointsguy.com/airline/guide-bidding-flight-upgrades,page_owner,Air Canada,publisher,publisher,
+3,final_30,https://thepointsguy.com/airline/guide-bidding-flight-upgrades,criticism,Air Canada,no_criticism,,
+4,final_30,https://unite-cu.org/top-peer-to-peer-payment-apps/,page_type,,listicle,listicle,
+4,final_30,https://unite-cu.org/top-peer-to-peer-payment-apps/,page_owner,Venmo,publisher,publisher,
+4,final_30,https://unite-cu.org/top-peer-to-peer-payment-apps/,page_owner,Zelle,publisher,publisher,
+4,final_30,https://unite-cu.org/top-peer-to-peer-payment-apps/,criticism,Venmo,criticizes,True,0.93
+4,final_30,https://unite-cu.org/top-peer-to-peer-payment-apps/,criticism,Zelle,criticizes,True,0.96
+5,final_30,https://shop.smallpetselect.com/,page_type,,homepage,homepage,
+5,final_30,https://shop.smallpetselect.com/,page_owner,Oxbow Animal Health,competitor,competitor,
+5,final_30,https://shop.smallpetselect.com/,page_owner,Small Pet Select,own_site,own_site,
+5,final_30,https://shop.smallpetselect.com/,criticism,Oxbow Animal Health,no_criticism,,
+5,final_30,https://shop.smallpetselect.com/,criticism,Small Pet Select,no_criticism,,
+6,final_30,https://spotpet.com/,page_type,,homepage,homepage,
+6,final_30,https://spotpet.com/,page_owner,Spot,own_site,publisher,
+6,final_30,https://spotpet.com/,criticism,Spot,no_criticism,False,0.07
+7,final_30,https://coinledger.io/blog/cryptocurrency-tax-calculations-fifo-and-lifo-costing-methods-explained,page_type,,article,article,
+7,final_30,https://coinledger.io/blog/cryptocurrency-tax-calculations-fifo-and-lifo-costing-methods-explained,page_owner,TaxBit,competitor,competitor,
+7,final_30,https://coinledger.io/blog/cryptocurrency-tax-calculations-fifo-and-lifo-costing-methods-explained,criticism,TaxBit,no_criticism,,
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,page_type,,listicle,listicle,
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,page_owner,Capital One Shopping,competitor,publisher,
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,page_owner,Fetch,competitor,publisher,
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,page_owner,Ibotta,competitor,publisher,
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,page_owner,PayPal Honey,competitor,publisher,
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,page_owner,Rakuten,competitor,publisher,
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,criticism,Capital One Shopping,no_criticism,False,0.19
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,criticism,Fetch,no_criticism,False,0.45
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,criticism,Ibotta,criticizes,True,0.9
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,criticism,PayPal Honey,no_criticism,True,0.91
+8,final_30,https://www.snaplii.com/blog/best-cashback-apps-2026/,criticism,Rakuten,no_criticism,True,0.86
+9,final_30,https://www.androidheadlines.com/foldable-phones,page_type,,listicle,listicle,
+9,final_30,https://www.androidheadlines.com/foldable-phones,page_owner,Samsung,publisher,publisher,
+9,final_30,https://www.androidheadlines.com/foldable-phones,criticism,Samsung,criticizes,True,0.98
+10,final_30,https://rankite.com/blog/best-value-applicant-tracking-software,page_type,,listicle,listicle,
+10,final_30,https://rankite.com/blog/best-value-applicant-tracking-software,page_owner,Manatal,publisher,publisher,
+10,final_30,https://rankite.com/blog/best-value-applicant-tracking-software,criticism,Manatal,no_criticism,True,0.86
+11,final_30,https://www.grasshopper.bank/banking-solutions/small-business-checking/,page_type,,product_page,product_page,
+11,final_30,https://www.grasshopper.bank/banking-solutions/small-business-checking/,page_owner,Grasshopper Bank,own_site,own_site,
+11,final_30,https://www.grasshopper.bank/banking-solutions/small-business-checking/,criticism,Grasshopper Bank,no_criticism,False,0.35
+12,final_30,https://qz.com/best-online-thrift-stores-for-every-style-and-budget-readers-digest,page_type,,listicle,listicle,
+12,final_30,https://qz.com/best-online-thrift-stores-for-every-style-and-budget-readers-digest,page_owner,Depop,publisher,publisher,
+12,final_30,https://qz.com/best-online-thrift-stores-for-every-style-and-budget-readers-digest,page_owner,Poshmark,publisher,publisher,
+12,final_30,https://qz.com/best-online-thrift-stores-for-every-style-and-budget-readers-digest,page_owner,ThredUp,publisher,publisher,
+12,final_30,https://qz.com/best-online-thrift-stores-for-every-style-and-budget-readers-digest,criticism,Depop,,,
+12,final_30,https://qz.com/best-online-thrift-stores-for-every-style-and-budget-readers-digest,criticism,Poshmark,,,
+12,final_30,https://qz.com/best-online-thrift-stores-for-every-style-and-budget-readers-digest,criticism,ThredUp,,,
+13,final_30,https://www.dell.com/en-us/dfh/lp/why-dell-outlet?msockid=0bd639c1e094664d34382f46e1ed670a,page_type,,product_page,article,
+13,final_30,https://www.dell.com/en-us/dfh/lp/why-dell-outlet?msockid=0bd639c1e094664d34382f46e1ed670a,page_owner,Dell Outlet,own_site,own_site,
+13,final_30,https://www.dell.com/en-us/dfh/lp/why-dell-outlet?msockid=0bd639c1e094664d34382f46e1ed670a,criticism,Dell Outlet,no_criticism,False,0.07
+14,final_30,https://apaya.com/blog/best-social-media-scheduler,page_type,,listicle,listicle,
+14,final_30,https://apaya.com/blog/best-social-media-scheduler,page_owner,Metricool,publisher,publisher,
+14,final_30,https://apaya.com/blog/best-social-media-scheduler,criticism,Metricool,no_criticism,True,0.88
+15,final_30,https://www.prnewswire.com/news-releases/incontact-to-be-acquired-by-nice-systems-for-1400-per-share-in-cash-300270672.html,page_type,,news,news,
+15,final_30,https://www.prnewswire.com/news-releases/incontact-to-be-acquired-by-nice-systems-for-1400-per-share-in-cash-300270672.html,page_owner,NICE,publisher,publisher,
+15,final_30,https://www.prnewswire.com/news-releases/incontact-to-be-acquired-by-nice-systems-for-1400-per-share-in-cash-300270672.html,criticism,NICE,no_criticism,False,0.02
+16,final_30,https://www.wayfair.ca/brand/bnd/nolah-mattress-b87438.html,page_type,,category_page,category_page,
+16,final_30,https://www.wayfair.ca/brand/bnd/nolah-mattress-b87438.html,page_owner,Nolah,retailer,publisher,
+16,final_30,https://www.wayfair.ca/brand/bnd/nolah-mattress-b87438.html,criticism,Nolah,no_criticism,False,0.05
+17,final_30,https://www.techradar.com/news/best-thin-and-light-gaming-laptops,page_type,,listicle,listicle,
+17,final_30,https://www.techradar.com/news/best-thin-and-light-gaming-laptops,page_owner,Razer,publisher,publisher,
+17,final_30,https://www.techradar.com/news/best-thin-and-light-gaming-laptops,criticism,Razer,criticizes,True,0.96
+18,final_30,https://oldnavy.gap.com/shop/sports-bras,page_type,,category_page,category_page,
+18,final_30,https://oldnavy.gap.com/shop/sports-bras,page_owner,Old Navy,own_site,publisher,
+18,final_30,https://oldnavy.gap.com/shop/sports-bras,criticism,Old Navy,no_criticism,False,0.04
+19,final_30,https://www.pcmag.com/picks/the-best-business-voip-providers,page_type,,listicle,listicle,
+19,final_30,https://www.pcmag.com/picks/the-best-business-voip-providers,page_owner,Zoho,publisher,publisher,
+19,final_30,https://www.pcmag.com/picks/the-best-business-voip-providers,criticism,Zoho,,True,0.94
+20,final_30,https://www.inglesina.us,page_type,,homepage,homepage,
+20,final_30,https://www.inglesina.us,page_owner,Inglesina,own_site,publisher,
+20,final_30,https://www.inglesina.us,criticism,Inglesina,no_criticism,,
+21,final_30,https://gearandhome.com/best-budget-rain-jackets-under-100/,page_type,,listicle,listicle,
+21,final_30,https://gearandhome.com/best-budget-rain-jackets-under-100/,page_owner,Columbia,publisher,publisher,
+21,final_30,https://gearandhome.com/best-budget-rain-jackets-under-100/,criticism,Columbia,,True,0.97
+22,final_30,https://www.guideflow.com/blog/audiobook-software,page_type,,listicle,listicle,
+22,final_30,https://www.guideflow.com/blog/audiobook-software,page_owner,Audible,publisher,publisher,
+22,final_30,https://www.guideflow.com/blog/audiobook-software,page_owner,Libby,publisher,publisher,
+22,final_30,https://www.guideflow.com/blog/audiobook-software,criticism,Audible,no_criticism,True,0.95
+22,final_30,https://www.guideflow.com/blog/audiobook-software,criticism,Libby,criticizes,True,0.92
+23,final_30,https://www.rtings.com/air-purifier/reviews/best/small,page_type,,listicle,listicle,
+23,final_30,https://www.rtings.com/air-purifier/reviews/best/small,page_owner,Levoit,publisher,publisher,
+23,final_30,https://www.rtings.com/air-purifier/reviews/best/small,criticism,Levoit,no_criticism,,
+24,final_30,https://cybernock.com/categories/wordpress-hosting/,page_type,,listicle,listicle,
+24,final_30,https://cybernock.com/categories/wordpress-hosting/,page_owner,Pressable,publisher,publisher,
+24,final_30,https://cybernock.com/categories/wordpress-hosting/,criticism,Pressable,no_criticism,True,0.64
+25,final_30,https://support.tastytrade.com/support/s/solutions/articles/Recurring-Investments,page_type,,documentation,documentation,
+25,final_30,https://support.tastytrade.com/support/s/solutions/articles/Recurring-Investments,page_owner,Fidelity,competitor,competitor,
+25,final_30,https://support.tastytrade.com/support/s/solutions/articles/Recurring-Investments,criticism,Fidelity,no_criticism,,
+26,final_30,https://www.tomsguide.com/phones/9-phones-with-the-longest-software-support-samsung-iphone-pixel-and-more,page_type,,listicle,listicle,
+26,final_30,https://www.tomsguide.com/phones/9-phones-with-the-longest-software-support-samsung-iphone-pixel-and-more,page_owner,Apple,publisher,publisher,
+26,final_30,https://www.tomsguide.com/phones/9-phones-with-the-longest-software-support-samsung-iphone-pixel-and-more,criticism,Apple,criticizes,True,0.63
+27,final_30,http://www.fortune.com/article/best-vegan-meal-delivery-services/,page_type,,listicle,listicle,
+27,final_30,http://www.fortune.com/article/best-vegan-meal-delivery-services/,page_owner,Purple Carrot,publisher,publisher,
+27,final_30,http://www.fortune.com/article/best-vegan-meal-delivery-services/,page_owner,Uber Eats,publisher,publisher,
+27,final_30,http://www.fortune.com/article/best-vegan-meal-delivery-services/,criticism,Purple Carrot,criticizes,,
+27,final_30,http://www.fortune.com/article/best-vegan-meal-delivery-services/,criticism,Uber Eats,no_criticism,,
+28,final_30,https://www.nimble.com/blog/spreadsheets-vs-crm-lead-tracking/,page_type,,article,listicle,
+28,final_30,https://www.nimble.com/blog/spreadsheets-vs-crm-lead-tracking/,page_owner,HubSpot,competitor,competitor,
+28,final_30,https://www.nimble.com/blog/spreadsheets-vs-crm-lead-tracking/,page_owner,Pipedrive,competitor,competitor,
+28,final_30,https://www.nimble.com/blog/spreadsheets-vs-crm-lead-tracking/,criticism,HubSpot,no_criticism,,
+28,final_30,https://www.nimble.com/blog/spreadsheets-vs-crm-lead-tracking/,criticism,Pipedrive,no_criticism,,
+29,final_30,https://financeradar.com/best/pos-systems,page_type,,listicle,listicle,
+29,final_30,https://financeradar.com/best/pos-systems,page_owner,Square,publisher,publisher,
+29,final_30,https://financeradar.com/best/pos-systems,criticism,Square,no_criticism,True,0.93
+30,final_30,https://www.pcgamer.com/hardware/gaming-monitors/now-that-4k-1080p-dual-mode-monitors-are-officially-a-thing-its-the-perfect-time-to-play-a-game-of-guessing-what-madcap-tech-monitors-will-next-sport/,page_type,,article,listicle,
+30,final_30,https://www.pcgamer.com/hardware/gaming-monitors/now-that-4k-1080p-dual-mode-monitors-are-officially-a-thing-its-the-perfect-time-to-play-a-game-of-guessing-what-madcap-tech-monitors-will-next-sport/,page_owner,Alienware,publisher,publisher,
+30,final_30,https://www.pcgamer.com/hardware/gaming-monitors/now-that-4k-1080p-dual-mode-monitors-are-officially-a-thing-its-the-perfect-time-to-play-a-game-of-guessing-what-madcap-tech-monitors-will-next-sport/,criticism,Alienware,no_criticism,True,0.5

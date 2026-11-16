@@ -14,10 +14,12 @@ The study sends 4,000 US buyer questions from 40 industries to four AI engines (
 | `analysis/` | The Python analysis script (models, corrections and the thesis rule from the protocol) |
 | `settings/` | The fixed settings of the run: engines and how each is asked, models, questions, labels, fetch rules and analysis constants |
 | `pilot/` | The 100 pilot prompts and the pilot quality checks |
+| `full/` | The full-run quality checks: the sample check of the first batch's added brands, and the final hand-check of 30 answers (`answer_check.csv`) and 30 pages (`page_check.csv`) |
 | `data/` | The dataset: one folder per batch (`full1` to `full4`, 10 industries each) with the recommendations and mentions, links, answer flags, pages, brands on pages, PageSpeed results, ranks and fetch log; `brands.csv` is the full-run brand list |
+| `results/` | The output of the final analysis on all four batches: flow table, descriptive shares, RQ1 and RQ2 models (pooled and per engine), robustness, exploratory models and the thesis check |
 | `n8n_tables/` | Copies of the other n8n tables (all brand list rows, Google redirects, drafted candidate questions), exported when the run ended |
 
-The analysis reads `data/` with all batch folders: `python analysis/analysis.py data out --run full`.
+The analysis reads `data/` with all batch folders: `python analysis/analysis.py data results --run full`.
 
 ## Pre-registration
 

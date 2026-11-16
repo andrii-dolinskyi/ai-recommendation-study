@@ -1,0 +1,23 @@
+{
+  "pages_behind_recommendations": 23137,
+  "social_media_pages_left_out": 941,
+  "social_media_pages_left_out: reddit.com": 713,
+  "social_media_pages_left_out: youtube.com": 114,
+  "social_media_pages_left_out: facebook.com": 54,
+  "social_media_pages_left_out: medium.com": 25,
+  "social_media_pages_left_out: linkedin.com": 17,
+  "social_media_pages_left_out: instagram.com": 11,
+  "social_media_pages_left_out: tiktok.com": 6,
+  "social_media_pages_left_out: pinterest.com": 1,
+  "video_or_google_results_not_fetched": 111,
+  "pages_in_page_table": 22085,
+  "failed_no_html": 866,
+  "non_english": 122,
+  "measured_english": 21097,
+  "under_200_words_content_excluded": 2157,
+  "answers": 16000,
+  "brand_mentions": 80742,
+  "recommended": 42838,
+  "rq2_rows": 234208,
+  "rq2_groups": 26490
+}

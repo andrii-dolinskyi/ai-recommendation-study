@@ -187,6 +187,14 @@
     "answers": 30,
     "pages": 30,
     "kappa_threshold": 0.7,
-    "how": "suggested marks from a second reader, confirmed or changed by a person"
+    "how": "suggested marks from a second reader, confirmed or changed by a person",
+    "final": {
+      "seed": 20261114,
+      "answers_drawn_from": "answers naming at least one brand, all four batches",
+      "pages_drawn_from": "measured English website pages behind recommendations, all four batches, latest row per page",
+      "exploratory_after_check": [
+        "criticism"
+      ]
+    }
   }
 }

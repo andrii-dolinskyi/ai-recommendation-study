@@ -1,0 +1,141 @@
+answer_id,engine,prompt,brand,mention_order,person,jev_recommended,jev_p_recommended
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Miro,1,recommended,True,0.9
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Jira,2,mentioned,False,0.03
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Slack,3,mentioned,False,0.02
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Asana,4,mentioned,False,0.03
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,FigJam,5,recommended,True,0.86
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Microsoft,6,not a brand,False,0.03
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Mural,7,recommended,True,0.87
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Lucidspark,8,recommended,True,0.85
+P03-4-1-4_gemini,gemini,Which company makes the best online whiteboard tool for collaboration?,Excalidraw,9,recommended,True,0.89
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,ChatGPT Images,1,mentioned,False,0.01
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,Google Recorder,2,recommended,True,0.95
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,Google Gemini,3,mentioned,False,0.11
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,Aiko,4,recommended,True,0.92
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,LoroNote,5,recommended,True,0.92
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,VoiceScriber,6,recommended,True,0.77
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,Whisper Notes,7,recommended,True,0.75
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,CraftNote,8,recommended,True,0.91
+P10-5-3-2_gemini,gemini,Which AI note-taker works offline on my phone for in-person meetings?,MeetGeek,9,recommended,True,0.92
+P23-4-3-4_google_ai_mode,google_ai_mode,Which identity theft service has family plans that cover unlimited children?,Aura,1,recommended,True,0.63
+P23-4-3-4_google_ai_mode,google_ai_mode,Which identity theft service has family plans that cover unlimited children?,IdentityForce,2,recommended,True,0.68
+P23-4-3-4_google_ai_mode,google_ai_mode,Which identity theft service has family plans that cover unlimited children?,Coveron,3,recommended,True,0.59
+P23-4-3-4_google_ai_mode,google_ai_mode,Which identity theft service has family plans that cover unlimited children?,LifeLock,4,mentioned,False,0.13
+P23-4-3-4_google_ai_mode,google_ai_mode,Which identity theft service has family plans that cover unlimited children?,IDShield,5,mentioned,False,0.17
+P25-1-3-1_gemini,gemini,Which language app has the best speech recognition for pronunciation feedback?,ELSA Speak,1,recommended,True,0.98
+P25-1-3-1_gemini,gemini,Which language app has the best speech recognition for pronunciation feedback?,Rosetta Stone,2,recommended,True,0.98
+P25-1-3-1_gemini,gemini,Which language app has the best speech recognition for pronunciation feedback?,Speak,3,recommended,True,0.98
+P39-1-5-3_chatgpt,chatgpt,I'm tired of deciding what to cook every night and wasting groceries that spoil. Which meal kit service should I use?,HelloFresh,1,recommended,True,0.88
+P39-1-5-3_chatgpt,chatgpt,I'm tired of deciding what to cook every night and wasting groceries that spoil. Which meal kit service should I use?,Home Chef,2,mentioned,False,0.17
+P39-1-5-3_chatgpt,chatgpt,I'm tired of deciding what to cook every night and wasting groceries that spoil. Which meal kit service should I use?,EveryPlate,3,mentioned,False,0.08
+P39-1-5-3_chatgpt,chatgpt,I'm tired of deciding what to cook every night and wasting groceries that spoil. Which meal kit service should I use?,Marley Spoon,4,mentioned,False,0.08
+P20-5-2-4_perplexity,perplexity,What mesh Wi-Fi brand works best for a serious gamer who wants low latency?,NETGEAR Orbi,1,recommended,True,0.95
+P20-5-2-4_perplexity,perplexity,What mesh Wi-Fi brand works best for a serious gamer who wants low latency?,ASUS,2,recommended,False,0.16
+P20-5-2-4_perplexity,perplexity,What mesh Wi-Fi brand works best for a serious gamer who wants low latency?,TP-Link Deco,3,recommended,False,0.26
+P21-4-4-3_gemini,gemini,Which brand makes the best portable mini projector for under $150?,Anker Nebula,1,mentioned,False,0.44
+P21-4-4-3_gemini,gemini,Which brand makes the best portable mini projector for under $150?,ViewSonic,2,recommended,True,0.93
+P21-4-4-3_gemini,gemini,Which brand makes the best portable mini projector for under $150?,Yaber,3,recommended,True,0.93
+P21-4-4-3_gemini,gemini,Which brand makes the best portable mini projector for under $150?,Vankyo,4,recommended,True,0.87
+P21-4-4-3_gemini,gemini,Which brand makes the best portable mini projector for under $150?,Roku,5,mentioned,False,0.35
+P21-4-4-3_gemini,gemini,Which brand makes the best portable mini projector for under $150?,Google,6,mentioned,False,0.05
+P21-4-4-3_gemini,gemini,Which brand makes the best portable mini projector for under $150?,Amazon,7,mentioned,False,0.1
+P32-2-5-3_gemini,gemini,I can never get silky microfoam on my current machine. Which brand has the best steam wand for milk drinks?,Breville,1,recommended,True,0.97
+P32-2-5-3_gemini,gemini,I can never get silky microfoam on my current machine. Which brand has the best steam wand for milk drinks?,La Marzocco,2,recommended,True,0.93
+P32-2-5-3_gemini,gemini,I can never get silky microfoam on my current machine. Which brand has the best steam wand for milk drinks?,Profitec,3,recommended,True,0.91
+P32-2-5-3_gemini,gemini,I can never get silky microfoam on my current machine. Which brand has the best steam wand for milk drinks?,Lelit,4,recommended,True,0.9
+P32-2-5-3_gemini,gemini,I can never get silky microfoam on my current machine. Which brand has the best steam wand for milk drinks?,De'Longhi,5,recommended,True,0.95
+P32-2-5-3_gemini,gemini,I can never get silky microfoam on my current machine. Which brand has the best steam wand for milk drinks?,Whirlpool,6,not a brand,False,0.01
+P06-2-3-2_perplexity,perplexity,Which live chat provider offers the best proactive chat triggers based on visitor behavior?,Tidio,1,recommended,True,0.72
+P06-2-3-2_perplexity,perplexity,Which live chat provider offers the best proactive chat triggers based on visitor behavior?,LiveChat,2,recommended,False,0.26
+P06-2-3-2_perplexity,perplexity,Which live chat provider offers the best proactive chat triggers based on visitor behavior?,Intercom,3,recommended,False,0.45
+P06-2-3-2_perplexity,perplexity,Which live chat provider offers the best proactive chat triggers based on visitor behavior?,HubSpot,4,mentioned,False,0.11
+P06-2-3-2_perplexity,perplexity,Which live chat provider offers the best proactive chat triggers based on visitor behavior?,ProProfs Chat,5,mentioned,False,0.09
+P21-3-1-1_google_ai_mode,google_ai_mode,"What is the best streaming box or stick you can buy in the US, and which company makes it?",Apple,1,recommended,True,0.96
+P21-3-1-1_google_ai_mode,google_ai_mode,"What is the best streaming box or stick you can buy in the US, and which company makes it?",Roku,2,recommended,True,0.93
+P21-3-1-1_google_ai_mode,google_ai_mode,"What is the best streaming box or stick you can buy in the US, and which company makes it?",Amazon,3,recommended,True,0.88
+P21-3-1-1_google_ai_mode,google_ai_mode,"What is the best streaming box or stick you can buy in the US, and which company makes it?",Google,4,recommended,True,0.78
+P21-3-1-1_google_ai_mode,google_ai_mode,"What is the best streaming box or stick you can buy in the US, and which company makes it?",Onn,5,recommended,True,0.84
+P02-1-1-2_gemini,gemini,What is the best SEO tool brand overall for keyword research and site audits?,Semrush,1,recommended,True,0.59
+P02-1-1-2_gemini,gemini,What is the best SEO tool brand overall for keyword research and site audits?,Ahrefs,2,recommended,True,0.57
+P02-1-1-2_gemini,gemini,What is the best SEO tool brand overall for keyword research and site audits?,SE Ranking,3,mentioned,False,0.06
+P18-5-5-1_chatgpt,chatgpt,I keep running out of storage with large 4K project files. Which laptop brand is best for a video editor who needs lots of fast storage?,Apple,1,recommended,True,0.71
+P18-5-5-1_chatgpt,chatgpt,I keep running out of storage with large 4K project files. Which laptop brand is best for a video editor who needs lots of fast storage?,ASUS,2,recommended,True,0.54
+P18-5-5-1_chatgpt,chatgpt,I keep running out of storage with large 4K project files. Which laptop brand is best for a video editor who needs lots of fast storage?,Lenovo,3,recommended,True,0.55
+P33-1-4-4_perplexity,perplexity,Which mattress brand offers the best queen mattress under $800?,Siena,1,recommended,True,0.88
+P33-1-4-4_perplexity,perplexity,Which mattress brand offers the best queen mattress under $800?,Allswell,2,recommended,False,0.39
+P33-1-4-4_perplexity,perplexity,Which mattress brand offers the best queen mattress under $800?,Costco,3,mentioned,False,0.15
+P33-1-4-4_perplexity,perplexity,Which mattress brand offers the best queen mattress under $800?,Novaform,4,mentioned,False,0.13
+P35-4-3-3_gemini,gemini,Which brand makes the best GPS pet tracker with no monthly subscription fee?,Aorkuler,1,recommended,True,0.97
+P35-4-3-3_gemini,gemini,Which brand makes the best GPS pet tracker with no monthly subscription fee?,PitPat,2,recommended,True,0.96
+P35-4-3-3_gemini,gemini,Which brand makes the best GPS pet tracker with no monthly subscription fee?,Garmin,3,recommended,True,0.95
+P10-4-3-3_google_ai_mode,google_ai_mode,Which AI video platform has realistic talking avatars that speak multiple languages?,HeyGen,1,recommended,True,0.94
+P10-4-3-3_google_ai_mode,google_ai_mode,Which AI video platform has realistic talking avatars that speak multiple languages?,Synthesia,2,recommended,True,0.93
+P10-4-3-3_google_ai_mode,google_ai_mode,Which AI video platform has realistic talking avatars that speak multiple languages?,Elai.io,3,recommended,True,0.92
+P10-4-3-3_google_ai_mode,google_ai_mode,Which AI video platform has realistic talking avatars that speak multiple languages?,Tavus,4,recommended,True,0.81
+P10-4-3-3_google_ai_mode,google_ai_mode,Which AI video platform has realistic talking avatars that speak multiple languages?,D-ID,5,recommended,True,0.81
+P18-4-2-1_google_ai_mode,google_ai_mode,Which brand makes the best 2-in-1 laptop for a college student who takes handwritten notes in class?,Microsoft,1,recommended,True,0.97
+P18-4-2-1_google_ai_mode,google_ai_mode,Which brand makes the best 2-in-1 laptop for a college student who takes handwritten notes in class?,Lenovo,2,recommended,True,0.98
+P18-4-2-1_google_ai_mode,google_ai_mode,Which brand makes the best 2-in-1 laptop for a college student who takes handwritten notes in class?,ASUS,3,recommended,True,0.96
+P18-4-2-1_google_ai_mode,google_ai_mode,Which brand makes the best 2-in-1 laptop for a college student who takes handwritten notes in class?,LG,4,recommended,True,0.95
+P40-5-3-2_perplexity,perplexity,Which brand offers the best ultralight rain jacket that packs down into its own pocket?,Outdoor Research,1,recommended,True,0.82
+P40-5-3-2_perplexity,perplexity,Which brand offers the best ultralight rain jacket that packs down into its own pocket?,Montbell,2,mentioned,False,0.42
+P40-5-3-2_perplexity,perplexity,Which brand offers the best ultralight rain jacket that packs down into its own pocket?,Marmot,3,mentioned,False,0.11
+P31-2-5-2_google_ai_mode,google_ai_mode,My face looks shiny and oily by noon with sunscreen on. Which brand should I try?,Supergoop!,1,recommended,True,0.66
+P31-2-5-2_google_ai_mode,google_ai_mode,My face looks shiny and oily by noon with sunscreen on. Which brand should I try?,Ciele,2,recommended,True,0.7
+P31-2-5-2_google_ai_mode,google_ai_mode,My face looks shiny and oily by noon with sunscreen on. Which brand should I try?,Colorescience,3,recommended,True,0.67
+P07-2-3-4_perplexity,perplexity,Which B2B e-commerce provider handles net payment terms and customer credit limits the best?,Adobe Commerce,1,recommended,False,0.42
+P07-2-3-4_perplexity,perplexity,Which B2B e-commerce provider handles net payment terms and customer credit limits the best?,Shopify Plus,2,mentioned,False,0.07
+P07-2-3-4_perplexity,perplexity,Which B2B e-commerce provider handles net payment terms and customer credit limits the best?,Resolve,3,recommended,True,0.6
+P07-2-3-4_perplexity,perplexity,Which B2B e-commerce provider handles net payment terms and customer credit limits the best?,Salesforce B2B Commerce,4,mentioned,False,0.09
+P02-1-3-2_google_ai_mode,google_ai_mode,Which SEO platform provides a reliable API for pulling keyword and ranking data into custom dashboards?,Looker Studio,1,mentioned,False,0.23
+P02-1-3-2_google_ai_mode,google_ai_mode,Which SEO platform provides a reliable API for pulling keyword and ranking data into custom dashboards?,Semrush,2,recommended,True,0.83
+P02-1-3-2_google_ai_mode,google_ai_mode,Which SEO platform provides a reliable API for pulling keyword and ranking data into custom dashboards?,Ahrefs,3,recommended,True,0.83
+P02-1-3-2_google_ai_mode,google_ai_mode,Which SEO platform provides a reliable API for pulling keyword and ranking data into custom dashboards?,DataForSEO,4,recommended,True,0.87
+P02-1-3-2_google_ai_mode,google_ai_mode,Which SEO platform provides a reliable API for pulling keyword and ranking data into custom dashboards?,seoClarity,5,recommended,True,0.84
+P02-1-3-2_google_ai_mode,google_ai_mode,Which SEO platform provides a reliable API for pulling keyword and ranking data into custom dashboards?,Google Analytics,6,mentioned,False,0.07
+P02-1-3-2_google_ai_mode,google_ai_mode,Which SEO platform provides a reliable API for pulling keyword and ranking data into custom dashboards?,Adobe,7,mentioned,False,0.08
+P35-5-2-4_gemini,gemini,I just adopted a senior cat with kidney problems. Which online pet store should I buy from?,Hill's,1,mentioned,True,0.56
+P35-5-2-4_gemini,gemini,I just adopted a senior cat with kidney problems. Which online pet store should I buy from?,Royal Canin,2,mentioned,True,0.62
+P35-5-2-4_gemini,gemini,I just adopted a senior cat with kidney problems. Which online pet store should I buy from?,Purina,3,mentioned,False,0.22
+P35-5-2-4_gemini,gemini,I just adopted a senior cat with kidney problems. Which online pet store should I buy from?,Chewy,4,recommended,True,0.99
+P35-5-2-4_gemini,gemini,I just adopted a senior cat with kidney problems. Which online pet store should I buy from?,Petco,5,recommended,True,0.95
+P35-5-2-4_gemini,gemini,I just adopted a senior cat with kidney problems. Which online pet store should I buy from?,1-800-PetMeds,6,recommended,True,0.92
+P35-5-2-4_gemini,gemini,I just adopted a senior cat with kidney problems. Which online pet store should I buy from?,VetRxDirect,7,recommended,True,0.91
+P18-2-2-3_perplexity,perplexity,Which brand makes the best gaming laptop for a competitive esports player who needs very high refresh rates?,Razer,1,recommended,True,0.94
+P18-2-2-3_perplexity,perplexity,Which brand makes the best gaming laptop for a competitive esports player who needs very high refresh rates?,ASUS,2,recommended,True,0.73
+P18-2-2-3_perplexity,perplexity,Which brand makes the best gaming laptop for a competitive esports player who needs very high refresh rates?,Acer,3,mentioned,False,0.07
+P35-1-5-4_chatgpt,chatgpt,I'm worried about recalls after hearing news stories. Which dog food brand has the cleanest safety record?,Purina,1,recommended,True,0.8
+P35-1-5-4_chatgpt,chatgpt,I'm worried about recalls after hearing news stories. Which dog food brand has the cleanest safety record?,Hill's,2,recommended,True,0.87
+P35-1-5-4_chatgpt,chatgpt,I'm worried about recalls after hearing news stories. Which dog food brand has the cleanest safety record?,Royal Canin,3,recommended,True,0.83
+P35-1-5-4_chatgpt,chatgpt,I'm worried about recalls after hearing news stories. Which dog food brand has the cleanest safety record?,Iams,4,recommended,True,0.82
+P26-1-5-3_chatgpt,chatgpt,My knees hurt during most workouts. Which app has joint-friendly programs?,Joint Academy,1,recommended,True,0.82
+P26-1-5-3_chatgpt,chatgpt,My knees hurt during most workouts. Which app has joint-friendly programs?,Hinge Health,2,recommended,True,0.85
+P26-1-5-3_chatgpt,chatgpt,My knees hurt during most workouts. Which app has joint-friendly programs?,Pvolve,3,mentioned,False,0.18
+P26-1-5-3_chatgpt,chatgpt,My knees hurt during most workouts. Which app has joint-friendly programs?,One,4,not a brand,False,0.19
+P27-5-1-2_gemini,gemini,"Which satellite internet service gives the best mix of speed, price, and coverage?",Starlink,1,recommended,True,0.82
+P27-5-1-2_gemini,gemini,"Which satellite internet service gives the best mix of speed, price, and coverage?",HughesNet,2,recommended,False,0.2
+P27-5-1-2_gemini,gemini,"Which satellite internet service gives the best mix of speed, price, and coverage?",Viasat,3,recommended,False,0.19
+P27-5-1-2_gemini,gemini,"Which satellite internet service gives the best mix of speed, price, and coverage?",AT&T Fiber,4,mentioned,False,0.03
+P32-4-1-3_google_ai_mode,google_ai_mode,"If I could only buy one air fryer, which brand and model should it be?",COSORI,1,recommended,True,0.91
+P32-4-1-3_google_ai_mode,google_ai_mode,"If I could only buy one air fryer, which brand and model should it be?",Smart Air,2,not a brand,False,0.19
+P32-4-1-3_google_ai_mode,google_ai_mode,"If I could only buy one air fryer, which brand and model should it be?",Ninja,3,mentioned,False,0.07
+P32-4-1-3_google_ai_mode,google_ai_mode,"If I could only buy one air fryer, which brand and model should it be?",Breville,4,mentioned,False,0.09
+P32-4-1-3_google_ai_mode,google_ai_mode,"If I could only buy one air fryer, which brand and model should it be?",Dreo,5,mentioned,False,0.07
+P23-1-5-1_gemini,gemini,I want to stop websites and advertisers from tracking my browsing. Which VPN provider should I pick?,Google,1,mentioned,False,0.02
+P23-1-5-1_gemini,gemini,I want to stop websites and advertisers from tracking my browsing. Which VPN provider should I pick?,Proton VPN,2,recommended,True,0.98
+P23-1-5-1_gemini,gemini,I want to stop websites and advertisers from tracking my browsing. Which VPN provider should I pick?,NordVPN,3,recommended,True,0.98
+P23-1-5-1_gemini,gemini,I want to stop websites and advertisers from tracking my browsing. Which VPN provider should I pick?,Mullvad,4,recommended,True,0.98
+P16-3-4-4_perplexity,perplexity,Which brand offers the best credit monitoring for under $20 a month including identity theft protection?,Aura,1,recommended,True,0.93
+P16-3-4-4_perplexity,perplexity,Which brand offers the best credit monitoring for under $20 a month including identity theft protection?,LifeLock,2,mentioned,False,0.04
+P16-3-4-4_perplexity,perplexity,Which brand offers the best credit monitoring for under $20 a month including identity theft protection?,IDShield,3,recommended,False,0.27
+P16-3-4-4_perplexity,perplexity,Which brand offers the best credit monitoring for under $20 a month including identity theft protection?,Identity Guard,4,mentioned,False,0.04
+P16-3-4-4_perplexity,perplexity,Which brand offers the best credit monitoring for under $20 a month including identity theft protection?,PrivacyGuard,5,mentioned,False,0.04
+P17-2-3-3_chatgpt,chatgpt,Which budget phone brand offers the longest software update support?,Google,1,recommended,True,0.84
+P17-2-3-3_chatgpt,chatgpt,Which budget phone brand offers the longest software update support?,Samsung,2,recommended,True,0.83
+P17-2-3-3_chatgpt,chatgpt,Which budget phone brand offers the longest software update support?,Nothing,3,mentioned,False,0.04
+P17-2-3-3_chatgpt,chatgpt,Which budget phone brand offers the longest software update support?,Motorola,4,mentioned,False,0.03
+P29-3-4-4_perplexity,perplexity,Which brand makes sustainable jeans for under $100?,Warp + Weft,1,recommended,True,0.95
+P29-3-4-4_perplexity,perplexity,Which brand makes sustainable jeans for under $100?,Quince,2,mentioned,False,0.04
+P29-3-4-4_perplexity,perplexity,Which brand makes sustainable jeans for under $100?,Just Black Denim,3,mentioned,False,0.04
+P29-3-4-4_perplexity,perplexity,Which brand makes sustainable jeans for under $100?,Everlane,4,mentioned,False,0.04
+P29-3-4-4_perplexity,perplexity,Which brand makes sustainable jeans for under $100?,Frank And Oak,5,mentioned,False,0.03
