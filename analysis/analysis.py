@@ -140,6 +140,15 @@ def share_ci(df: pd.DataFrame, value: str, by: list, cluster: str, rng) -> pd.Da
     return pd.DataFrame(rows)
 
 
+def industry_shares(rec: pd.DataFrame, rl: pd.DataFrame) -> pd.DataFrame:
+    """Descriptive shares per industry (protocol section 6), with their own generator so the other tables do not shift."""
+    rng = np.random.default_rng(SEED + 1)
+    out = [share_ci(rec, "also_cited", ["industry_id"], "prompt_id", rng).assign(table="own site cited anywhere, recommended brands")]
+    for t in PAGE_OWNERS:
+        out.append(share_ci(rl, "is_" + t, ["industry_id"], "prompt_id", rng).assign(table="page owner share: " + t))
+    return pd.concat(out)
+
+
 # ------------------------------------------------------------------ build analysis tables
 def build(data: Path, run: str):
     prompts_file = data / "prompts.csv" if (data / "prompts.csv").exists() else data.parent / "prompts" / "prompts.csv"
@@ -393,6 +402,7 @@ def main():
         fl["names_pick"] = as_bool(fl["has_pick"]).astype(float)
         desc.append(share_ci(fl, "names_pick", ["engine"], "prompt_id", rng).assign(table="answers naming their own pick"))
     pd.concat(desc).to_csv(out / "descriptive_shares.csv", index=False)
+    industry_shares(rec, rl).to_csv(out / "descriptive_shares_by_industry.csv", index=False)
     meas = [m for m in list(RQ1_MEASURES) if m in pg]
     q = pg[meas].apply(lambda s: pd.to_numeric(as_bool(s) if s.dtype == object and set(map(str, s.dropna().unique())) <= {"True", "False", "true", "false"} else s, errors="coerce"))
     q.describe(percentiles=[.25, .5, .75]).T.to_csv(out / "page_measures_distribution.csv")
